@@ -7,18 +7,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-01-06 14:59+0000\n"
-"PO-Revision-Date: 2016-01-07 02:05+0100\n"
-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
+"POT-Creation-Date: 2017-03-04 03:56+0000\n"
+"PO-Revision-Date: 2017-03-20 13:06+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -242,8 +242,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Fingeravtryck:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:937
-#: ../plugins/rdp/vinagre-rdp-tab.c:978
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
+#: ../plugins/rdp/vinagre-rdp-tab.c:995
 msgid "Connect"
 msgstr "Anslut"
 
@@ -376,28 +376,28 @@ msgstr "Ange höjden på fjärrskrivbordet"
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:283 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:473
 msgid "S_caling"
 msgstr "Ska_lning"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:284 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:474
 msgid "Fit the remote screen into the current window size"
 msgstr "Passa in fjärrskärmen i den aktuella fönsterstorleken"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:357 ../plugins/rdp/vinagre-rdp-tab.c:358
+#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:591
 #: ../plugins/spice/vinagre-spice-tab.c:592
 msgid "Scaling"
 msgstr "Skalning"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:936 ../plugins/rdp/vinagre-rdp-tab.c:977
+#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
 msgid "_Cancel"
 msgstr "_Avbryt"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1212 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Fel vid anslutning till värden."
@@ -520,6 +520,7 @@ msgstr "Mycket få färger (3 bitar)"
 msgid "Use h_ost"
 msgstr "Använd vä_rd"
 
+#. Translators: This is the tooltip of the SSH tunneling entry
 #: ../plugins/vnc/vinagre-vnc-plugin.c:352
 #: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
@@ -533,7 +534,7 @@ msgstr "Ange en alternativ port med kolon"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:354
 #: ../plugins/spice/vinagre-spice-plugin.c:283
 msgid "For instance: joe@example.com:5022"
-msgstr "Till exempel: johan@exempel.se:5022"
+msgstr "Till exempel: johan@example.com:5022"
 
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
 #: ../plugins/vnc/vinagre-vnc-plugin.c:360
@@ -853,11 +854,11 @@ msgstr ""
 msgid "Remove Item?"
 msgstr "Ta bort objekt?"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:335
+#: ../vinagre/vinagre-bookmarks-ui.c:334
 msgid "Error removing bookmark: Entry not found"
 msgstr "Fel vid borttagning av bokmärke: Posten hittades inte"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:352
+#: ../vinagre/vinagre-bookmarks-ui.c:351
 msgid "New Folder"
 msgstr "Ny mapp"
 
@@ -1175,6 +1176,7 @@ msgstr "Kunde inte få en skärmbild på anslutningen."
 msgid "Save Screenshot"
 msgstr "Spara skärmbild"
 
+#. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. First %s will be replaced by the friendly name of the connection and the second %s by the current date and time, for instance: Screenshot of wendell@wendell-laptop at 2011-10-29 12:34:11, or Screenshot of 200.100.100.123 at 2011-10-29 18:27:11
 #: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
