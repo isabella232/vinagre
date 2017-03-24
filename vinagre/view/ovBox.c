@@ -459,6 +459,32 @@ ViewOvBoxUnrealize(GtkWidget *widget) // IN
 
 }
 
+static gint
+ViewOvBoxDraw(GtkWidget *widget, // IN
+              cairo_t   *cr)     // IN
+{
+  ViewOvBox *that;
+  ViewOvBoxPrivate *priv;
+  int wx, wy;
+
+  that = VIEW_OV_BOX(widget);
+  priv = that->priv;
+
+  gdk_window_get_position (priv->underWin, &wx, &wy);
+  cairo_save (cr);
+  cairo_translate (cr, wx, wy);
+  gtk_widget_draw (priv->under, cr);
+  cairo_restore (cr);
+
+  gdk_window_get_position (priv->overWin, &wx, &wy);
+  cairo_save (cr);
+  cairo_translate (cr, wx, wy);
+  gtk_widget_draw (priv->over, cr);
+  cairo_restore (cr);
+
+  return FALSE;
+}
+
 
 /*
  *-----------------------------------------------------------------------------
@@ -713,6 +739,11 @@ ViewOvBoxClassInit(ViewOvBoxClass *klass) // IN
    widgetClass->get_preferred_height = ViewOvBox_get_preferred_height;
    widgetClass->size_allocate = ViewOvBoxSizeAllocate;
    widgetClass->style_set = ViewOvBoxStyleSet;
+
+   if ((gtk_major_version > (3)) ||
+       (gtk_major_version == (3) && gtk_minor_version > (19)) ||
+       (gtk_major_version == (3) && gtk_minor_version == (19) && gtk_micro_version >= (7)))
+     widgetClass->draw = ViewOvBoxDraw;
 
    klass->set_over = ViewOvBoxSetOver;
 
