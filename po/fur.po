@@ -1,23 +1,23 @@
 # Friulian translation for vinagre.
 # Copyright (C) 2016 vinagre's COPYRIGHT HOLDER
 # This file is distributed under the same license as the vinagre package.
-# Fabio Tomat <f.t.public@gmail.com>, 2016.
+# Fabio Tomat <f.t.public@gmail.com>, 2016, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-04-15 14:34+0000\n"
-"PO-Revision-Date: 2016-04-16 00:08+0200\n"
+"POT-Creation-Date: 2017-03-04 03:56+0000\n"
+"PO-Revision-Date: 2017-05-03 07:15+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
-"Language-Team: Friulian <fur@li.org>\n"
+"Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -237,8 +237,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Impronte digjitâl:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:946
-#: ../plugins/rdp/vinagre-rdp-tab.c:987
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
+#: ../plugins/rdp/vinagre-rdp-tab.c:995
 msgid "Connect"
 msgstr "Conet"
 
@@ -388,11 +388,11 @@ msgstr "Adate il schermi rimot ae dimension dal barcon curint"
 msgid "Scaling"
 msgstr "Scjale"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:945 ../plugins/rdp/vinagre-rdp-tab.c:986
+#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
 msgid "_Cancel"
 msgstr "_Anule"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1221 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Erôr tal conetisi al host."
@@ -464,8 +464,7 @@ msgstr "Opzions VNC"
 
 #. View only check button
 #. View only check button - not fully ready on spice-gtk side
-#: ../plugins/vnc/vinagre-vnc-plugin.c:276
-#: ../plugins/vnc/vinagre-vnc-tab.c:630
+#: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
 #: ../plugins/spice/vinagre-spice-tab.c:514
 msgid "_View only"
@@ -516,6 +515,7 @@ msgstr "Une vore pôcs di colôrs (3 bit)"
 msgid "Use h_ost"
 msgstr "Dopre il h_ost"
 
+#. Translators: This is the tooltip of the SSH tunneling entry
 #: ../plugins/vnc/vinagre-vnc-plugin.c:352
 #: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
@@ -594,7 +594,7 @@ msgstr "Manten lis proporzions dal aspiet cuant che si dopre la opzion scjalâ"
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
 #: ../plugins/spice/vinagre-spice-tab.c:515
 msgid "Do not send mouse and keyboard events"
-msgstr "No stâ inviâ events di mouse e tastiere"
+msgstr "No sta inviâ events di mouse e tastiere"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
@@ -1167,6 +1167,7 @@ msgstr "Impussibil otignî une cature de conession."
 msgid "Save Screenshot"
 msgstr "Salve cature"
 
+#. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. First %s will be replaced by the friendly name of the connection and the second %s by the current date and time, for instance: Screenshot of wendell@wendell-laptop at 2011-10-29 12:34:11, or Screenshot of 200.100.100.123 at 2011-10-29 18:27:11
 #: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
