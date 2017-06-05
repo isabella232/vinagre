@@ -1,17 +1,17 @@
 # Polish translation for vinagre.
-# Copyright © 2007-2016 the vinagre authors.
+# Copyright © 2007-2017 the vinagre authors.
 # This file is distributed under the same license as the vinagre package.
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2016.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2017.
 # Paweł Żołnowski <pawel@zolnowski.name>, 2014.
-# Aviary.pl <community-poland@mozilla.org>, 2007-2016.
+# Aviary.pl <community-poland@mozilla.org>, 2007-2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-10 05:21+0200\n"
-"PO-Revision-Date: 2016-09-10 05:22+0200\n"
+"POT-Creation-Date: 2017-06-05 14:00+0200\n"
+"PO-Revision-Date: 2017-06-05 14:01+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -124,9 +124,9 @@ msgstr "Vinagre to przeglądarka zdalnych pulpitów dla środowiska GNOME"
 msgid "translator-credits"
 msgstr ""
 "Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009\n"
-"Piotr Drąg <piotrdrag@gmail.com>, 2010-2016\n"
+"Piotr Drąg <piotrdrag@gmail.com>, 2010-2017\n"
 "Paweł Żołnowski <pawel@zolnowski.name>, 2014\n"
-"Aviary.pl <community-poland@mozilla.org>, 2007-2016"
+"Aviary.pl <community-poland@mozilla.org>, 2007-2017"
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -524,6 +524,7 @@ msgstr "Ultra Low Color (3-bitowy)"
 msgid "Use h_ost"
 msgstr "Użycie _komputera"
 
+#. Translators: This is the tooltip of the SSH tunneling entry
 #: ../plugins/vnc/vinagre-vnc-plugin.c:352
 #: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
@@ -691,13 +692,13 @@ msgstr "Opcje Spice"
 #: ../plugins/spice/vinagre-spice-plugin.c:245
 #: ../plugins/spice/vinagre-spice-tab.c:487
 msgid "_Resize guest"
-msgstr "Zmień _rozmiar gościa"
+msgstr "Zmiana _rozmiaru gościa"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
 #: ../plugins/spice/vinagre-spice-tab.c:500
 msgid "_Share clipboard"
-msgstr "Współdziel _schowek"
+msgstr "Współdzielenie _schowka"
 
 #. Translators: This is the tooltip for the password field in a SPICE connection
 #: ../plugins/spice/vinagre-spice-plugin.c:315
@@ -1119,8 +1120,8 @@ msgstr ""
 "Tożsamość zdalnego komputera (%s) jest nieznana.\n"
 "Zdarza się to podczas logowania do komputera po raz pierwszy.\n"
 "\n"
-"Tożsamość wysłana przez zdalny komputer to %s. Aby być absolutnie pewny, że "
-"kontynuowanie jest bezpieczne, należy skontaktować się z administratorem."
+"Tożsamość wysłana przez zdalny komputer to %s. Aby mieć absolutną pewność, "
+"że kontynuowanie jest bezpieczne, należy skontaktować się z administratorem."
 
 #: ../vinagre/vinagre-ssh.c:565
 msgid "Login dialog canceled"
@@ -1188,12 +1189,13 @@ msgstr "Nie udało się uzyskać zrzutu ekranu połączenia."
 
 #: ../vinagre/vinagre-tab.c:966
 msgid "Save Screenshot"
-msgstr "Zapisz zrzut ekranu"
+msgstr "Zapis zrzutu ekranu"
 
+#. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. First %s will be replaced by the friendly name of the connection and the second %s by the current date and time, for instance: Screenshot of wendell@wendell-laptop at 2011-10-29 12:34:11, or Screenshot of 200.100.100.123 at 2011-10-29 18:27:11
 #: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
-msgstr "Zrzut ekranu %s w %s"
+msgstr "Zrzut ekranu %s z %s"
 
 #: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
@@ -1337,11 +1339,11 @@ msgstr "Dodaje bieżące połączenie do zakładek"
 #. Remote menu
 #: ../vinagre/vinagre-ui.h:88
 msgid "_Take Screenshot"
-msgstr "_Pobierz zrzut ekranu"
+msgstr "_Wykonaj zrzut ekranu"
 
 #: ../vinagre/vinagre-ui.h:89
 msgid "Take a screenshot of the current remote desktop"
-msgstr "Pobiera zrzut ekranu bieżącego zdalnego pulpitu"
+msgstr "Wykonuje zrzut ekranu bieżącego zdalnego pulpitu"
 
 #: ../vinagre/vinagre-ui.h:93
 msgid "View the current remote desktop in fullscreen mode"
