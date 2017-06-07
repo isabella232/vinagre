@@ -89,7 +89,9 @@ AC_ARG_ENABLE([spice],
 AS_IF([test "x$enable_spice" != "xno"],
   [PKG_CHECK_MODULES([SPICE],
     [$SPICE_DEPS],
-    [have_spice=yes],
+    [have_spice=yes
+     PKG_CHECK_EXISTS(spice-client-gtk-3.0 >= 0.32,
+       [AC_DEFINE([HAVE_SPICE_CLIENT_GTK_0_32], [1], [Spice Client Gtk 3.0 library is of version 0.32 or newer])], [])],
     [have_spice=no])],
   [have_spice=no])
 

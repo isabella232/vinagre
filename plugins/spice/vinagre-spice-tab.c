@@ -379,8 +379,15 @@ create_spice_display (VinagreSpiceTab *spice_tab, int id)
 		"grab-keyboard", TRUE,
 		"grab-mouse", TRUE,
 		"resize-guest", resize_guest,
-		"auto-clipboard", auto_clipboard,
 		"scaling", scaling,
+		NULL);
+
+#ifdef HAVE_SPICE_CLIENT_GTK_0_32
+  g_object_set (spice_gtk_session_get (spice_tab->priv->spice),
+#else
+  g_object_set (d->display,
+#endif
+		"auto-clipboard", auto_clipboard,
 		NULL);
   /* TODO: add view-only here when spice-gtk ready */
 
@@ -735,7 +742,11 @@ vinagre_spice_tab_set_auto_clipboard (VinagreSpiceTab *tab, gboolean active)
 {
   g_return_if_fail (VINAGRE_IS_SPICE_TAB (tab));
 
+#ifdef HAVE_SPICE_CLIENT_GTK_0_32
+  g_object_set (spice_gtk_session_get (tab->priv->spice), "auto-clipboard", active, NULL);
+#else
   g_object_set (tab->priv->display, "auto-clipboard", active, NULL);
+#endif
 }
 
 gboolean
@@ -745,7 +756,11 @@ vinagre_spice_tab_get_auto_clipboard (VinagreSpiceTab *tab)
 
   g_return_val_if_fail (VINAGRE_IS_SPICE_TAB (tab), FALSE);
 
+#ifdef HAVE_SPICE_CLIENT_GTK_0_32
+  g_object_get (spice_gtk_session_get (tab->priv->spice), "auto-clipboard", &active, NULL);
+#else
   g_object_get (tab->priv->display, "auto-clipboard", &active, NULL);
+#endif
 
   return active;
 }
