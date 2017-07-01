@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre-help\n"
-"POT-Creation-Date: 2017-05-27 22:39+0000\n"
-"PO-Revision-Date: 2017-06-05 14:00+0200\n"
+"POT-Creation-Date: 2017-06-28 17:27+0000\n"
+"PO-Revision-Date: 2017-07-01 18:37+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -351,12 +351,12 @@ msgstr ""
 #: C/index.page:8
 msgctxt "text"
 msgid "Remote Desktop Viewer help"
-msgstr "Pomoc przeglądarki zdalnych pulpitów"
+msgstr "Przeglądarka zdalnych pulpitów"
 
 #. (itstool) path: info/desc
 #: C/index.page:12
 msgid "Learn how to connect remotely to other desktops."
-msgstr "Informacje o zdalnym łączeniu z innymi komputerami."
+msgstr "Zdalne łączenie z innymi komputerami."
 
 #. (itstool) path: page/title
 #: C/index.page:15
