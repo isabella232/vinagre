@@ -3,22 +3,23 @@
 # This file is distributed under the same license as the vinagre package.
 # Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010, 2011.
 # Pascariu Dragoș <pasdragos@yahoo.com>, 2011.
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-11-28 18:02+0000\n"
-"PO-Revision-Date: 2011-11-27 17:04+0300\n"
-"Last-Translator: Pascariu Dragoș <pasdragos@yahoo.com>\n"
-"Language-Team: Romanian Gnome Team\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=vinagr"
+"e&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-08-28 17:44+0000\n"
+"PO-Revision-Date: 2017-09-06 19:06+0200\n"
+"Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
+"Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);;\n"
-"X-Generator: Virtaal 0.7.0\n"
+"X-Generator: Virtaal 0.7.1\n"
 "X-Launchpad-Export-Date: 2010-09-24 14:16+0000\n"
 "X-Project-Style: gnome\n"
 
@@ -102,16 +103,19 @@ msgstr "Accesați desktopuri la distanță"
 #: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
 msgstr ""
+"Vinagre afișează desktopuri Windows, Mac OS X și Linux aflate la distanță. "
 
 #: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
 "It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
 "SSH servers."
 msgstr ""
+"Utilizează protocoale VNC, RDP si SPICE, și poate fi chiar folosit pentru "
+"conectarea la serverele SSH."
 
 #: ../data/vinagre.desktop.in.in.h:3
 msgid "VNC;RDP;SSH;"
-msgstr ""
+msgstr "VNC;RDP;SSH;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
@@ -141,13 +145,13 @@ msgstr "_Autentifică"
 msgid "Authentication is required"
 msgstr "Se cere autentificare"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:119
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
-#: ../plugins/spice/vinagre-spice-tab.c:139
+#: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
 msgstr "Gazdă:"
 
-#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:117
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:130
 #: ../plugins/ssh/vinagre-ssh-plugin.c:112
 msgid "_Username:"
 msgstr "Nume _utilizator:"
@@ -156,9 +160,9 @@ msgstr "Nume _utilizator:"
 msgid "_Password:"
 msgstr "_Parolă:"
 
-#: ../data/vinagre.ui.h:10
+#: ../data/vinagre.ui.h:10 ../plugins/rdp/vinagre-rdp-plugin.c:149
 msgid "_Domain:"
-msgstr ""
+msgstr "_Domeniu:"
 
 #: ../data/vinagre.ui.h:11
 msgid "_Remember this credential"
@@ -207,47 +211,51 @@ msgstr "Dosar părinte"
 
 #: ../data/vinagre.ui.h:23
 msgid "Certificate Verification"
-msgstr ""
+msgstr "Verificarea certificatului"
 
 #: ../data/vinagre.ui.h:24
 msgid ""
 "The remote host has changed its certificate.\n"
 "Do you trust the new certificate?"
 msgstr ""
+"Gazda de la distanță și-a schimbat certificatul.\n"
+"Aveți încredere în noul certificat?"
 
 #. Subject of the certificate.
 #: ../data/vinagre.ui.h:27
 msgid "Subject:"
-msgstr ""
+msgstr "Subiect:"
 
 #. Issuer of the certificate.
 #: ../data/vinagre.ui.h:29
 msgid "Issuer:"
-msgstr ""
+msgstr "Emitent:"
 
 #. Fingerprint of the new certificate.
 #: ../data/vinagre.ui.h:31
 msgid "New fingerprint:"
-msgstr ""
+msgstr "Amprentă nouă:"
 
 #. Fingerprint of the old certificate.
 #: ../data/vinagre.ui.h:33
 msgid "Old fingerprint:"
-msgstr ""
+msgstr "Amprentă veche:"
 
 #: ../data/vinagre.ui.h:34
 msgid ""
 "The below certificate could not be verified.\n"
 "Do you trust the certificate?"
 msgstr ""
+"Certificatul de mai jos nu a putut fi verificat.\n"
+"Aveți încredere în certificat?"
 
 #. Fingerprint of the certificate.
 #: ../data/vinagre.ui.h:37
 msgid "Fingerprint:"
-msgstr ""
+msgstr "Amprentă:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:758
-#: ../plugins/rdp/vinagre-rdp-tab.c:799
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
+#: ../plugins/rdp/vinagre-rdp-tab.c:995
 msgid "Connect"
 msgstr "Conectează"
 
@@ -328,13 +336,20 @@ msgstr "RDP"
 msgid "Access MS Windows remote desktops"
 msgstr "Accesați desktopuri Windows la distanță"
 
-#: ../plugins/rdp/vinagre-rdp-plugin.c:110
+#: ../plugins/rdp/vinagre-rdp-plugin.c:111
 msgid "RDP Options"
 msgstr "Opțiuni RDP"
 
+#. Scaling check button
+#: ../plugins/rdp/vinagre-rdp-plugin.c:120
+#: ../plugins/vnc/vinagre-vnc-plugin.c:285
+#: ../plugins/spice/vinagre-spice-plugin.c:261
+msgid "_Scaling"
+msgstr "_Scalare"
+
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:124
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
 #: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
@@ -344,44 +359,60 @@ msgstr ""
 "De asemenea, poate fi introdus în câmpul de mai sus care specifică numele "
 "gazdei în forma nume_utilizator@nume_gazdă."
 
+#. Translators: This is the tooltip for the domain field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:156
+msgid "Optional."
+msgstr "Opțional."
+
 #. Host width
-#: ../plugins/rdp/vinagre-rdp-plugin.c:137
+#: ../plugins/rdp/vinagre-rdp-plugin.c:169
 msgid "_Width:"
-msgstr ""
+msgstr "_Lățime:"
 
 #. Translators: This is the tooltip for the width field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:144
-#, fuzzy
-#| msgid "Connect to a remote desktop"
+#: ../plugins/rdp/vinagre-rdp-plugin.c:176
 msgid "Set width of the remote desktop"
-msgstr "Conectare la un desktop la distanță"
+msgstr "Setați lățimea desktopului la distanță"
 
 #. Host height
-#: ../plugins/rdp/vinagre-rdp-plugin.c:153
+#: ../plugins/rdp/vinagre-rdp-plugin.c:189
 msgid "_Height:"
-msgstr ""
+msgstr "Î_nălțime:"
 
 #. Translators: This is the tooltip for the height field in a RDP connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:160
-#, fuzzy
-#| msgid "Connect to a remote desktop"
+#: ../plugins/rdp/vinagre-rdp-plugin.c:196
 msgid "Set height of the remote desktop"
-msgstr "Conectare la un desktop la distanță"
+msgstr "Setați înălțimea desktopului la distanță"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:120 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
-#: ../plugins/spice/vinagre-spice-tab.c:140
+#: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:757 ../plugins/rdp/vinagre-rdp-tab.c:798
-#, fuzzy
-#| msgid "Cancel Login"
-msgid "_Cancel"
-msgstr "Anulează autentificarea"
+#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:480
+msgid "S_caling"
+msgstr "S_calare"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:989 ../plugins/vnc/vinagre-vnc-tab.c:317
-#: ../plugins/spice/vinagre-spice-tab.c:264
+#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/spice/vinagre-spice-tab.c:481
+msgid "Fit the remote screen into the current window size"
+msgstr "Potrivește ecranul de la distanță în dimensiunea curentă a ferestrei"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
+#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
+#: ../plugins/spice/vinagre-spice-tab.c:598
+#: ../plugins/spice/vinagre-spice-tab.c:599
+msgid "Scaling"
+msgstr "Scalare"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
+msgid "_Cancel"
+msgstr "_Anulează"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Eroare la conectarea la gazdă."
 
@@ -452,18 +483,11 @@ msgstr "Preferințe VNC"
 
 #. View only check button
 #. View only check button - not fully ready on spice-gtk side
-#: ../plugins/vnc/vinagre-vnc-plugin.c:276
-#: ../plugins/vnc/vinagre-vnc-tab.c:630
+#: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
-#: ../plugins/spice/vinagre-spice-tab.c:507
+#: ../plugins/spice/vinagre-spice-tab.c:521
 msgid "_View only"
 msgstr "Doar _vizualizare"
-
-#. Scaling check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:285
-#: ../plugins/spice/vinagre-spice-plugin.c:261
-msgid "_Scaling"
-msgstr "_Scalare"
 
 #. Keep ratio check button
 #: ../plugins/vnc/vinagre-vnc-plugin.c:299
@@ -510,6 +534,7 @@ msgstr "Culori foarte puține (3 biți)"
 msgid "Use h_ost"
 msgstr "F_olosește gazda"
 
+#. Translators: This is the tooltip of the SSH tunneling entry
 #: ../plugins/vnc/vinagre-vnc-plugin.c:352
 #: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
@@ -522,8 +547,6 @@ msgstr "Oferă port alternativ folosind simbolul două puncte"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:354
 #: ../plugins/spice/vinagre-spice-plugin.c:283
-#, fuzzy
-#| msgid "For instance: joe@domain.com:5022"
 msgid "For instance: joe@example.com:5022"
 msgstr "De exemplu: mihai@domeniu.com:5022"
 
@@ -547,13 +570,13 @@ msgid "Dimensions:"
 msgstr "Dimensiuni:"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:306
-#: ../plugins/spice/vinagre-spice-tab.c:252
+#: ../plugins/spice/vinagre-spice-tab.c:255
 msgid "Error creating the SSH tunnel"
 msgstr "Eroare la crearea tunelului SSH"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:307 ../plugins/vnc/vinagre-vnc-tab.c:318
-#: ../plugins/spice/vinagre-spice-tab.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:265
+#: ../plugins/spice/vinagre-spice-tab.c:256
+#: ../plugins/spice/vinagre-spice-tab.c:268
 msgid "Unknown reason"
 msgstr "Motiv necunoscut"
 
@@ -579,32 +602,16 @@ msgstr "Este nevoie de un nume de utilizator pentru a accesa acest desktop."
 msgid "A password is required in order to access this remote desktop."
 msgstr "Este nevoie de o parolă pentru a accesa acest desktop."
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:466
-msgid "S_caling"
-msgstr "S_calare"
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:602
-#: ../plugins/spice/vinagre-spice-tab.c:467
-#, fuzzy
-#| msgid "Fits the remote screen into the current window size"
-msgid "Fit the remote screen into the current window size"
-msgstr "Potrivește ecranul de la distanță în dimensiunea curentă a ferestrei"
-
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
 msgstr "Păstrea_ză raportul aspectului"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:616
-#, fuzzy
-#| msgid "Keeps the screen aspect ratio when using scaling"
 msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Păstrează raportul aspectului ecranului când se folosește scalarea"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
-#: ../plugins/spice/vinagre-spice-tab.c:508
-#, fuzzy
-#| msgid "Does not send mouse and keyboard events"
+#: ../plugins/spice/vinagre-spice-tab.c:522
 msgid "Do not send mouse and keyboard events"
 msgstr "Nu trimite evenimente de maus sau tastatură"
 
@@ -613,8 +620,6 @@ msgid "_Original size"
 msgstr "Dimensiune _originală"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
-#, fuzzy
-#| msgid "Adjusts the window to the remote desktop's size"
 msgid "Adjust the window to the size of the remote desktop"
 msgstr "Ajustează fereastra la dimensiunea desktopului de la distanță"
 
@@ -627,33 +632,25 @@ msgid "Requests an update of the screen"
 msgstr "Pune în coadă o actualizare de ecran"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
-#: ../plugins/spice/vinagre-spice-tab.c:531
+#: ../plugins/spice/vinagre-spice-tab.c:545
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Trimite Ctrl-Alt-Del"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
-#: ../plugins/spice/vinagre-spice-tab.c:532
-#: ../plugins/spice/vinagre-spice-tab.c:605
-#, fuzzy
-#| msgid "Sends Ctrl+Alt+Del to the remote desktop"
+#: ../plugins/spice/vinagre-spice-tab.c:546
+#: ../plugins/spice/vinagre-spice-tab.c:619
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Trimite Ctrl+Alt+Del desktopului la distanță"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
-#: ../plugins/spice/vinagre-spice-tab.c:584
-#: ../plugins/spice/vinagre-spice-tab.c:585
-msgid "Scaling"
-msgstr "Scalare"
-
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
-#: ../plugins/spice/vinagre-spice-tab.c:594
-#: ../plugins/spice/vinagre-spice-tab.c:595
+#: ../plugins/spice/vinagre-spice-tab.c:608
+#: ../plugins/spice/vinagre-spice-tab.c:609
 msgid "Read only"
 msgstr "Doar citire"
 
 #. Send Ctrl-alt-del
 #: ../plugins/vnc/vinagre-vnc-tab.c:754
-#: ../plugins/spice/vinagre-spice-tab.c:603
+#: ../plugins/spice/vinagre-spice-tab.c:617
 msgid "Send Ctrl-Alt-Del"
 msgstr "Trimite Ctrl-Alt-Del"
 
@@ -700,13 +697,13 @@ msgstr "Opțiuni Spice"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
-#: ../plugins/spice/vinagre-spice-tab.c:480
+#: ../plugins/spice/vinagre-spice-tab.c:494
 msgid "_Resize guest"
 msgstr "_Redimensionează afișajul oaspetelui"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:493
+#: ../plugins/spice/vinagre-spice-tab.c:507
 msgid "_Share clipboard"
 msgstr "Partajează _clipboardul"
 
@@ -720,11 +717,11 @@ msgstr "Opțional"
 msgid "Spice Files"
 msgstr "Fișiere Spice"
 
-#: ../plugins/spice/vinagre-spice-tab.c:481
+#: ../plugins/spice/vinagre-spice-tab.c:495
 msgid "Resize the screen guest to best fit"
 msgstr "Redimensionează afișajul oaspetelui la cea mai bună potrivire"
 
-#: ../plugins/spice/vinagre-spice-tab.c:494
+#: ../plugins/spice/vinagre-spice-tab.c:508
 msgid "Automatically share clipboard between client and guest"
 msgstr "Partajează automat clipboardul între client și oaspete"
 
@@ -864,11 +861,11 @@ msgstr ""
 msgid "Remove Item?"
 msgstr "Ștergeți elementul?"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:335
+#: ../vinagre/vinagre-bookmarks-ui.c:334
 msgid "Error removing bookmark: Entry not found"
 msgstr "Eroare la ștergerea favoritului: Intrarea nu a fost găsită"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:352
+#: ../vinagre/vinagre-bookmarks-ui.c:351
 msgid "New Folder"
 msgstr "Dosar nou"
 
@@ -914,17 +911,17 @@ msgstr "Eroare la salvarea fișierului istoric: %s"
 msgid "Choose a Remote Desktop"
 msgstr "Alegeți un desktop la distanță"
 
-#: ../vinagre/vinagre-connection.c:614 ../vinagre/vinagre-tab.c:574
+#: ../vinagre/vinagre-connection.c:658 ../vinagre/vinagre-tab.c:590
 #: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
 msgid "The protocol %s is not supported."
 msgstr "Protocolul %s nu este suportat."
 
-#: ../vinagre/vinagre-connection.c:722
+#: ../vinagre/vinagre-connection.c:766
 msgid "Could not open the file."
 msgstr "Nu s-a putut deschide fișierul."
 
-#: ../vinagre/vinagre-connection.c:748
+#: ../vinagre/vinagre-connection.c:792
 msgid "The file was not recognized by any of the plugins."
 msgstr "Fișierul nu a fost recunoscut de niciunul dintre module."
 
@@ -1014,7 +1011,7 @@ msgstr "nume fișier"
 
 #: ../vinagre/vinagre-options.c:48
 msgid "Show help"
-msgstr ""
+msgstr "Arată ajutor"
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../vinagre/vinagre-options.c:53
@@ -1135,9 +1132,9 @@ msgstr "Nu se pot trimite informațiile de identificare a gazdei"
 #: ../vinagre/vinagre-ssh.c:605
 #, c-format
 msgid "Secure shell password: %s"
-msgstr ""
+msgstr "Parolă shell sigură: %s"
 
-#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:798
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:860
 msgid "Error saving the credentials on the keyring."
 msgstr "Eroare la salvarea credențialelor în inelul de chei."
 
@@ -1161,38 +1158,43 @@ msgstr "Verificarea cheii gazdei a eșuat"
 msgid "Unable to find a valid SSH program"
 msgstr "Nu s-a găsit un program SSH valid"
 
-#: ../vinagre/vinagre-tab.c:354
+#: ../vinagre/vinagre-tab.c:361
 msgid "Disconnect"
 msgstr "Deconectează"
 
-#: ../vinagre/vinagre-tab.c:375
+#. Translators: Pressing this button will minimize Vinagre
+#: ../vinagre/vinagre-tab.c:370
+msgid "Minimize window"
+msgstr "Minimizează fereastra"
+
+#: ../vinagre/vinagre-tab.c:391
 msgid "Leave fullscreen"
 msgstr "Ieși din modul pe tot ecranul"
 
-#: ../vinagre/vinagre-tab.c:537
+#: ../vinagre/vinagre-tab.c:553
 msgid "Error saving recent connection."
 msgstr "Eroare la salvarea conexiunii recente."
 
-#: ../vinagre/vinagre-tab.c:781
-#, fuzzy, c-format
-#| msgid "Remote Desktop Viewer"
+#: ../vinagre/vinagre-tab.c:844
+#, c-format
 msgid "Remote desktop password for %s"
-msgstr "Vizualizare desktop la distanță"
+msgstr "Parola desktopului de la distanță pentru %s"
 
-#: ../vinagre/vinagre-tab.c:897
+#: ../vinagre/vinagre-tab.c:961
 msgid "Could not get a screenshot of the connection."
 msgstr "Nu s-a putut obține o captură de ecran pentru conexiune."
 
-#: ../vinagre/vinagre-tab.c:902
+#: ../vinagre/vinagre-tab.c:966
 msgid "Save Screenshot"
 msgstr "Salvează captura de ecran"
 
-#: ../vinagre/vinagre-tab.c:916
+#. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. First %s will be replaced by the friendly name of the connection and the second %s by the current date and time, for instance: Screenshot of wendell@wendell-laptop at 2011-10-29 12:34:11, or Screenshot of 200.100.100.123 at 2011-10-29 18:27:11
+#: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
 msgstr "Captură de ecran pentru %s la %s"
 
-#: ../vinagre/vinagre-tab.c:970
+#: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
 msgstr "Eroare la salvarea capturii de ecran"
 
@@ -1291,7 +1293,7 @@ msgid "_Keyboard shortcuts"
 msgstr "_Scurtături de tastatură"
 
 #: ../vinagre/vinagre-ui.h:60
-msgid "Enable keyboard shurtcuts"
+msgid "Enable keyboard shortcuts"
 msgstr "Activează scurtăturile de tastatură"
 
 #: ../vinagre/vinagre-ui.h:62
@@ -1362,12 +1364,12 @@ msgid "Error loading UI file"
 msgstr "Eroare la încărcarea fișierului UI"
 
 #. Translators: %s is a protocol, like VNC or SSH
-#: ../vinagre/vinagre-utils.vala:112
+#: ../vinagre/vinagre-utils.vala:116
 #, c-format
 msgid "%s authentication is required"
 msgstr "Este necesară autentificarea %s"
 
-#: ../vinagre/vinagre-utils.vala:193
+#: ../vinagre/vinagre-utils.vala:227
 msgid "Error showing help"
 msgstr "Eroare la afișarea ferestrei de ajutor"
 
