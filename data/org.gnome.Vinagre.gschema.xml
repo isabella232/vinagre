@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema path="/org/gnome/vinagre/" id="org.gnome.Vinagre">
+  <schema path="/org/gnome/vinagre/" id="org.gnome.Vinagre" gettext-domain="vinagre">
     <key type="b" name="shared-flag">
       <default>true</default>
       <summary>Whether we should leave other clients connected</summary>
