@@ -1,0 +1,656 @@
+# Friulian translation for vinagre.
+# Copyright (C) 2017 vinagre's COPYRIGHT HOLDER
+# This file is distributed under the same license as the vinagre package.
+# Fabio Tomat <f.t.public@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vinagre master\n"
+"POT-Creation-Date: 2017-10-05 11:20+0000\n"
+"PO-Revision-Date: 2017-10-19 17:30+0200\n"
+"Language-Team: Friulian <fur@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fur\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"X-Generator: Poedit 2.0.3\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Fabio Tomat <f.t.public at gmail.com>, 2017"
+
+#. (itstool) path: info/title
+#: C/connect.page:8
+msgctxt "sort"
+msgid "1"
+msgstr "1"
+
+#. (itstool) path: credit/name
+#: C/connect.page:14 C/connect-file.page:13 C/connect-reverse.page:15
+#: C/fullscreen.page:11 C/introduction.page:14 C/keyboard-shortcuts.page:13
+#: C/scaling.page:11 C/take-screenshot.page:13 C/view-only.page:11
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: info/desc
+#: C/connect.page:20
+msgid "Connect to another computer on your local network."
+msgstr "Conet a un altri computer te rêt locâl."
+
+#. (itstool) path: page/title
+#: C/connect.page:23
+msgid "Establish a connection"
+msgstr "Stabilìs une conession"
+
+#. (itstool) path: page/p
+#: C/connect.page:25
+msgid ""
+"You can connect to other computers on your local network using <app>Remote "
+"Desktop Viewer</app>."
+msgstr ""
+"Al è pussibil conetisi a altris computer te rêt locâl doprant "
+"<app>Visualizadôr Scritoris Rimots</app>."
+
+#. (itstool) path: item/p
+#: C/connect.page:30
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
+"\">Connect</gui></guiseq>."
+msgstr ""
+"Selezionâ <guiseq><gui style=\"menu\">Rimot</gui> <gui style=\"menuitem"
+"\">Conet</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/connect.page:34
+msgid ""
+"Choose the <gui>Protocol</gui> and the <gui>Host</gui> for the connection."
+msgstr "Sielzi il <gui>Protocol</gui> e il <gui>Host</gui> pe conession."
+
+#. (itstool) path: note/p
+#: C/connect.page:37
+msgid ""
+"Some protocols allow you to see all available computers on your local "
+"network by clicking the <gui style=\"button\">Find</gui> button. This "
+"buttons will not be displayed if you do not have <app>Avahi</app> support."
+msgstr ""
+"Cualchi protocol al permet di viodi ducj i computer disponibii te rêt locâl "
+"fasint clic sul boton <gui style=\"button\">Cjate</gui>. Chescj botons no "
+"vignaran mostrâts se no si à il supuart di <app>Avahi</app>."
+
+#. (itstool) path: item/p
+#: C/connect.page:44
+msgid ""
+"Select the options which you want enabled when the connection is made. "
+"Options will vary depending on the protocol that you use."
+msgstr ""
+"Selezione lis opzions che no si vûl abilitâ cuant che la conession e ven "
+"fate. Lis opzions a variaran in base al protocol che si doprarà."
+
+#. (itstool) path: item/p
+#: C/connect.page:48
+msgid "Click the <gui style=\"button\">Connect</gui> button."
+msgstr "Fâ clic sul boton <gui style=\"button\">Connect</gui>."
+
+#. (itstool) path: item/p
+#: C/connect.page:49
+msgid ""
+"At this point, the remote desktop may need to confirm the connection. If "
+"this is the case, the viewer may remain black until the connection is "
+"confirmed."
+msgstr ""
+"A chest pont, il scritori rimot al podarès domandâ la conferme de conession. "
+"In chest câs, il visualizadôr al podarès restâ neri fintremai che la "
+"conession no ven confermade."
+
+#. (itstool) path: note/p
+#: C/connect.page:53
+msgid ""
+"Some computers may require a secure connection: an authentication dialog "
+"will be displayed, asking for the credentials. The type of credentials "
+"depend on the remote host; it may be a password and a username. If you "
+"select <gui>Remember this credential</gui>, <app>Remote Desktop Viewer</app> "
+"will store the information using <app>GNOME Keyring</app>."
+msgstr ""
+"Cualchi computer al podarès domandâ une conession sigure: un dialic di "
+"autenticazion al vignarà mostrât, domandant lis credenziâls. Il gjenar di "
+"credenziâls al dipent dal host rimot; a puedin jessi une password e un non "
+"utent. Se si selezione <gui>Visâsi cheste credenziâl</gui>, "
+"<app>Visualizadôr Scritoris Rimots</app> al memorizarà lis informazions "
+"doprant <app>Puarteclâfs di GNOME</app>."
+
+#. (itstool) path: page/p
+#: C/connect.page:63
+msgid ""
+"If the connection has been used previously, you can also access it through "
+"<guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Recent "
+"Connections</gui></guiseq>."
+msgstr ""
+"Se la conession e je stade doprade in precedence, si pues ancje jentrâ "
+"midiant <guiseq><gui style=\"menu\">Rimot</gui> <gui style=\"menuitem"
+"\">Conessions resintis</gui></guiseq>."
+
+#. (itstool) path: page/p
+#: C/connect.page:67
+msgid ""
+"To close a connection, choose <guiseq><gui style=\"menu\">Remote</gui> <gui "
+"style=\"menuitem\">Close</gui></guiseq> or click the <gui style=\"button"
+"\">Close</gui> button."
+msgstr ""
+"Par sierâ une conession, sielzi <guiseq><gui style=\"menu\">Rimot</gui> <gui "
+"style=\"menuitem\">Siere</gui></guiseq> o fâ clic sul boton <gui style="
+"\"button\">Siere</gui>."
+
+#. (itstool) path: info/title
+#: C/connect-file.page:8
+msgctxt "sort"
+msgid "2"
+msgstr "2"
+
+#. (itstool) path: license/p
+#: C/connect-file.page:18 C/fullscreen.page:16 C/scaling.page:16
+#: C/view-only.page:16
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Condivision tal stes mût 3.0"
+
+#. (itstool) path: info/desc
+#: C/connect-file.page:21
+msgid "Use a remote connection file to connect to a remote machine."
+msgstr "Dopre un file di conession rimote par conetisi a une machine rimote."
+
+#. (itstool) path: page/title
+#: C/connect-file.page:24
+msgid "Connect using a <file>.vnc</file> file"
+msgstr "Conet doprant un file <file>.vnc</file>"
+
+#. (itstool) path: page/p
+#: C/connect-file.page:26
+msgid ""
+"Some hosts distribute <em>remote connection files</em>, that generally end "
+"with the suffix <file>.vnc</file>, instead of using a host address and port."
+msgstr ""
+"Cualchi host al distribuìs i <em>file di conession rimote</em>, che di solit "
+"a finissin cul sufìs <file>.vnc</file>, invezit di doprâ une direzion host e "
+"une puarte."
+
+#. (itstool) path: item/p
+#: C/connect-file.page:32
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
+"\">Open</gui></guiseq>."
+msgstr ""
+"Selezionâ <guiseq><gui style=\"menu\">Rimot</gui> <gui style=\"menuitem"
+"\">Vierç</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/connect-file.page:36
+msgid "Select the file you want to open."
+msgstr "Selezionâ il file che si vûl vierzi."
+
+#. (itstool) path: item/p
+#: C/connect-file.page:39
+msgid "Click the <gui style=\"button\">Open</gui> button."
+msgstr "Fâ clic sul boton <gui style=\"button\">Vierç</gui>."
+
+#. (itstool) path: note/p
+#: C/connect-file.page:44
+msgid "You can also open a remote connection file from <app>Files</app>."
+msgstr ""
+"Si pues ancje vierzi un file di conession rimote te aplicazion <app>File</"
+"app>."
+
+#. (itstool) path: info/title
+#: C/connect-reverse.page:9
+msgctxt "sort"
+msgid "3"
+msgstr "3"
+
+#. (itstool) path: info/desc
+#: C/connect-reverse.page:21
+msgid ""
+"Connect to computers not on your local network: bypassing firewall "
+"restrictions on remote host."
+msgstr ""
+"Coneti a computers fûr de rêt locâl: sorpassant lis restrizions dal firewall "
+"sul host rimot."
+
+#. (itstool) path: page/title
+#: C/connect-reverse.page:25
+msgid "<gui>Reverse Connections…</gui>"
+msgstr "<gui>Conessions contraris…</gui>"
+
+#. (itstool) path: page/p
+#: C/connect-reverse.page:27
+msgid ""
+"A reverse connection is usually used to bypass firewall restrictions on open "
+"ports. A firewall usually blocks open ports, but does not block outgoing "
+"traffic. In a normal forward connection, a client connects to an open port "
+"on the server. However, in the case of a reverse connection, the client "
+"opens a port for the server to connect to."
+msgstr ""
+"Une conession contrarie e je di solit doprade par sorpassâ lis restrizions "
+"dal firewall su lis puartis viertis. Un firewall di solit al bloche lis "
+"puartis viertis, ma nol bloche il trafic in jessude. Intune normâl conession "
+"direte, un client si conet a une puarte vierte sul servidôr. Però, tal câs "
+"di une conession contrarie, il client al vierç une puarte par fâ in mût che "
+"il servidôr si conetedi."
+
+#. (itstool) path: section/title
+#: C/connect-reverse.page:34
+msgid "Enabling reverse connections"
+msgstr "Abilitâ conessions contraris"
+
+#. (itstool) path: item/p
+#: C/connect-reverse.page:38
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
+"\">Reverse Connections…</gui></guiseq>."
+msgstr ""
+"Selezionâ <guiseq><gui style=\"menu\">Rimot</gui> <gui style=\"menuitem"
+"\">Conessions contraris…</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/connect-reverse.page:42
+msgid "Check <gui>Enable Reverse Connections</gui>."
+msgstr "Selezione <gui>Abilite conession contraris</gui>."
+
+#. (itstool) path: section/title
+#: C/connect-reverse.page:49
+msgid "Access a computer behind a firewall"
+msgstr "Jentrâ suntun computer daûr di un firewall"
+
+#. (itstool) path: section/p
+#: C/connect-reverse.page:51
+msgid ""
+"The remote machine needs to connect to your machine using your <em>IP "
+"address</em> and port number, which can be found in the <gui>Reverse "
+"Connections…</gui> dialog, under <gui>Connectivity</gui>."
+msgstr ""
+"La machine rimote e à dibisugne di conetisi ae vuestre machine doprant la "
+"vuestre <em>direzion IP</em> e il numar de puarte, che a puedin jessi "
+"cjatâts tal dialic <gui>Conessions contraris…</gui>, sot <gui>Conetivitât</"
+"gui>."
+
+#. (itstool) path: note/p
+#: C/connect-reverse.page:56
+msgid ""
+"Currently, <app>Vino</app>, the GNOME VNC server, does not support reverse "
+"connections which are also known as \"listen mode\". Some other "
+"applications, such as <app>UltraVNC</app>, <app>RealVNC</app> and "
+"<app>TightVNC</app>, do have support for reverse connections."
+msgstr ""
+"Atualmentri, <app>Vino</app>, il servidôr VNC di GNOME, nol supuarte lis "
+"conessions contraris che a son ancje cognossudis come \"modalitât in scolte"
+"\". Cualchi altre aplicazion, come <app>UltraVNC</app>, <app>RealVNC</app> e "
+"<app>TightVNC</app>, no àn il supuart pes conessions contraris."
+
+#. (itstool) path: section/p
+#: C/connect-reverse.page:62
+msgid ""
+"Once the remote computer connects to your machine, <app>Remote Desktop "
+"Viewer</app> will establish the reverse connection."
+msgstr ""
+"Une volte che il computer rimot si conet ae vuestre machine, "
+"<app>Visualizadôr di Scritoris Rimots</app> al stabilirà la conession "
+"contrarie."
+
+#. (itstool) path: section/p
+#: C/connect-reverse.page:65
+msgid ""
+"When connecting to a machine which is not on your local network, you will "
+"need to provide your externally visible IP address and port number to the "
+"remote server."
+msgstr ""
+"Cuant che si conetisi a une machine che no je te rêt locâl, si scugnarà "
+"furnî la direzion IP visibile di difûr e il numar de puarte al servidôr "
+"rimot."
+
+#. (itstool) path: info/desc
+#: C/fullscreen.page:19
+msgid "View the remote desktop in fullscreen mode."
+msgstr "Visualizâ il scritori rimot in modalitât plen visôr."
+
+#. (itstool) path: page/title
+#: C/fullscreen.page:22
+msgid "Fullscreen mode"
+msgstr "Modalitât plen visôr"
+
+#. (itstool) path: page/p
+#: C/fullscreen.page:24
+msgid ""
+"Fullscreen mode can be useful if viewing a desktop which is the same size or "
+"larger than yours."
+msgstr ""
+"La modalitât plen visôr e pues jessi utile se si visualize un scritori de "
+"stesse dimension o plui grant dal vuestri."
+
+#. (itstool) path: item/p
+#: C/fullscreen.page:29
+msgid ""
+"Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Fullscreen</gui></guiseq>, or press the corresponding toolbar button, to "
+"view the display area in fullscreen mode."
+msgstr ""
+"Sielzi <guiseq><gui style=\"menu\">Visualize</gui> <gui style=\"menuitem"
+"\">Plen visôr</gui></guiseq>, o frache il boton de sbare dai struments "
+"corispondent, par viodi la aree dal schermi in modalitât plen visôr."
+
+#. (itstool) path: note/p
+#: C/fullscreen.page:37
+msgid ""
+"While in fullscreen mode, move the mouse to the top-center of the screen to "
+"display a hidden toolbar, which has <gui style=\"button\">Leave Fullscreen</"
+"gui>, <gui style=\"button\">Disconnect</gui> and other buttons."
+msgstr ""
+"Intant che si è in modalitât plen visôr, spostait il mouse te bande superiôr-"
+"centrâl dal schermi par mostrâ une sbare dai struments platade; cheste e à i "
+"botons <gui style=\"button\">Lasse mût a plen visôr</gui>, <gui style="
+"\"button\">Disconet</gui> e altris."
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Remote Desktop Viewer help"
+msgstr "Jutori di Visualizadôr di Scritoris Rimots"
+
+#. (itstool) path: info/desc
+#: C/index.page:12
+msgid "Learn how to connect remotely to other desktops."
+msgstr "Impare ce mût conetisi in rimot a altris scritoris."
+
+#. (itstool) path: page/title
+#: C/index.page:15
+msgid "<_:media-1/> Remote Desktop Viewer"
+msgstr "<_:media-1/> Visualizadôr di Scritoris Rimots"
+
+#. (itstool) path: section/title
+#: C/index.page:21
+msgid "Connecting to other computers using VNC"
+msgstr "Coneti a altris computer doprant VNC"
+
+#. (itstool) path: section/title
+#: C/index.page:25
+msgid "Features and options"
+msgstr "Funzionalitâts e opzions"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:20
+msgid "Introduction to <app>Remote Desktop Viewer</app>."
+msgstr "Introduzion a <app>Visualizazion di Scritoris Rimots</app>."
+
+#. (itstool) path: page/title
+#: C/introduction.page:23
+msgid "Introduction"
+msgstr "Introduzion"
+
+#. (itstool) path: page/p
+#: C/introduction.page:25
+msgid ""
+"<app>Remote Desktop Viewer</app> is a remote desktop viewer application for "
+"GNOME for accessing other machines using Virtual Network Computing (VNC) and "
+"other protocols. It can be used to control and interact with another "
+"computer or to just view the desktop."
+msgstr ""
+"<app>Visualizadôr di Scritoris Rimots</app> e je une aplicazion di "
+"visualizazion di scritoris rimots par GNOME che e permet di jentrâ in altris "
+"machinis doprant Virtual Network Computing (VNC) e altris protocoi. Al pues "
+"jessi doprât par controlâ e interagjî cuntun altri computer o nome viodi il "
+"scritori."
+
+#. (itstool) path: page/p
+#: C/introduction.page:30
+msgid "<app>Remote Desktop Viewer</app> provides the following features:"
+msgstr ""
+"<app>Visualizadôr di Scritoris Rimots</app> al à chestis funzionalitâts:"
+
+#. (itstool) path: item/p
+#: C/introduction.page:32
+msgid "connect to several machines at the same time"
+msgstr "conet a plui machinis in maniere simultanie"
+
+#. (itstool) path: item/p
+#: C/introduction.page:33
+msgid "store recent connections and bookmark them"
+msgstr "memorize lis conessions resintis e metilis tal segnelibri"
+
+#. (itstool) path: item/p
+#: C/introduction.page:34
+msgid "browse the local network for other machines"
+msgstr "esplore la rêt locâl par altris machinis"
+
+#. (itstool) path: figure/title
+#: C/introduction.page:38
+msgid "Remote Desktop Viewer in action"
+msgstr "Visualizadôr di Scritoris Rimots in azion"
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:39
+msgctxt "_"
+msgid ""
+"external ref='figures/vinagre-connected-3-16.png' "
+"md5='7f513a6b8104a46acd4656ea0042a677'"
+msgstr ""
+"external ref='figures/vinagre-connected-3-16.png' "
+"md5='7f513a6b8104a46acd4656ea0042a677'"
+
+#. (itstool) path: media/p
+#: C/introduction.page:40
+msgid ""
+"Remote Desktop Viewer running in GNOME 3, connected to a machine running "
+"GNOME 2"
+msgstr ""
+"Visualizadôr di Scritoris Rimots in esecuzion su GNOME 3, conetût a une "
+"machine cun GNOME 2"
+
+#. (itstool) path: p/link
+#: C/legal.xml:5
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr "Licence Creative Commons Atribuzion-condivision compagne 3.0 Unported"
+
+#. (itstool) path: license/p
+#: C/legal.xml:4
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Chest lavôr al è in licence sot de <_:link-1/>."
+
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:19
+msgid "Disable the sending of keyboard shortcuts to the remote machine."
+msgstr "Disabilite l'inviâ des scurtis di tastiere ae machine rimote."
+
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:23
+msgid "Keyboard shortcuts"
+msgstr "Scurtis di tastiere"
+
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:25
+msgid ""
+"You can enable or disable keyboard shortcuts by selecting <guiseq><gui style="
+"\"menu\">View</gui> <gui style=\"menuitem\">Keyboard shortcuts</gui></"
+"guiseq>."
+msgstr ""
+"Si pues abilitâ o disabilitâ lis scurtis di tastiere selezionant "
+"<guiseq><gui style=\"menu\">Visualize</gui> <gui style=\"menuitem\"Scurtis "
+"di tastiere</gui></guiseq>."
+
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
+msgid ""
+"Enabling this option allows the use of keyboard shortcuts (like "
+"<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
+"<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with <app>Remote "
+"Desktop Viewer</app>. This means that <app>Remote Desktop Viewer</app> will "
+"catch those key combinations instead of sending them to the remote machine. "
+"This option is disabled by default because most of the time, you will be "
+"interacting with the computer to which you are connected."
+msgstr ""
+"Abilitant cheste opzion si pues doprâ lis scurtis di tastiere (come "
+"<keyseq><key>Ctrl</key><key>N</key></keyseq>), i aceleradôrs di menù (come "
+"<keyseq><key>Alt</key><key>M</key></keyseq>) e mnemonics, cun "
+"<app>Visualizadôr di Scritoris Rimots</app>. Chest al significhe che "
+"<app>Visualizadôr di Scritoris Rimots</app> al cjaparà chês cumbinazions di "
+"tascj invezit di inviâlis ae machine rimote. Cheste opzion e je disabilitade "
+"in maniere predefinide parcè che la plui part dal timp si interagjirà cul "
+"computer che si è conetûts."
+
+#. (itstool) path: note/p
+#: C/keyboard-shortcuts.page:38
+msgid ""
+"When the <gui>Keyboard shortcuts</gui> option is disabled, "
+"<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq> is the only "
+"key combination which will not be sent to the remote desktop. Choose "
+"<guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Send Ctrl-"
+"Alt-Delete</gui></guiseq>, or use the corresponding toolbar button, to send "
+"this key combination."
+msgstr ""
+"Cuant che la opzion des <gui>Scurtis di tastiere</gui> e je disabilitade, "
+"<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq> e je la "
+"uniche cumbinazion di tascj che no vignarà inviade al scritori rimot. Sielzi "
+"<guiseq><gui style=\"menu\">Rimot</gui> <gui style=\"menuitem\">Invie Ctrl-"
+"Alt-Canc</gui></guiseq> o dopre il boton de sbare dai struments "
+"corispondente, par inviâ cheste cumbinazion di tascj."
+
+#. (itstool) path: info/desc
+#: C/scaling.page:19
+msgid "Scale the remote desktop to fit the display area."
+msgstr "Scjalâ il scritori rimot par adatâsi ae aree dal visôr."
+
+#. (itstool) path: page/title
+#: C/scaling.page:22
+msgid "Scale the remote desktop"
+msgstr "Scjalâ il scritori rimot"
+
+#. (itstool) path: page/p
+#: C/scaling.page:24
+msgid ""
+"Some protocols have an option to scale the remote desktop to fit your "
+"display area."
+msgstr ""
+"Cualchi protocol al à une opzion par scjalâ il scritori rimot par adatâ ae "
+"aree dal visôr."
+
+#. (itstool) path: item/p
+#: C/scaling.page:29
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Scaling</gui></guiseq>, or click the <gui>Scaling</gui> toolbar button."
+msgstr ""
+"Selezionâ <guiseq><gui style=\"menu\">Visualize</gui> <gui style=\"menuitem"
+"\">Scjalâ</gui></guiseq> o fâ clic sul boton <gui>Scjalâ</gui> te sbare dai "
+"struments."
+
+#. (itstool) path: item/p
+#: C/scaling.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Keep "
+"Aspect Ratio</gui></guiseq> if you want to constrain the aspect ratio of the "
+"remote desktop inside the display area, or deselect the option to stretch "
+"the remote desktop to fill the available space."
+msgstr ""
+"Selezionâ <guiseq><gui style=\"menu\">Visualize</gui> <gui style=\"menuitem"
+"\">Manten lis proporzions dal aspiet</gui></guiseq> se si desidere tignî lis "
+"proporzions dal aspiet dal scritori rimot inte aree dal visôr, o gjavâ la "
+"selezion ae opzion par pandi il scritori rimot al fin di jemplâ il spazi "
+"disponibil."
+
+#. (itstool) path: note/p
+#: C/scaling.page:40
+msgid ""
+"This option can be toggled only if <gui>Scaling</gui> has already been "
+"enabled."
+msgstr ""
+"Cheste opzion e pues jessi comutade dome se <gui>Scjalâ</gui> al è za stât "
+"abilitât."
+
+#. (itstool) path: info/desc
+#: C/take-screenshot.page:19
+msgid "Take a screenshot of a remote desktop."
+msgstr "Fâs une cature di schermi di un scritori rimot."
+
+#. (itstool) path: page/title
+#: C/take-screenshot.page:22
+msgid "Take a screenshot"
+msgstr "Fâs une cature di schermi"
+
+#. (itstool) path: page/p
+#: C/take-screenshot.page:24
+msgid ""
+"You can take screenshots of only the desktop that you are connected to by "
+"using the tool provided by <app>Remote Desktop Viewer</app>."
+msgstr ""
+"Si pues fâ caturis di schermi nome dal scritori de machine che si à stabilît "
+"la conession, e chest, doprant il strument furnît di <app>Visualizadôr di "
+"Scritoris Rimots</app>."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:29
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Take "
+"screenshot</gui></guiseq>, or click the <gui>Take Screenshot</gui> button in "
+"the toolbar."
+msgstr ""
+"Selezionâ <guiseq><gui style=\"menu\">Rimot</gui> <gui style=\"menuitem"
+"\">Fâs une cature</gui></guiseq>, o fâ clic sul boton <gui>Fâs une cature</"
+"gui> su la sbare dai struments."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:34
+msgid ""
+"In the <gui>Name</gui> field, enter the filename that you want the "
+"screenshot to be saved under."
+msgstr ""
+"Intal cjamp <gui>Non</gui>, inserî il non dal file che si desidere dâ ae "
+"cature di schermi."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:38
+msgid ""
+"From the <gui>Save in folder</gui> drop down list, select the folder that "
+"you want the screenshot to be saved in. You can also click <gui>Browse for "
+"other folder</gui> to select one which is not in the drop down list."
+msgstr ""
+"De liste a tendine <gui>Salve te cartele</gui>, selezionâ la cartele dulà "
+"che si desidere salvâ la cature di schermi. Si pues ancje fâ clic su "
+"<gui>Esplore par altris cartelis</gui> par selezionâ une che no je te liste "
+"a tendine."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:44
+msgid "Click <gui style=\"button\">Save</gui> to save the screenshot."
+msgstr ""
+"Fâ clic su <gui style=\"button\">Salve</gui> par salvâ la cature di schermi."
+
+#. (itstool) path: info/desc
+#: C/view-only.page:19
+msgid "Disable interaction with the remote desktop."
+msgstr "Disabilitâ interazion cul scritori rimot."
+
+#. (itstool) path: page/title
+#: C/view-only.page:22
+msgid "View-only mode"
+msgstr "Modalitât Dome-viôt"
+
+#. (itstool) path: page/p
+#: C/view-only.page:24
+msgid ""
+"Some protocols allow you to enable a <gui>View Only</gui> mode. This mode "
+"allows you to disable all interaction with the remote."
+msgstr ""
+"Cualchi protocol al permet di abilitâ une modalitât <gui>Dome viôt</gui>. "
+"Cheste modalitât e permet di disabilitâ dutis lis interazions cul rimot."
+
+#. (itstool) path: page/p
+#: C/view-only.page:26
+msgid ""
+"Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">View "
+"Only</gui></guiseq> or click the corresponding toolbar button to enable this "
+"mode."
+msgstr ""
+"Sielzi <guiseq><gui style=\"menu\">Visualize</gui> <gui style=\"menuitem"
+"\">Dome viôt</gui></guiseq> o fâ clic sul boton de sbare dai strument "
+"corispondent par abilitâ cheste modalitât."
