@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
-"POT-Creation-Date: 2017-06-28 17:27+0000\n"
-"PO-Revision-Date: 2018-02-24 13:38+0100\n"
+"POT-Creation-Date: 2018-02-27 14:30+0000\n"
+"PO-Revision-Date: 2018-02-28 14:44+0100\n"
 "Last-Translator: marcos <marcoslansgarza@gmail.com>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
@@ -19,7 +19,9 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Fran Dieguez <frandieguez@gnome.org>, 2011-2012."
+msgstr ""
+"Fran Dieguez <frandieguez@gnome.org>, 2011-2012.\n"
+"Marcos Lans <marcoslansgarza@gmail.com>, 2018."
 
 #. (itstool) path: info/title
 #: C/connect.page:8
@@ -427,10 +429,6 @@ msgstr "O Visualizador de escritorios remotos en acción"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/introduction.page:39
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/vinagre-connected.png' "
-#| "md5='abef2af863dbd4659703bcc09bb89d1a'"
 msgctxt "_"
 msgid ""
 "external ref='figures/vinagre-connected-3-16.png' "
