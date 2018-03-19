@@ -475,7 +475,7 @@ msgid ""
 "guiseq>."
 msgstr ""
 "Si pues abilitâ o disabilitâ lis scurtis di tastiere selezionant "
-"<guiseq><gui style=\"menu\">Visualize</gui> <gui style=\"menuitem\"Scurtis "
+"<guiseq><gui style=\"menu\">Visualize</gui> <gui style=\"menuitem\">Scurtis "
 "di tastiere</gui></guiseq>."
 
 #. (itstool) path: page/p
