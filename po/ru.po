@@ -6,15 +6,14 @@
 # Alexander Saprykin <xelfium@gmail.com>, 2010.
 # Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.
 # Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012-2014.
-# Stas Solovey <whats_up@tut.by>, 2012, 2013, 2014, 2016.
+# Stas Solovey <whats_up@tut.by>, 2012, 2013, 2014, 2016, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-08 15:06+0000\n"
-"PO-Revision-Date: 2016-03-08 22:41+0300\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
+"POT-Creation-Date: 2018-09-20 09:17+0000\n"
+"PO-Revision-Date: 2018-09-23 23:37+0300\n"
 "Last-Translator: Stas Solovey <whats_up@tut.by>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -45,9 +44,12 @@ msgid ""
 msgstr "Нужно ли показывать вкладки, если активно только одно подключение"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:4
+#| msgid ""
+#| "Set to \"true\" to always show the tabs. Set to \"false\" to only show "
+#| "the tabs when there is more than one active connection."
 msgid ""
-"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
-"tabs when there is more than one active connection."
+"Set to “true” to always show the tabs. Set to “false” to only show the tabs "
+"when there is more than one active connection."
 msgstr ""
 "Установите флажок, чтобы всегда показывать вкладки. Уберите флажок, чтобы "
 "показывать вкладки только тогда, когда открыто больше одного активного "
@@ -58,10 +60,14 @@ msgid "Whether we should show the menu accelerators (shortcut keys)"
 msgstr "Нужно ли показывать ускорители меню (клавиатурные комбинации)"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:6
+#| msgid ""
+#| "Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable "
+#| "them. Note that if they are enabled, those keys will be intercepted by "
+#| "the menu and will not be sent to the remote host."
 msgid ""
-"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
-"Note that if they are enabled, those keys will be intercepted by the menu "
-"and will not be sent to the remote host."
+"Set to “false” to disable menu shortcuts. Set to “true” to enable them. Note "
+"that if they are enabled, those keys will be intercepted by the menu and "
+"will not be sent to the remote host."
 msgstr ""
 "Уберите флажок для отключения ускорителей меню. Установите флажок для их "
 "включения. Если они включены, эти сочетания клавиш будут перехватываться "
@@ -81,9 +87,11 @@ msgid "Whether we should start the program listening for reverse connections"
 msgstr "Нужно ли ожидать обратных подключений"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:10
+#| msgid ""
+#| "Set to \"true\" to always start the program listening for reverse "
+#| "connections."
 msgid ""
-"Set to \"true\" to always start the program listening for reverse "
-"connections."
+"Set to “true” to always start the program listening for reverse connections."
 msgstr ""
 "Установите флажок, чтобы программа всегда ожидала обратные подключения."
 
@@ -122,8 +130,8 @@ msgstr "Vinagre — клиент удалённых рабочих столов 
 #: ../data/vinagre.ui.h:3
 msgid "translator-credits"
 msgstr ""
-"Yuri Myasoedov <omerta13@yandex.ru>, 2012.\n"
-"Stas Solovey <whats_up@tut.by>, 2012-2016."
+"Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012-2014.\n"
+"Stas Solovey <whats_up@tut.by>, 2012-2018."
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -243,8 +251,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Отпечаток:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:946
-#: ../plugins/rdp/vinagre-rdp-tab.c:987
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
+#: ../plugins/rdp/vinagre-rdp-tab.c:995
 msgid "Connect"
 msgstr "Подключиться"
 
@@ -349,7 +357,6 @@ msgstr ""
 
 #. Translators: This is the tooltip for the domain field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:156
-#| msgid "Optional"
 msgid "Optional."
 msgstr "Необязательно."
 
@@ -380,27 +387,27 @@ msgid "Port:"
 msgstr "Порт:"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:473
+#: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "S_caling"
 msgstr "_Масштабировать"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
-#: ../plugins/spice/vinagre-spice-tab.c:474
+#: ../plugins/spice/vinagre-spice-tab.c:481
 msgid "Fit the remote screen into the current window size"
 msgstr "Подогнать удалённый экран под размеры текущего окна"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
-#: ../plugins/spice/vinagre-spice-tab.c:591
-#: ../plugins/spice/vinagre-spice-tab.c:592
+#: ../plugins/spice/vinagre-spice-tab.c:598
+#: ../plugins/spice/vinagre-spice-tab.c:599
 msgid "Scaling"
 msgstr "Масштабирование"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:945 ../plugins/rdp/vinagre-rdp-tab.c:986
+#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
 msgid "_Cancel"
 msgstr "_Отмена"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1221 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Ошибка подключения к узлу."
@@ -422,8 +429,10 @@ msgstr "Параметры SSH"
 #: ../plugins/vnc/vinagre-vnc-connection.c:317
 #: ../plugins/vnc/vinagre-vnc-plugin.c:201
 #, c-format
+#| msgid ""
+#| "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgid ""
-"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+"Bad value for “shared” flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgstr ""
 "Ошибочное значение ключа «shared»: %d. Значение должно быть либо 0, либо 1. "
 "Это значение не будет использоваться."
@@ -458,12 +467,14 @@ msgstr "Не удалось обработать файл."
 
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:155
-msgid "The file is not a VNC one: Missing the group \"Connection\"."
+#| msgid "The file is not a VNC one: Missing the group \"Connection\"."
+msgid "The file is not a VNC one: Missing the group “Connection”."
 msgstr "Файл не является файлом VNC: пропущена группа «Connection»."
 
 #. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:162
-msgid "The file is not a VNC one: Missing the key \"Host\"."
+#| msgid "The file is not a VNC one: Missing the key \"Host\"."
+msgid "The file is not a VNC one: Missing the key “Host”."
 msgstr "Файл не является файлом VNC: пропущен ключ «Host»."
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:268
@@ -474,7 +485,7 @@ msgstr "Параметры VNC"
 #. View only check button - not fully ready on spice-gtk side
 #: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
-#: ../plugins/spice/vinagre-spice-tab.c:514
+#: ../plugins/spice/vinagre-spice-tab.c:521
 msgid "_View only"
 msgstr "_Только просмотр"
 
@@ -523,6 +534,7 @@ msgstr "Ultra Low Color (3 бита)"
 msgid "Use h_ost"
 msgstr "Ис_пользовать узел"
 
+#. Translators: This is the tooltip of the SSH tunneling entry
 #: ../plugins/vnc/vinagre-vnc-plugin.c:352
 #: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
@@ -600,7 +612,7 @@ msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Сохранять пропорции при масштабировании"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
-#: ../plugins/spice/vinagre-spice-tab.c:515
+#: ../plugins/spice/vinagre-spice-tab.c:522
 msgid "Do not send mouse and keyboard events"
 msgstr "Не посылать события мыши и клавиатуры"
 
@@ -621,25 +633,25 @@ msgid "Requests an update of the screen"
 msgstr "Запрашивает обновление экрана"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
-#: ../plugins/spice/vinagre-spice-tab.c:538
+#: ../plugins/spice/vinagre-spice-tab.c:545
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Послать Ctrl-Alt-Del"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
-#: ../plugins/spice/vinagre-spice-tab.c:539
-#: ../plugins/spice/vinagre-spice-tab.c:612
+#: ../plugins/spice/vinagre-spice-tab.c:546
+#: ../plugins/spice/vinagre-spice-tab.c:619
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Послать Ctrl+Alt+Del удалённому рабочему столу"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
-#: ../plugins/spice/vinagre-spice-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:602
+#: ../plugins/spice/vinagre-spice-tab.c:608
+#: ../plugins/spice/vinagre-spice-tab.c:609
 msgid "Read only"
 msgstr "Только просмотр"
 
 #. Send Ctrl-alt-del
 #: ../plugins/vnc/vinagre-vnc-tab.c:754
-#: ../plugins/spice/vinagre-spice-tab.c:610
+#: ../plugins/spice/vinagre-spice-tab.c:617
 msgid "Send Ctrl-Alt-Del"
 msgstr "Послать Ctrl-Alt-Del"
 
@@ -663,12 +675,14 @@ msgstr "Не удалось найти свободный TCP порт"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
-msgid "The file is not a Spice one: Missing the group \"connection\"."
+#| msgid "The file is not a Spice one: Missing the group \"connection\"."
+msgid "The file is not a Spice one: Missing the group “connection”."
 msgstr "Файл не является файлом Spice: пропущена группа «connection»."
 
 #. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:115
-msgid "The file is not a Spice one: Missing the key \"host\"."
+#| msgid "The file is not a Spice one: Missing the key \"host\"."
+msgid "The file is not a Spice one: Missing the key “host”."
 msgstr "Файл не является файлом Spice: пропущен ключ «host»."
 
 #: ../plugins/spice/vinagre-spice-plugin.c:174
@@ -686,13 +700,13 @@ msgstr "Параметры SPICE"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
-#: ../plugins/spice/vinagre-spice-tab.c:487
+#: ../plugins/spice/vinagre-spice-tab.c:494
 msgid "_Resize guest"
 msgstr "_Изменять размер гостя"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:500
+#: ../plugins/spice/vinagre-spice-tab.c:507
 msgid "_Share clipboard"
 msgstr "_Разделяемый буфер обмена"
 
@@ -706,11 +720,11 @@ msgstr "Необязательно"
 msgid "Spice Files"
 msgstr "Файлы Spice"
 
-#: ../plugins/spice/vinagre-spice-tab.c:488
+#: ../plugins/spice/vinagre-spice-tab.c:495
 msgid "Resize the screen guest to best fit"
 msgstr "Подгонять размеры экрана гостя"
 
-#: ../plugins/spice/vinagre-spice-tab.c:501
+#: ../plugins/spice/vinagre-spice-tab.c:508
 msgid "Automatically share clipboard between client and guest"
 msgstr "Сделать буфер обмена автоматически разделяемым между клиентом и гостем"
 
@@ -817,9 +831,12 @@ msgstr "Некорректное имя папки"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:88 ../vinagre/vinagre-bookmarks-ui.c:200
 #, c-format
+#| msgid ""
+#| "The name \"%s\" is already used in this folder. Please use a different "
+#| "name."
 msgid ""
-"The name \"%s\" is already used in this folder. Please use a different name."
-msgstr "Закладка «%s» уже присутствует в этой папке. Выберите другое имя."
+"The name “%s” is already used in this folder. Please use a different name."
+msgstr "Имя «%s» уже используется в этой папке. Выберите другое имя."
 
 #: ../vinagre/vinagre-bookmarks-ui.c:89 ../vinagre/vinagre-bookmarks-ui.c:190
 #: ../vinagre/vinagre-bookmarks-ui.c:201
@@ -916,7 +933,8 @@ msgstr "Файл не был опознан ни одним из модулей.
 
 #. Setup command line options
 #: ../vinagre/vinagre-main.c:91
-msgid "- Remote Desktop Viewer"
+#| msgid "- Remote Desktop Viewer"
+msgid "— Remote Desktop Viewer"
 msgstr "— программа просмотра удалённых рабочих столов"
 
 #: ../vinagre/vinagre-mdns.c:172
@@ -1111,7 +1129,8 @@ msgid "Login dialog canceled"
 msgstr "Окно входа отменено"
 
 #: ../vinagre/vinagre-ssh.c:586
-msgid "Can't send host identity confirmation"
+#| msgid "Can't send host identity confirmation"
+msgid "Can’t send host identity confirmation"
 msgstr "Не удалось отправить подтверждение подлинности узла"
 
 #. Login succeed, save password in keyring
@@ -1174,6 +1193,7 @@ msgstr "Не удалось сделать снимок экрана актив�
 msgid "Save Screenshot"
 msgstr "Сохранить снимок экрана"
 
+#. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. First %s will be replaced by the friendly name of the connection and the second %s by the current date and time, for instance: Screenshot of wendell@wendell-laptop at 2011-10-29 12:34:11, or Screenshot of 200.100.100.123 at 2011-10-29 18:27:11
 #: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
