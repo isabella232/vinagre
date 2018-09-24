@@ -1,16 +1,15 @@
 # Danish translation of Vinagre.
-# Copyright (C) 2008-2010, 2012, 2014, 2016 Free Software Foundation
+# Copyright (C) 2008-2010, 2012, 2014, 2016, 2018 Free Software Foundation
 # This file is distributed under the same license as the vinagre package.
 # Kris Thomsen <lakristho@gmail.com>, 2011.
 # Aputsiaq Niels Janussen <aj@isit.gl>, 2011.
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2008, 09, 10, 12, 14, 15, 16.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2008, 09, 10, 12, 14, 15, 16, 18.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
-"Report-Msgid-Bugs-To: "
-"https://bugzilla.gnome.org/enter_bug.cgi?product=vinagre&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-06-28 17:27+0000\n"
-"PO-Revision-Date: 2017-03-25 17:31+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
+"POT-Creation-Date: 2018-09-20 09:17+0000\n"
+"PO-Revision-Date: 2018-09-24 00:00+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -42,8 +41,8 @@ msgstr "Om vi skal vise faneblade selv når der kun er én aktiv forbindelse"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:4
 msgid ""
-"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
-"tabs when there is more than one active connection."
+"Set to “true” to always show the tabs. Set to “false” to only show the tabs "
+"when there is more than one active connection."
 msgstr ""
 "Sæt til “true” for altid at vise fanebladende. Sæt til “false” for kun at "
 "vise fanebladende, når der er mere end én aktiv forbindelse."
@@ -54,9 +53,9 @@ msgstr "Om vi skal vise menugenvejene (genvejstaster)"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:6
 msgid ""
-"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
-"Note that if they are enabled, those keys will be intercepted by the menu "
-"and will not be sent to the remote host."
+"Set to “false” to disable menu shortcuts. Set to “true” to enable them. Note "
+"that if they are enabled, those keys will be intercepted by the menu and "
+"will not be sent to the remote host."
 msgstr ""
 "Sæt til “false” for at deaktivere menugenveje. Sæt til “true” for at "
 "aktivere dem. Bemærk at hvis de aktiveres, vil disse taster indfanges af "
@@ -76,8 +75,7 @@ msgstr "Om vi skal starte programmet, der lytter efter omvendte forbindelser"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:10
 msgid ""
-"Set to \"true\" to always start the program listening for reverse "
-"connections."
+"Set to “true” to always start the program listening for reverse connections."
 msgstr ""
 "Sæt til “true” for altid at starte programmet, der lytter efter omvendte "
 "forbindelser."
@@ -419,7 +417,7 @@ msgstr "SSH-indstillinger"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:201
 #, c-format
 msgid ""
-"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+"Bad value for “shared” flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgstr ""
 "Ugyldig værdi for “shared”-flaget: %d. Den bør være 0 eller 1. Ignorerer den."
 
@@ -454,12 +452,12 @@ msgstr "Kunne ikke fortolke filen."
 
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:155
-msgid "The file is not a VNC one: Missing the group \"Connection\"."
+msgid "The file is not a VNC one: Missing the group “Connection”."
 msgstr "Filen er ikke en VNC-fil: Mangler gruppen “Connection”."
 
 #. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:162
-msgid "The file is not a VNC one: Missing the key \"Host\"."
+msgid "The file is not a VNC one: Missing the key “Host”."
 msgstr "Filen er ikke en VNC-fil: Mangler nøglen “Host”."
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:268
@@ -659,12 +657,12 @@ msgstr "Kan ikke finde en fri TCP-port"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
-msgid "The file is not a Spice one: Missing the group \"connection\"."
+msgid "The file is not a Spice one: Missing the group “connection”."
 msgstr "Filen er ikke en Spice-fil: Mangler gruppen “connection”."
 
 #. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:115
-msgid "The file is not a Spice one: Missing the key \"host\"."
+msgid "The file is not a Spice one: Missing the key “host”."
 msgstr "Filen er ikke en Spice-fil: Mangler nøglen “host”."
 
 #: ../plugins/spice/vinagre-spice-plugin.c:174
@@ -759,10 +757,8 @@ msgstr "Fejl ved overflytning af bogmærker: Kunne ikke oprette XML-strukturen"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:109
 #: ../vinagre/vinagre-bookmarks-migration.c:116
-msgid ""
-"Error while migrating bookmarks: Failed to initialize the XML structure"
-msgstr ""
-"Fejl ved overflytning af bogmærker: Kunne ikke initiere XML-strukturen"
+msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
+msgstr "Fejl ved overflytning af bogmærker: Kunne ikke initiere XML-strukturen"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:125
 msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
@@ -817,7 +813,7 @@ msgstr "Ugyldigt navn for denne mappe"
 #: ../vinagre/vinagre-bookmarks-ui.c:88 ../vinagre/vinagre-bookmarks-ui.c:200
 #, c-format
 msgid ""
-"The name \"%s\" is already used in this folder. Please use a different name."
+"The name “%s” is already used in this folder. Please use a different name."
 msgstr ""
 "Navnet “%s” er allerede brugt i denne mappe. Brug venligst et andet navn."
 
@@ -916,8 +912,8 @@ msgstr "Filen blev ikke genkendt af noget udvidelsesmodul."
 
 #. Setup command line options
 #: ../vinagre/vinagre-main.c:91
-msgid "- Remote Desktop Viewer"
-msgstr "- Fjernskrivebordsviser"
+msgid "— Remote Desktop Viewer"
+msgstr "— Fjernskrivebordsviser"
 
 #: ../vinagre/vinagre-mdns.c:172
 #, c-format
@@ -1026,8 +1022,14 @@ msgid "IPv4:"
 msgstr "IPv4:"
 
 #: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:115
-msgid "\n\nIPv6:"
-msgstr "\n\nIPv6:"
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
 
 #: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:175
 #, c-format
@@ -1104,7 +1106,7 @@ msgid "Login dialog canceled"
 msgstr "Indlogningsdialog afbrudt"
 
 #: ../vinagre/vinagre-ssh.c:586
-msgid "Can't send host identity confirmation"
+msgid "Can’t send host identity confirmation"
 msgstr "Kan ikke sende værtsidentitetsbekræftelse"
 
 #. Login succeed, save password in keyring
@@ -1399,13 +1401,13 @@ msgstr "Fejl under oprettelse af filen %s: %s"
 #~ msgstr "Aktive udvidelsesmoduler"
 
 #~ msgid ""
-#~ "List of active plugins. It contains the \"Location\" of the active plugins. "
-#~ "See the .vinagre-plugin file for obtaining the \"Location\" of a given "
-#~ "plugin."
+#~ "List of active plugins. It contains the \"Location\" of the active "
+#~ "plugins. See the .vinagre-plugin file for obtaining the \"Location\" of a "
+#~ "given plugin."
 #~ msgstr ""
-#~ "Liste af aktive udvidelsesmoduler. Den indeholder “Location” for de aktive "
-#~ "moduler. Se filen .vinagre-plugin for hvordan man får fat i “Location” for "
-#~ "et givent modul."
+#~ "Liste af aktive udvidelsesmoduler. Den indeholder “Location” for de "
+#~ "aktive moduler. Se filen .vinagre-plugin for hvordan man får fat i "
+#~ "“Location” for et givent modul."
 
 #~ msgid "Interface"
 #~ msgstr "Grænseflade"
@@ -1414,8 +1416,8 @@ msgstr "Fejl under oprettelse af filen %s: %s"
 #~ msgstr "Indstillinger"
 
 #~ msgid ""
-#~ "This option enables menu accelerators and keyboard shortcuts. For more info "
-#~ "on why you may want to disable them, check the documentation."
+#~ "This option enables menu accelerators and keyboard shortcuts. For more "
+#~ "info on why you may want to disable them, check the documentation."
 #~ msgstr ""
 #~ "Denne indstilling aktiverer menugenveje og tastaturgenveje. Yderligere "
 #~ "information om hvorfor du måske vil deaktivere dem kan findes i "
@@ -1458,8 +1460,8 @@ msgstr "Fejl under oprettelse af filen %s: %s"
 #~ msgstr "Spice-understøttelse"
 
 #~ msgid ""
-#~ "Changes Instant Messenger status to busy when window toggles to fullscreen "
-#~ "(works with Empathy)"
+#~ "Changes Instant Messenger status to busy when window toggles to "
+#~ "fullscreen (works with Empathy)"
 #~ msgstr ""
 #~ "Ændrer Instant Messenger-status til Optaget når vinduet skifter til "
 #~ "fuldskærm (virker med Empathy)"
@@ -1469,8 +1471,8 @@ msgstr "Fejl under oprettelse af filen %s: %s"
 
 #~ msgid "Could not communicate to Telepathy. IM Status plugin will not work."
 #~ msgstr ""
-#~ "Kunne ikke kommunikere med Telepathy. Udvidelsesmodulet IM-status vil ikke "
-#~ "virke."
+#~ "Kunne ikke kommunikere med Telepathy. Udvidelsesmodulet IM-status vil "
+#~ "ikke virke."
 
 #~ msgid "Could not run vinagre:"
 #~ msgstr "Kunne ikke køre vinagre:"
@@ -1562,30 +1564,30 @@ msgstr "Fejl under oprettelse af filen %s: %s"
 #~ "fejlmeddelelsen:"
 
 #~ msgid ""
-#~ "Vinagre is free software; you can redistribute it and/or modify it under the "
-#~ "terms of the GNU General Public License as published by the Free Software "
-#~ "Foundation; either version 2 of the License, or (at your option) any later "
-#~ "version."
+#~ "Vinagre is free software; you can redistribute it and/or modify it under "
+#~ "the terms of the GNU General Public License as published by the Free "
+#~ "Software Foundation; either version 2 of the License, or (at your option) "
+#~ "any later version."
 #~ msgstr ""
-#~ "Vinagre er fri software. Du kan redistribuere og/eller modificere det under "
-#~ "de betingelserne som er angivet i GNU General Public License, som er udgivet "
-#~ "af Free Software Foundation. Enten version 2 af licensen eller (efter eget "
-#~ "valg) enhver senere version."
+#~ "Vinagre er fri software. Du kan redistribuere og/eller modificere det "
+#~ "under de betingelserne som er angivet i GNU General Public License, som "
+#~ "er udgivet af Free Software Foundation. Enten version 2 af licensen eller "
+#~ "(efter eget valg) enhver senere version."
 
 #~ msgid ""
-#~ "Vinagre is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
+#~ "Vinagre is distributed in the hope that it will be useful, but WITHOUT "
+#~ "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+#~ "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+#~ "more details."
 #~ msgstr ""
 #~ "Vinagre distribueres i håb om at det vil vise sig nyttigt, men UDEN NOGEN "
-#~ "FORM FOR GARANTI, uden selv de underforståede garantier omkring SALGBARHED "
-#~ "eller EGNETHED TIL ET BESTEMT FORMÅL. Yderligere detaljer kan læses i GNU "
-#~ "General Public License."
+#~ "FORM FOR GARANTI, uden selv de underforståede garantier omkring "
+#~ "SALGBARHED eller EGNETHED TIL ET BESTEMT FORMÅL. Yderligere detaljer kan "
+#~ "læses i GNU General Public License."
 
 #~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along with "
-#~ "this program. If not, see <http://www.gnu.org/licenses/>."
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program. If not, see <http://www.gnu.org/licenses/>."
 #~ msgstr ""
 #~ "Du skulle have modtaget en kopi af GNU General Public License sammen med "
 #~ "dette program. Hvis ikke, så se <http://www.gnu.org/licenses/>."
@@ -1598,16 +1600,16 @@ msgstr "Fejl under oprettelse af filen %s: %s"
 
 #~ msgid ""
 #~ "Vinagre comes with menu accelerators and keyboard shortcuts disabled by "
-#~ "default. The reason is to avoid the keys to be intercepted by the program, "
-#~ "and allow them to be sent to the remote machine.\n"
+#~ "default. The reason is to avoid the keys to be intercepted by the "
+#~ "program, and allow them to be sent to the remote machine.\n"
 #~ "\n"
 #~ "You can change this behavior through the preferences dialog. For more "
 #~ "information, check the documentation.\n"
 #~ "\n"
 #~ "This message will appear only once."
 #~ msgstr ""
-#~ "I Vinagre er menugenveje og tastaturgenveje som standard deaktiveret. Dette "
-#~ "forhindrer, at programmet indfanger tastetryk før de sendes til "
+#~ "I Vinagre er menugenveje og tastaturgenveje som standard deaktiveret. "
+#~ "Dette forhindrer, at programmet indfanger tastetryk før de sendes til "
 #~ "fjerncomputeren.\n"
 #~ "\n"
 #~ "Du kan ændre denne opførsel i indstillingsvinduet. Yderligere information "
@@ -1619,7 +1621,8 @@ msgstr "Fejl under oprettelse af filen %s: %s"
 #~ msgstr "Håndteringsinstans for “vnc://”-URL'er"
 
 #~ msgid "Incoming VNC connection arrived but there is no active window"
-#~ msgstr "Indgående VNC-forbindelse nåede frem, men der er intet aktivt vindue"
+#~ msgstr ""
+#~ "Indgående VNC-forbindelse nåede frem, men der er intet aktivt vindue"
 
 #~ msgid "A menu to quickly access remote machines"
 #~ msgstr "En menu til hurtigt at tilgå fjerne computere"
@@ -1630,7 +1633,8 @@ msgstr "Fejl under oprettelse af filen %s: %s"
 #~ msgid ""
 #~ "Run 'vinagre --help' to see a full list of available command line options"
 #~ msgstr ""
-#~ "Kør “vinagre --help” for at se en fuldstændig liste af kommandolinjetilvalg"
+#~ "Kør “vinagre --help” for at se en fuldstændig liste af "
+#~ "kommandolinjetilvalg"
 
 #~ msgid "Plugin %s has already registered a browser for service %s."
 #~ msgstr ""
@@ -1662,5 +1666,3 @@ msgstr "Fejl under oprettelse af filen %s: %s"
 
 #~ msgid "All fields above are mandatory"
 #~ msgstr "Alle ovenstående felter er påkrævet"
-
-
