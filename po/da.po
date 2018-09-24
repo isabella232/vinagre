@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
 "POT-Creation-Date: 2018-09-20 09:17+0000\n"
-"PO-Revision-Date: 2018-09-24 00:00+0200\n"
+"PO-Revision-Date: 2018-09-24 21:07+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -43,9 +43,7 @@ msgstr "Om vi skal vise faneblade selv når der kun er én aktiv forbindelse"
 msgid ""
 "Set to “true” to always show the tabs. Set to “false” to only show the tabs "
 "when there is more than one active connection."
-msgstr ""
-"Sæt til “true” for altid at vise fanebladende. Sæt til “false” for kun at "
-"vise fanebladende, når der er mere end én aktiv forbindelse."
+msgstr "Sæt til “true” for altid at vise fanebladene. Sæt til “false” for kun at vise fanebladene, når der er mere end én aktiv forbindelse."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:5
 msgid "Whether we should show the menu accelerators (shortcut keys)"
@@ -76,9 +74,7 @@ msgstr "Om vi skal starte programmet, der lytter efter omvendte forbindelser"
 #: ../data/org.gnome.Vinagre.gschema.xml.h:10
 msgid ""
 "Set to “true” to always start the program listening for reverse connections."
-msgstr ""
-"Sæt til “true” for altid at starte programmet, der lytter efter omvendte "
-"forbindelser."
+msgstr "Sæt til “true” for at lytte efter omvendte forbindelser så snart programmet starter."
 
 #. Both taken from the desktop file.
 #: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
