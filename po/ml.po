@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre.master.ml\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2018-09-20 09:17+0000\n"
-"PO-Revision-Date: 2018-10-18 11:40+0530\n"
+"POT-Creation-Date: 2018-10-14 16:58+0000\n"
+"PO-Revision-Date: 2018-10-27 17:31+0530\n"
 "Last-Translator: Ani Peter <apeter@redhat.com>\n"
 "Language-Team: Malayalam <discuss@lists.smc.org.in>\n"
 "Language: ml\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
@@ -1181,7 +1181,7 @@ msgstr "ഒരു .വിഎന്‍സി  ഫയല്‍ തുറക്ക�
 #. Translators: "Reverse" here is an adjective, not a verb.
 #: ../vinagre/vinagre-ui.h:45
 msgid "_Reverse Connections…"
-msgstr "_തിരിച്ചുള്ള കണക്ഷനുകള്‍..."
+msgstr "‌(_R)തിരിച്ചുള്ള കണക്ഷനുകള്‍..."
 
 #: ../vinagre/vinagre-ui.h:45
 msgid "Configure incoming VNC connections"
