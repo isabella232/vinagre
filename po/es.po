@@ -3,21 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2015.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2015, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2018-09-20 09:17+0000\n"
-"PO-Revision-Date: 2015-11-24 09:40+0100\n"
+"POT-Creation-Date: 2018-10-31 15:06+0000\n"
+"PO-Revision-Date: 2018-11-28 12:14+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
+"Language-Team: es <gnome-es-list@gnome.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
@@ -43,7 +43,6 @@ msgstr ""
 "activa"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:4
-#, fuzzy
 #| msgid ""
 #| "Set to \"true\" to always show the tabs. Set to \"false\" to only show "
 #| "the tabs when there is more than one active connection."
@@ -60,7 +59,6 @@ msgstr ""
 "Indica si se deben mostrar los aceleradores de menú (atajos de teclado)"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:6
-#, fuzzy
 #| msgid ""
 #| "Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable "
 #| "them. Note that if they are enabled, those keys will be intercepted by "
@@ -90,7 +88,6 @@ msgstr ""
 "Indica si se debe iniciar el programa escuchando para conexiones inversas"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:10
-#, fuzzy
 #| msgid ""
 #| "Set to \"true\" to always start the program listening for reverse "
 #| "connections."
@@ -435,7 +432,7 @@ msgstr "Opciones de SSH"
 #. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
 #: ../plugins/vnc/vinagre-vnc-connection.c:317
 #: ../plugins/vnc/vinagre-vnc-plugin.c:201
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgid ""
@@ -474,14 +471,12 @@ msgstr "No se pudo analizar el archivo."
 
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:155
-#, fuzzy
 #| msgid "The file is not a VNC one: Missing the group \"Connection\"."
 msgid "The file is not a VNC one: Missing the group “Connection”."
 msgstr "El archivo no es de VNC: falta el grupo «Connection»."
 
 #. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:162
-#, fuzzy
 #| msgid "The file is not a VNC one: Missing the key \"Host\"."
 msgid "The file is not a VNC one: Missing the key “Host”."
 msgstr "El archivo no es de VNC: falta la clave «Host»."
@@ -683,17 +678,15 @@ msgstr "No se pudo encontrar un puerto TCP libre"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
-#, fuzzy
 #| msgid "The file is not a Spice one: Missing the group \"connection\"."
 msgid "The file is not a Spice one: Missing the group “connection”."
-msgstr "El archivo no es de Spice: Falta el grupo «connection»."
+msgstr "El archivo no es de Spice: falta el grupo «connection»."
 
 #. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:115
-#, fuzzy
 #| msgid "The file is not a Spice one: Missing the key \"host\"."
 msgid "The file is not a Spice one: Missing the key “host”."
-msgstr "El archivo no es de Spice: Falta la clave «host»."
+msgstr "El archivo no es de Spice: falta la clave «host»."
 
 #: ../plugins/spice/vinagre-spice-plugin.c:174
 msgid "SPICE"
@@ -755,27 +748,27 @@ msgstr "Error desconocido"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
-msgstr "Error al inicializar los marcadores: El archivo parece estar vacío"
+msgstr "Error al inicializar los marcadores: el archivo parece estar vacío"
 
 #: ../vinagre/vinagre-bookmarks.c:380
 msgid ""
 "Error while initializing bookmarks: The file is not a vinagre bookmarks file"
 msgstr ""
-"Error al inicializar los marcadores: El archivo no es un archivo de "
+"Error al inicializar los marcadores: el archivo no es un archivo de "
 "marcadores de Vinagre"
 
 #: ../vinagre/vinagre-bookmarks.c:453 ../vinagre/vinagre-bookmarks.c:460
 msgid "Error while saving bookmarks: Failed to create the XML structure"
-msgstr "Error al guardar los marcadores: Falló al crear la estructura XML"
+msgstr "Error al guardar los marcadores: falló al crear la estructura XML"
 
 #: ../vinagre/vinagre-bookmarks.c:467 ../vinagre/vinagre-bookmarks.c:474
 msgid "Error while saving bookmarks: Failed to initialize the XML structure"
 msgstr ""
-"Error al guardar los marcadores: Falló al inicializar la estructura XML"
+"Error al guardar los marcadores: falló al inicializar la estructura XML"
 
 #: ../vinagre/vinagre-bookmarks.c:483
 msgid "Error while saving bookmarks: Failed to finalize the XML structure"
-msgstr "Error al guardar los marcadores: Falló al finalizar la estructura XML"
+msgstr "Error al guardar los marcadores: falló al finalizar la estructura XML"
 
 #: ../vinagre/vinagre-bookmarks.c:492
 #, c-format
@@ -785,16 +778,16 @@ msgstr "Error al guardar los marcadores: %s"
 #: ../vinagre/vinagre-bookmarks-migration.c:95
 #: ../vinagre/vinagre-bookmarks-migration.c:102
 msgid "Error while migrating bookmarks: Failed to create the XML structure"
-msgstr "Error al migrar los marcadores: Falló al crear la estructura XML"
+msgstr "Error al migrar los marcadores: falló al crear la estructura XML"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:109
 #: ../vinagre/vinagre-bookmarks-migration.c:116
 msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
-msgstr "Error al migrar los marcadores: Falló al inicializar la estructura XML"
+msgstr "Error al migrar los marcadores: falló al inicializar la estructura XML"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:125
 msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
-msgstr "Error al migrar los marcadores: Falló al finalizar la estructura XML"
+msgstr "Error al migrar los marcadores: falló al finalizar la estructura XML"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:135
 #: ../vinagre/vinagre-bookmarks-migration.c:216
@@ -805,7 +798,7 @@ msgstr "Error al migrar los marcadores: %s"
 #: ../vinagre/vinagre-bookmarks-migration.c:164
 msgid "Error while migrating bookmarks: VNC plugin is not activated"
 msgstr ""
-"Error al migrar los marcadores: El complemento para VNC no está activado"
+"Error al migrar los marcadores: el complemento para VNC no está activado"
 
 #: ../vinagre/vinagre-bookmarks-migration.c:216
 msgid "Failed to create the directory"
@@ -842,7 +835,7 @@ msgid "Invalid name for this folder"
 msgstr "Nombre no válido para esta carpeta"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:88 ../vinagre/vinagre-bookmarks-ui.c:200
-#, fuzzy, c-format
+#, c-format
 #| msgid ""
 #| "The name \"%s\" is already used in this folder. Please use a different "
 #| "name."
@@ -947,10 +940,9 @@ msgstr "Ninguno de los complementos reconoció el archivo."
 
 #. Setup command line options
 #: ../vinagre/vinagre-main.c:91
-#, fuzzy
 #| msgid "- Remote Desktop Viewer"
 msgid "— Remote Desktop Viewer"
-msgstr "- Visor de escritorios remotos"
+msgstr "— Visor de escritorios remotos"
 
 #: ../vinagre/vinagre-mdns.c:172
 #, c-format
@@ -1146,7 +1138,6 @@ msgid "Login dialog canceled"
 msgstr "Se canceló el diálogo de la contraseña"
 
 #: ../vinagre/vinagre-ssh.c:586
-#, fuzzy
 #| msgid "Can't send host identity confirmation"
 msgid "Can’t send host identity confirmation"
 msgstr "No se puede enviar la confirmación de identidad del equipo"
