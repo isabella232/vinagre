@@ -4,15 +4,15 @@
 #
 #
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2008, 2009, 2010, 2011.
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2012, 2013, 2014, 2015, 2016.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2012, 2013, 2014, 2015, 2016, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-23 16:13+0100\n"
-"PO-Revision-Date: 2016-03-23 16:13+0100\n"
-"Last-Translator: dooteo <dooteo@zundan.com>\n"
-"Language-Team: Basque <librezale@librezale.org>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
+"POT-Creation-Date: 2018-09-20 09:17+0000\n"
+"PO-Revision-Date: 2018-12-02 12:48+0100\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
+"Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Ostalari batekin konektatzean, bezeroak zerbitzariari esan dezaioke beste "
 "bezeroak konektatuta uzteko, edo dauden konexioak jaregiteko. Ezarri balioa "
-"\"true\" (egia) gisa mahaigaina beste bezeroekin partekatzeko."
+"“true“ (egia) gisa mahaigaina beste bezeroekin partekatzeko."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:3
 msgid ""
@@ -41,12 +41,15 @@ msgstr ""
 "Fitxak erakutsi behar diren ala ez (nahiz eta konexio aktibo bakarra egon)"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:4
+#| msgid ""
+#| "Set to \"true\" to always show the tabs. Set to \"false\" to only show "
+#| "the tabs when there is more than one active connection."
 msgid ""
-"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
-"tabs when there is more than one active connection."
+"Set to “true” to always show the tabs. Set to “false” to only show the tabs "
+"when there is more than one active connection."
 msgstr ""
-"Ezarri \"true\" (egia) gisa fitxak beti erakusteko. Ezarri \"false"
-"\" (faltsua) gisa konexio aktibo bat baino gehiago daudenean soilik fitxak "
+"Ezarri “true“ (egia) gisa fitxak beti erakusteko. Ezarri “false“ (faltsua) "
+"gisa konexio aktibo bat baino gehiago daudenean soilik fitxak "
 "erakusteko."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:5
@@ -54,13 +57,17 @@ msgid "Whether we should show the menu accelerators (shortcut keys)"
 msgstr "Menuaren bizkortzaileak (laster-teklak) erakutsi behar diren ala ez"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:6
+#| msgid ""
+#| "Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable "
+#| "them. Note that if they are enabled, those keys will be intercepted by "
+#| "the menu and will not be sent to the remote host."
 msgid ""
-"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
-"Note that if they are enabled, those keys will be intercepted by the menu "
-"and will not be sent to the remote host."
+"Set to “false” to disable menu shortcuts. Set to “true” to enable them. Note "
+"that if they are enabled, those keys will be intercepted by the menu and "
+"will not be sent to the remote host."
 msgstr ""
-"Ezarri \"false\" (faltsua) gisa menuaren lasterbideak desgaitzeko. Ezarri "
-"\"true\" (egia) gisa gaitzeko. Jakin ezazu gaituta badaude, menuak jasoko "
+"Ezarri “false“ (faltsua) gisa menuaren lasterbideak desgaitzeko. Ezarri "
+"“true“ (egia) gisa gaitzeko. Jakin ezazu gaituta badaude, menuak jasoko "
 "dituela tekla horiek eta ez direla urruneko ostalarira bidaliko."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:7
@@ -81,11 +88,13 @@ msgstr ""
 "adierazten du."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:10
+#| msgid ""
+#| "Set to \"true\" to always start the program listening for reverse "
+#| "connections."
 msgid ""
-"Set to \"true\" to always start the program listening for reverse "
-"connections."
+"Set to “true” to always start the program listening for reverse connections."
 msgstr ""
-"Ezarri \"true\" (egia) gisa programa beti alderantzizko konexioak entzunez "
+"Ezarri “true“ (egia) gisa programa beti alderantzizko konexioak entzunez "
 "abiarazteko."
 
 #. Both taken from the desktop file.
@@ -243,8 +252,8 @@ msgstr ""
 msgid "Fingerprint:"
 msgstr "Hatz-marka:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:946
-#: ../plugins/rdp/vinagre-rdp-tab.c:987
+#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
+#: ../plugins/rdp/vinagre-rdp-tab.c:995
 msgid "Connect"
 msgstr "Konektatu"
 
@@ -379,27 +388,27 @@ msgid "Port:"
 msgstr "Ataka:"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:473
+#: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "S_caling"
 msgstr "E_skalatzea"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
-#: ../plugins/spice/vinagre-spice-tab.c:474
+#: ../plugins/spice/vinagre-spice-tab.c:481
 msgid "Fit the remote screen into the current window size"
 msgstr "Doitu urruneko pantaila uneko leihoaren tamainara"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
-#: ../plugins/spice/vinagre-spice-tab.c:591
-#: ../plugins/spice/vinagre-spice-tab.c:592
+#: ../plugins/spice/vinagre-spice-tab.c:598
+#: ../plugins/spice/vinagre-spice-tab.c:599
 msgid "Scaling"
 msgstr "Eskalatzea"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:945 ../plugins/rdp/vinagre-rdp-tab.c:986
+#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
 msgid "_Cancel"
 msgstr "_Utzi"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1221 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Errorea ostalariarekin konektatzean"
@@ -421,10 +430,12 @@ msgstr "SSH aukerak"
 #: ../plugins/vnc/vinagre-vnc-connection.c:317
 #: ../plugins/vnc/vinagre-vnc-plugin.c:201
 #, c-format
+#| msgid ""
+#| "Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgid ""
-"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+"Bad value for “shared” flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgstr ""
-"Okerreko balioa 'partekatua' banderarentzako: %d. 0 edo 1 izan behar duela "
+"Okerreko balioa “partekatua“ banderarentzako: %d. 0 edo 1 izan behar duela "
 "suposatzen da. Ez ikusi egiten."
 
 #. Translators: this is a command line option (run vinagre --help)
@@ -457,13 +468,15 @@ msgstr "Ezin izan da fitxategia analizatu."
 
 #. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:155
-msgid "The file is not a VNC one: Missing the group \"Connection\"."
-msgstr "Fitxategia ez da VNC bat. \"Connection\" (konexioa) taldea falta zaio."
+#| msgid "The file is not a VNC one: Missing the group \"Connection\"."
+msgid "The file is not a VNC one: Missing the group “Connection”."
+msgstr "Fitxategia ez da VNC bat. “Connection“ (konexioa) taldea falta zaio."
 
 #. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:162
-msgid "The file is not a VNC one: Missing the key \"Host\"."
-msgstr "Fitxategia ez da VNC bat. \"Host\" (ostalaria) gakoa falta zaio."
+#| msgid "The file is not a VNC one: Missing the key \"Host\"."
+msgid "The file is not a VNC one: Missing the key “Host”."
+msgstr "Fitxategia ez da VNC bat. “Host“ (ostalaria) gakoa falta zaio."
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:268
 msgid "VNC Options"
@@ -473,7 +486,7 @@ msgstr "VNC aukerak"
 #. View only check button - not fully ready on spice-gtk side
 #: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
 #: ../plugins/spice/vinagre-spice-plugin.c:237
-#: ../plugins/spice/vinagre-spice-tab.c:514
+#: ../plugins/spice/vinagre-spice-tab.c:521
 msgid "_View only"
 msgstr "_Ikusteko soilik"
 
@@ -522,6 +535,7 @@ msgstr "Kolore oso baxua (3 bit)"
 msgid "Use h_ost"
 msgstr "Erabili _ostalaria"
 
+#. Translators: This is the tooltip of the SSH tunneling entry
 #: ../plugins/vnc/vinagre-vnc-plugin.c:352
 #: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
@@ -598,7 +612,7 @@ msgid "Keep the screen aspect ratio when using scaling"
 msgstr "Mantendu pantailaren aspektu-erlazioa eskalatzean"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:631
-#: ../plugins/spice/vinagre-spice-tab.c:515
+#: ../plugins/spice/vinagre-spice-tab.c:522
 msgid "Do not send mouse and keyboard events"
 msgstr "Ez bidali sagu eta teklatuaren gertaerarik"
 
@@ -619,25 +633,25 @@ msgid "Requests an update of the screen"
 msgstr "Pantaila eguneratzea eskatzen du"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
-#: ../plugins/spice/vinagre-spice-tab.c:538
+#: ../plugins/spice/vinagre-spice-tab.c:545
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Bidali Ktrl+Alt+Ezab"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
-#: ../plugins/spice/vinagre-spice-tab.c:539
-#: ../plugins/spice/vinagre-spice-tab.c:612
+#: ../plugins/spice/vinagre-spice-tab.c:546
+#: ../plugins/spice/vinagre-spice-tab.c:619
 msgid "Send Ctrl+Alt+Del to the remote desktop"
 msgstr "Bidali Ktrl+Alt+Ezab urruneko mahaigainera"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
-#: ../plugins/spice/vinagre-spice-tab.c:601
-#: ../plugins/spice/vinagre-spice-tab.c:602
+#: ../plugins/spice/vinagre-spice-tab.c:608
+#: ../plugins/spice/vinagre-spice-tab.c:609
 msgid "Read only"
 msgstr "Irakurtzeko soilik"
 
 #. Send Ctrl-alt-del
 #: ../plugins/vnc/vinagre-vnc-tab.c:754
-#: ../plugins/spice/vinagre-spice-tab.c:610
+#: ../plugins/spice/vinagre-spice-tab.c:617
 msgid "Send Ctrl-Alt-Del"
 msgstr "Bidali Ktrl+Alt+Ezab"
 
@@ -661,14 +675,15 @@ msgstr "Ezin da TCP ataka librerik aurkitu"
 
 #. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:108
-msgid "The file is not a Spice one: Missing the group \"connection\"."
-msgstr ""
-"Fitxategia ez da Spice bat. \"connection\" (konexioa) taldea falta zaio."
+#| msgid "The file is not a Spice one: Missing the group \"connection\"."
+msgid "The file is not a Spice one: Missing the group “connection”."
+msgstr "Fitxategia ez da Spice bat. “connection“ (konexioa) taldea falta zaio."
 
 #. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
 #: ../plugins/spice/vinagre-spice-plugin.c:115
-msgid "The file is not a Spice one: Missing the key \"host\"."
-msgstr "Fitxategia ez da Spice bat. \"host\" (ostalaria) gakoa falta zaio."
+#| msgid "The file is not a Spice one: Missing the key \"host\"."
+msgid "The file is not a Spice one: Missing the key “host”."
+msgstr "Fitxategia ez da Spice bat. “host“ (ostalaria) gakoa falta zaio."
 
 #: ../plugins/spice/vinagre-spice-plugin.c:174
 msgid "SPICE"
@@ -685,13 +700,13 @@ msgstr "SPICEren aukerak"
 
 #. Resize guest check button
 #: ../plugins/spice/vinagre-spice-plugin.c:245
-#: ../plugins/spice/vinagre-spice-tab.c:487
+#: ../plugins/spice/vinagre-spice-tab.c:494
 msgid "_Resize guest"
 msgstr "_Aldatu gonbidatuaren tamaina"
 
 #. Clipboard sharing check button
 #: ../plugins/spice/vinagre-spice-plugin.c:253
-#: ../plugins/spice/vinagre-spice-tab.c:500
+#: ../plugins/spice/vinagre-spice-tab.c:507
 msgid "_Share clipboard"
 msgstr "_Partekatu arbela"
 
@@ -705,11 +720,11 @@ msgstr "Aukerakoa"
 msgid "Spice Files"
 msgstr "Spice fitxategiak"
 
-#: ../plugins/spice/vinagre-spice-tab.c:488
+#: ../plugins/spice/vinagre-spice-tab.c:495
 msgid "Resize the screen guest to best fit"
 msgstr "Aldatu gonbidatuaren pantailaren tamaina egokien doitzeko"
 
-#: ../plugins/spice/vinagre-spice-tab.c:501
+#: ../plugins/spice/vinagre-spice-tab.c:508
 msgid "Automatically share clipboard between client and guest"
 msgstr "Partekatu automatikoki arbela bezero eta gonbidatuaren artean"
 
@@ -817,10 +832,13 @@ msgstr "Izen baliogabea karpeta honentzako"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:88 ../vinagre/vinagre-bookmarks-ui.c:200
 #, c-format
+#| msgid ""
+#| "The name \"%s\" is already used in this folder. Please use a different "
+#| "name."
 msgid ""
-"The name \"%s\" is already used in this folder. Please use a different name."
+"The name “%s” is already used in this folder. Please use a different name."
 msgstr ""
-"Karpeta honetan \"%s\" izena erabilita dago jadanik. Erabili bestelako izen "
+"Karpeta honetan “%s“ izena erabilita dago jadanik. Erabili bestelako izen "
 "bat."
 
 #: ../vinagre/vinagre-bookmarks-ui.c:89 ../vinagre/vinagre-bookmarks-ui.c:190
@@ -918,8 +936,9 @@ msgstr "Plugin bat berak ere ez du fitxategia ezagutzen."
 
 #. Setup command line options
 #: ../vinagre/vinagre-main.c:91
-msgid "- Remote Desktop Viewer"
-msgstr "- Urruneko mahaigainen ikustailea"
+#| msgid "- Remote Desktop Viewer"
+msgid "— Remote Desktop Viewer"
+msgstr "— Urruneko mahaigainen ikustailea"
 
 #: ../vinagre/vinagre-mdns.c:172
 #, c-format
@@ -1114,7 +1133,8 @@ msgid "Login dialog canceled"
 msgstr "Saio-hasierako elkarrizketa-koadroa bertan behera utzita"
 
 #: ../vinagre/vinagre-ssh.c:586
-msgid "Can't send host identity confirmation"
+#| msgid "Can't send host identity confirmation"
+msgid "Can’t send host identity confirmation"
 msgstr "Ezin da ostalariaren identitatearen berrespenik bidali"
 
 #. Login succeed, save password in keyring
@@ -1177,6 +1197,7 @@ msgstr "Ezin izan da konexioaren pantaila-argazkia lortu."
 msgid "Save Screenshot"
 msgstr "Gorde pantaila-argazkia"
 
+#. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. First %s will be replaced by the friendly name of the connection and the second %s by the current date and time, for instance: Screenshot of wendell@wendell-laptop at 2011-10-29 12:34:11, or Screenshot of 200.100.100.123 at 2011-10-29 18:27:11
 #: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
