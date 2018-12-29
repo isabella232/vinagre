@@ -15,15 +15,15 @@ msgstr ""
 "Project-Id-Version: vinagre HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
 "POT-Creation-Date: 2018-09-20 09:17+0000\n"
-"PO-Revision-Date: 2018-10-05 19:24+0200\n"
+"PO-Revision-Date: 2018-12-15 17:41+0100\n"
 "Last-Translator: Charles Monzat <charles.monzat@numericable.fr>\n"
-"Language-Team: français <gnomefr@traduc.org>\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Gtranslator 3.30.0\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -1225,13 +1225,13 @@ msgstr "Impossible d’effectuer une capture d’écran de la connexion."
 
 #: ../vinagre/vinagre-tab.c:966
 msgid "Save Screenshot"
-msgstr "Enregistrer la copie d’écran"
+msgstr "Enregistrer la capture d’écran"
 
 #. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. First %s will be replaced by the friendly name of the connection and the second %s by the current date and time, for instance: Screenshot of wendell@wendell-laptop at 2011-10-29 12:34:11, or Screenshot of 200.100.100.123 at 2011-10-29 18:27:11
 #: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
-msgstr "Copie d’écran de %s le %s"
+msgstr "Capture d’écran de %s le %s"
 
 #: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
@@ -1375,11 +1375,11 @@ msgstr "Ajoute la connexion actuelle aux signets"
 #. Remote menu
 #: ../vinagre/vinagre-ui.h:88
 msgid "_Take Screenshot"
-msgstr "_Prendre une copie d’écran"
+msgstr "_Prendre une capture d’écran"
 
 #: ../vinagre/vinagre-ui.h:89
 msgid "Take a screenshot of the current remote desktop"
-msgstr "Prend une copie d’écran du bureau distant actif"
+msgstr "Prend une capture d’écran du bureau distant actif"
 
 #: ../vinagre/vinagre-ui.h:93
 msgid "View the current remote desktop in fullscreen mode"
