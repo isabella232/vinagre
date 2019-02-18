@@ -8,20 +8,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2018-09-20 09:17+0000\n"
-"PO-Revision-Date: 2018-09-27 17:50+0300\n"
+"POT-Creation-Date: 2019-02-18 15:13+0000\n"
+"PO-Revision-Date: 2019-02-18 20:51+0100\n"
 "Last-Translator: Florentina Mușat <florentina.musat.28 [at] gmail [dot] "
 "com>\n"
-"Language-Team: Gnome Romanian Translation Team\n"
+"Language-Team: Gnome Romanian Translation Team <gnomero-list@lists."
+"sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Launchpad-Export-Date: 2010-09-24 14:16+0000\n"
 "X-Project-Style: gnome\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -142,7 +144,7 @@ msgstr "_Autentifică"
 msgid "Authentication is required"
 msgstr "Se cere autentificare"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:124
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
@@ -220,25 +222,35 @@ msgstr ""
 
 #. Subject of the certificate.
 #: ../data/vinagre.ui.h:27
-msgid "Subject:"
-msgstr "Subiect:"
+msgid "New subject:"
+msgstr "Subiect nou:"
 
 #. Issuer of the certificate.
 #: ../data/vinagre.ui.h:29
-msgid "Issuer:"
-msgstr "Emitent:"
+msgid "New issuer:"
+msgstr "Emitent nou:"
 
 #. Fingerprint of the new certificate.
 #: ../data/vinagre.ui.h:31
 msgid "New fingerprint:"
 msgstr "Amprentă nouă:"
 
-#. Fingerprint of the old certificate.
+#. Subject of the old certificate.
 #: ../data/vinagre.ui.h:33
+msgid "Old subject:"
+msgstr "Subiect vechi:"
+
+#. Issuer of the old certificate.
+#: ../data/vinagre.ui.h:35
+msgid "Old issuer:"
+msgstr "Emitent vechi:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:37
 msgid "Old fingerprint:"
 msgstr "Amprentă veche:"
 
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:38
 msgid ""
 "The below certificate could not be verified.\n"
 "Do you trust the certificate?"
@@ -246,49 +258,59 @@ msgstr ""
 "Certificatul de mai jos nu a putut fi verificat.\n"
 "Aveți încredere în certificat?"
 
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:41
+msgid "Subject:"
+msgstr "Subiect:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:43
+msgid "Issuer:"
+msgstr "Emitent:"
+
 #. Fingerprint of the certificate.
-#: ../data/vinagre.ui.h:37
+#: ../data/vinagre.ui.h:45
 msgid "Fingerprint:"
 msgstr "Amprentă:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
-#: ../plugins/rdp/vinagre-rdp-tab.c:995
+#: ../data/vinagre.ui.h:46 ../plugins/rdp/vinagre-rdp-tab.c:915
+#: ../plugins/rdp/vinagre-rdp-tab.c:957
 msgid "Connect"
 msgstr "Conectează"
 
-#: ../data/vinagre.ui.h:39
+#: ../data/vinagre.ui.h:47
 msgid "Choose a remote desktop to connect to"
 msgstr "Alegeți un desktop la distanță"
 
-#: ../data/vinagre.ui.h:40
+#: ../data/vinagre.ui.h:48
 msgid "_Protocol:"
 msgstr "_Protocol:"
 
-#: ../data/vinagre.ui.h:41
+#: ../data/vinagre.ui.h:49
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Selectați un protocol pentru această conexiune"
 
-#: ../data/vinagre.ui.h:42
+#: ../data/vinagre.ui.h:50
 msgid "Search for remote hosts on the network"
 msgstr "Caută gazde la distanță în rețea"
 
-#: ../data/vinagre.ui.h:43
+#: ../data/vinagre.ui.h:51
 msgid "Connection options"
 msgstr "Opțiuni conexiune"
 
-#: ../data/vinagre.ui.h:44
+#: ../data/vinagre.ui.h:52
 msgid "_Fullscreen"
 msgstr "P_e tot ecranul"
 
-#: ../data/vinagre.ui.h:45
+#: ../data/vinagre.ui.h:53
 msgid "Enable fullscreen mode for this connection"
 msgstr "Fă o captură de ecran pentru conexiunea curentă"
 
-#: ../data/vinagre.ui.h:46
+#: ../data/vinagre.ui.h:54
 msgid "Reverse Connections"
 msgstr "Conexiuni inverse"
 
-#: ../data/vinagre.ui.h:47
+#: ../data/vinagre.ui.h:55
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -299,20 +321,20 @@ msgstr ""
 "acest calculator. Pentru mai multe informații consultați documentele de "
 "ajutor."
 
-#: ../data/vinagre.ui.h:48
+#: ../data/vinagre.ui.h:56
 msgid "_Enable Reverse Connections"
 msgstr "Activ_ează conexiunile inverse"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:50
+#: ../data/vinagre.ui.h:58
 msgid "_Always Enabled"
 msgstr "Întotdeauna _activat"
 
-#: ../data/vinagre.ui.h:51
+#: ../data/vinagre.ui.h:59
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "Această mașină poate fi contactată prin următoarele adrese IP:"
 
-#: ../data/vinagre.ui.h:52
+#: ../data/vinagre.ui.h:60
 msgid "Connectivity"
 msgstr "Conectivitate"
 
@@ -381,34 +403,34 @@ msgstr "Î_nălțime:"
 msgid "Set height of the remote desktop"
 msgstr "Setați înălțimea desktopului la distanță"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:125 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/rdp/vinagre-rdp-tab.c:288 ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "S_caling"
 msgstr "S_calare"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/rdp/vinagre-rdp-tab.c:289 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:481
 msgid "Fit the remote screen into the current window size"
 msgstr "Potrivește ecranul de la distanță în dimensiunea curentă a ferestrei"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
+#: ../plugins/rdp/vinagre-rdp-tab.c:362 ../plugins/rdp/vinagre-rdp-tab.c:363
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:598
 #: ../plugins/spice/vinagre-spice-tab.c:599
 msgid "Scaling"
 msgstr "Scalare"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
+#: ../plugins/rdp/vinagre-rdp-tab.c:914 ../plugins/rdp/vinagre-rdp-tab.c:956
 msgid "_Cancel"
 msgstr "_Anulează"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1145 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Eroare la conectarea la gazdă."
