@@ -1,15 +1,15 @@
 # Swedish translation for vinagre.
-# Copyright © 2007-2012, 2014, 2015, 2018 Free Software Foundation, Inc.
+# Copyright © 2007-2012, 2014, 2015, 2018, 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the vinagre package.
 # Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009, 2010, 2011, 2012.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2014, 2015, 2018.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2014, 2015, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2018-09-20 09:17+0000\n"
-"PO-Revision-Date: 2018-09-21 22:28+0200\n"
+"POT-Creation-Date: 2019-02-18 15:13+0000\n"
+"PO-Revision-Date: 2019-02-18 17:34+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -131,7 +131,7 @@ msgstr "_Autentisera"
 msgid "Authentication is required"
 msgstr "Autentisering krävs"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:124
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
@@ -209,25 +209,35 @@ msgstr ""
 
 #. Subject of the certificate.
 #: ../data/vinagre.ui.h:27
-msgid "Subject:"
-msgstr "Ämne:"
+msgid "New subject:"
+msgstr "Nytt ämne:"
 
 #. Issuer of the certificate.
 #: ../data/vinagre.ui.h:29
-msgid "Issuer:"
-msgstr "Utfärdare:"
+msgid "New issuer:"
+msgstr "Ny utfärdare:"
 
 #. Fingerprint of the new certificate.
 #: ../data/vinagre.ui.h:31
 msgid "New fingerprint:"
 msgstr "Nytt fingeravtryck:"
 
-#. Fingerprint of the old certificate.
+#. Subject of the old certificate.
 #: ../data/vinagre.ui.h:33
+msgid "Old subject:"
+msgstr "Gammalt ämne:"
+
+#. Issuer of the old certificate.
+#: ../data/vinagre.ui.h:35
+msgid "Old issuer:"
+msgstr "Gammal utfärdare:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:37
 msgid "Old fingerprint:"
 msgstr "Gammalt fingeravtryck:"
 
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:38
 msgid ""
 "The below certificate could not be verified.\n"
 "Do you trust the certificate?"
@@ -235,49 +245,59 @@ msgstr ""
 "Nedanstående certifikat kunde inte verifieras.\n"
 "Litar du på certifikatet?"
 
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:41
+msgid "Subject:"
+msgstr "Ämne:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:43
+msgid "Issuer:"
+msgstr "Utfärdare:"
+
 #. Fingerprint of the certificate.
-#: ../data/vinagre.ui.h:37
+#: ../data/vinagre.ui.h:45
 msgid "Fingerprint:"
 msgstr "Fingeravtryck:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
-#: ../plugins/rdp/vinagre-rdp-tab.c:995
+#: ../data/vinagre.ui.h:46 ../plugins/rdp/vinagre-rdp-tab.c:915
+#: ../plugins/rdp/vinagre-rdp-tab.c:957
 msgid "Connect"
 msgstr "Anslut"
 
-#: ../data/vinagre.ui.h:39
+#: ../data/vinagre.ui.h:47
 msgid "Choose a remote desktop to connect to"
 msgstr "Välj ett fjärrskrivbord att ansluta till"
 
-#: ../data/vinagre.ui.h:40
+#: ../data/vinagre.ui.h:48
 msgid "_Protocol:"
 msgstr "_Protokoll:"
 
-#: ../data/vinagre.ui.h:41
+#: ../data/vinagre.ui.h:49
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Välj ett fjärrskrivbordsprotokoll för denna anslutning"
 
-#: ../data/vinagre.ui.h:42
+#: ../data/vinagre.ui.h:50
 msgid "Search for remote hosts on the network"
 msgstr "Sök efter fjärrvärdar på nätverket"
 
-#: ../data/vinagre.ui.h:43
+#: ../data/vinagre.ui.h:51
 msgid "Connection options"
 msgstr "Anslutningsalternativ"
 
-#: ../data/vinagre.ui.h:44
+#: ../data/vinagre.ui.h:52
 msgid "_Fullscreen"
 msgstr "_Helskärm"
 
-#: ../data/vinagre.ui.h:45
+#: ../data/vinagre.ui.h:53
 msgid "Enable fullscreen mode for this connection"
 msgstr "Aktivera helskärmsläge för denna anslutning"
 
-#: ../data/vinagre.ui.h:46
+#: ../data/vinagre.ui.h:54
 msgid "Reverse Connections"
 msgstr "Omvända anslutningar"
 
-#: ../data/vinagre.ui.h:47
+#: ../data/vinagre.ui.h:55
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -287,20 +307,20 @@ msgstr ""
 "som befinner sig bakom en brandvägg. Fjärrsidan är tänkt att initiera "
 "anslutningen med dig. Se hjälpen för ytterligare information."
 
-#: ../data/vinagre.ui.h:48
+#: ../data/vinagre.ui.h:56
 msgid "_Enable Reverse Connections"
 msgstr "_Aktivera omvända anslutningar"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:50
+#: ../data/vinagre.ui.h:58
 msgid "_Always Enabled"
 msgstr "_Alltid aktiverad"
 
-#: ../data/vinagre.ui.h:51
+#: ../data/vinagre.ui.h:59
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "Denna dator är nåbar på följande IP-adress(er):"
 
-#: ../data/vinagre.ui.h:52
+#: ../data/vinagre.ui.h:60
 msgid "Connectivity"
 msgstr "Anslutning"
 
@@ -368,34 +388,34 @@ msgstr "Hö_jd:"
 msgid "Set height of the remote desktop"
 msgstr "Ange höjden på fjärrskrivbordet"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:125 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/rdp/vinagre-rdp-tab.c:288 ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "S_caling"
 msgstr "Ska_lning"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/rdp/vinagre-rdp-tab.c:289 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:481
 msgid "Fit the remote screen into the current window size"
 msgstr "Passa in fjärrskärmen i den aktuella fönsterstorleken"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
+#: ../plugins/rdp/vinagre-rdp-tab.c:362 ../plugins/rdp/vinagre-rdp-tab.c:363
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:598
 #: ../plugins/spice/vinagre-spice-tab.c:599
 msgid "Scaling"
 msgstr "Skalning"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
+#: ../plugins/rdp/vinagre-rdp-tab.c:914 ../plugins/rdp/vinagre-rdp-tab.c:956
 msgid "_Cancel"
 msgstr "_Avbryt"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1145 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Fel vid anslutning till värden."
