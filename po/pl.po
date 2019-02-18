@@ -1,17 +1,17 @@
 # Polish translation for vinagre.
-# Copyright © 2007-2018 the vinagre authors.
+# Copyright © 2007-2019 the vinagre authors.
 # This file is distributed under the same license as the vinagre package.
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2018.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2019.
 # Paweł Żołnowski <pawel@zolnowski.name>, 2014.
-# Aviary.pl <community-poland@mozilla.org>, 2007-2018.
+# Aviary.pl <community-poland@mozilla.org>, 2007-2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-20 17:14+0200\n"
-"PO-Revision-Date: 2018-09-20 17:15+0200\n"
+"POT-Creation-Date: 2019-02-18 19:07+0100\n"
+"PO-Revision-Date: 2019-02-18 19:08+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -123,9 +123,9 @@ msgstr "Vinagre to przeglądarka zdalnych pulpitów dla środowiska GNOME"
 msgid "translator-credits"
 msgstr ""
 "Tomasz Dominikowski <dominikowski@gmail.com>, 2007-2009\n"
-"Piotr Drąg <piotrdrag@gmail.com>, 2010-2018\n"
+"Piotr Drąg <piotrdrag@gmail.com>, 2010-2019\n"
 "Paweł Żołnowski <pawel@zolnowski.name>, 2014\n"
-"Aviary.pl <community-poland@mozilla.org>, 2007-2018"
+"Aviary.pl <community-poland@mozilla.org>, 2007-2019"
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -136,7 +136,7 @@ msgstr "_Uwierzytelnij"
 msgid "Authentication is required"
 msgstr "Wymagane jest uwierzytelnienie"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:124
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
@@ -214,25 +214,35 @@ msgstr ""
 
 #. Subject of the certificate.
 #: ../data/vinagre.ui.h:27
-msgid "Subject:"
-msgstr "Przedmiot:"
+msgid "New subject:"
+msgstr "Nowy podmiot:"
 
 #. Issuer of the certificate.
 #: ../data/vinagre.ui.h:29
-msgid "Issuer:"
-msgstr "Wydawca:"
+msgid "New issuer:"
+msgstr "Nowy wydawca:"
 
 #. Fingerprint of the new certificate.
 #: ../data/vinagre.ui.h:31
 msgid "New fingerprint:"
-msgstr "Nowy odcisk palca:"
+msgstr "Nowy odcisk:"
+
+#. Subject of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old subject:"
+msgstr "Poprzedni podmiot:"
+
+#. Issuer of the old certificate.
+#: ../data/vinagre.ui.h:35
+msgid "Old issuer:"
+msgstr "Poprzedni wydawca:"
 
 #. Fingerprint of the old certificate.
-#: ../data/vinagre.ui.h:33
+#: ../data/vinagre.ui.h:37
 msgid "Old fingerprint:"
-msgstr "Poprzedni odcisk palca:"
+msgstr "Poprzedni odcisk:"
 
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:38
 msgid ""
 "The below certificate could not be verified.\n"
 "Do you trust the certificate?"
@@ -240,49 +250,59 @@ msgstr ""
 "Nie można zweryfikować poniższego certyfikatu.\n"
 "Czy jest on zaufany?"
 
-#. Fingerprint of the certificate.
-#: ../data/vinagre.ui.h:37
-msgid "Fingerprint:"
-msgstr "Odcisk palca:"
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:41
+msgid "Subject:"
+msgstr "Podmiot:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
-#: ../plugins/rdp/vinagre-rdp-tab.c:995
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:43
+msgid "Issuer:"
+msgstr "Wydawca:"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:45
+msgid "Fingerprint:"
+msgstr "Odcisk:"
+
+#: ../data/vinagre.ui.h:46 ../plugins/rdp/vinagre-rdp-tab.c:915
+#: ../plugins/rdp/vinagre-rdp-tab.c:957
 msgid "Connect"
 msgstr "Połącz"
 
-#: ../data/vinagre.ui.h:39
+#: ../data/vinagre.ui.h:47
 msgid "Choose a remote desktop to connect to"
 msgstr "Wybór zdalnego pulpitu do połączenia"
 
-#: ../data/vinagre.ui.h:40
+#: ../data/vinagre.ui.h:48
 msgid "_Protocol:"
 msgstr "_Protokół:"
 
-#: ../data/vinagre.ui.h:41
+#: ../data/vinagre.ui.h:49
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Wybór protokołu zdalnego pulpitu dla tego połączenia"
 
-#: ../data/vinagre.ui.h:42
+#: ../data/vinagre.ui.h:50
 msgid "Search for remote hosts on the network"
 msgstr "Wyszukuje zdalne komputery w sieci"
 
-#: ../data/vinagre.ui.h:43
+#: ../data/vinagre.ui.h:51
 msgid "Connection options"
 msgstr "Opcje połączenia"
 
-#: ../data/vinagre.ui.h:44
+#: ../data/vinagre.ui.h:52
 msgid "_Fullscreen"
 msgstr "_Pełny ekran"
 
-#: ../data/vinagre.ui.h:45
+#: ../data/vinagre.ui.h:53
 msgid "Enable fullscreen mode for this connection"
 msgstr "Włącza tryb pełnoekranowy dla tego połączenia"
 
-#: ../data/vinagre.ui.h:46
+#: ../data/vinagre.ui.h:54
 msgid "Reverse Connections"
 msgstr "Odwrotne połączenia"
 
-#: ../data/vinagre.ui.h:47
+#: ../data/vinagre.ui.h:55
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -292,20 +312,20 @@ msgstr ""
 "zaporą sieciową. Zdalny komputer ma nawiązać połączenie z tym komputerem. "
 "Pomoc zawiera więcej informacji."
 
-#: ../data/vinagre.ui.h:48
+#: ../data/vinagre.ui.h:56
 msgid "_Enable Reverse Connections"
 msgstr "_Odwrotne połączenia"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:50
+#: ../data/vinagre.ui.h:58
 msgid "_Always Enabled"
 msgstr "Z_awsze włączone"
 
-#: ../data/vinagre.ui.h:51
+#: ../data/vinagre.ui.h:59
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "Pulpit ten jest dostępny pod następującymi adresami IP:"
 
-#: ../data/vinagre.ui.h:52
+#: ../data/vinagre.ui.h:60
 msgid "Connectivity"
 msgstr "Łączność"
 
@@ -374,34 +394,34 @@ msgstr "_Wysokość:"
 msgid "Set height of the remote desktop"
 msgstr "Ustawia wysokość zdalnego pulpitu"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:125 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/rdp/vinagre-rdp-tab.c:288 ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "S_caling"
 msgstr "S_kalowanie"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/rdp/vinagre-rdp-tab.c:289 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:481
 msgid "Fit the remote screen into the current window size"
 msgstr "Dopasowuje zdalny ekran do bieżącego rozmiaru okna"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
+#: ../plugins/rdp/vinagre-rdp-tab.c:362 ../plugins/rdp/vinagre-rdp-tab.c:363
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:598
 #: ../plugins/spice/vinagre-spice-tab.c:599
 msgid "Scaling"
 msgstr "Skalowanie"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
+#: ../plugins/rdp/vinagre-rdp-tab.c:914 ../plugins/rdp/vinagre-rdp-tab.c:956
 msgid "_Cancel"
 msgstr "_Anuluj"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1145 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Błąd podczas łączenia z komputerem."
