@@ -1,25 +1,25 @@
-# Hungarian translation of Vinagre
-# Copyright (C) 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
+# Hungarian translation for Vinagre.
+# Copyright (C) 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Vinagre package.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
 # Nyitrai István <sianis at gmail dot com>, 2008.
 # Mate Ory <orymate at gmail dot com>, 2008.
 # n0m4dm4n <n0m4dm4n at gmail dot com>, 2011.
-# Balázs Úr <urbalazs at gmail dot com>, 2014.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2014, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2018-09-20 09:17+0000\n"
-"PO-Revision-Date: 2018-10-02 17:34+0200\n"
-"Last-Translator: Meskó Balázs <mesko.balazs@fsf.hu>\n"
-"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
+"POT-Creation-Date: 2019-02-18 15:13+0000\n"
+"PO-Revision-Date: 2019-02-18 16:38+0100\n"
+"Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
+"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
@@ -130,7 +130,7 @@ msgstr "_Hitelesítés"
 msgid "Authentication is required"
 msgstr "Hitelesítés szükséges"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:124
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
@@ -208,25 +208,35 @@ msgstr ""
 
 #. Subject of the certificate.
 #: ../data/vinagre.ui.h:27
-msgid "Subject:"
-msgstr "Tárgy:"
+msgid "New subject:"
+msgstr "Új tárgy:"
 
 #. Issuer of the certificate.
 #: ../data/vinagre.ui.h:29
-msgid "Issuer:"
-msgstr "Kibocsátó:"
+msgid "New issuer:"
+msgstr "Új kibocsátó:"
 
 #. Fingerprint of the new certificate.
 #: ../data/vinagre.ui.h:31
 msgid "New fingerprint:"
 msgstr "Új ujjlenyomat:"
 
-#. Fingerprint of the old certificate.
+#. Subject of the old certificate.
 #: ../data/vinagre.ui.h:33
+msgid "Old subject:"
+msgstr "Régi tárgy:"
+
+#. Issuer of the old certificate.
+#: ../data/vinagre.ui.h:35
+msgid "Old issuer:"
+msgstr "Régi kibocsátó:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:37
 msgid "Old fingerprint:"
 msgstr "Régi ujjlenyomat:"
 
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:38
 msgid ""
 "The below certificate could not be verified.\n"
 "Do you trust the certificate?"
@@ -234,49 +244,59 @@ msgstr ""
 "A lenti tanúsítványt nem sikerült ellenőrizni.\n"
 "Megbízik a tanúsítványban?"
 
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:41
+msgid "Subject:"
+msgstr "Tárgy:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:43
+msgid "Issuer:"
+msgstr "Kibocsátó:"
+
 #. Fingerprint of the certificate.
-#: ../data/vinagre.ui.h:37
+#: ../data/vinagre.ui.h:45
 msgid "Fingerprint:"
 msgstr "Ujjlenyomat:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
-#: ../plugins/rdp/vinagre-rdp-tab.c:995
+#: ../data/vinagre.ui.h:46 ../plugins/rdp/vinagre-rdp-tab.c:915
+#: ../plugins/rdp/vinagre-rdp-tab.c:957
 msgid "Connect"
 msgstr "Kapcsolódás"
 
-#: ../data/vinagre.ui.h:39
+#: ../data/vinagre.ui.h:47
 msgid "Choose a remote desktop to connect to"
 msgstr "Válasszon egy távoli asztalt a kapcsolódáshoz"
 
-#: ../data/vinagre.ui.h:40
+#: ../data/vinagre.ui.h:48
 msgid "_Protocol:"
 msgstr "_Protokoll:"
 
-#: ../data/vinagre.ui.h:41
+#: ../data/vinagre.ui.h:49
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Válasszon egy távoli asztal protokollt a kapcsolódáshoz"
 
-#: ../data/vinagre.ui.h:42
+#: ../data/vinagre.ui.h:50
 msgid "Search for remote hosts on the network"
 msgstr "Asztalokat megosztó gépek keresése a hálózaton"
 
-#: ../data/vinagre.ui.h:43
+#: ../data/vinagre.ui.h:51
 msgid "Connection options"
 msgstr "Kapcsolat beállításai"
 
-#: ../data/vinagre.ui.h:44
+#: ../data/vinagre.ui.h:52
 msgid "_Fullscreen"
 msgstr "_Teljes képernyő"
 
-#: ../data/vinagre.ui.h:45
+#: ../data/vinagre.ui.h:53
 msgid "Enable fullscreen mode for this connection"
 msgstr "Teljes képernyős mód engedélyezése ehhez a kapcsolathoz"
 
-#: ../data/vinagre.ui.h:46
+#: ../data/vinagre.ui.h:54
 msgid "Reverse Connections"
 msgstr "Fordított kapcsolatok"
 
-#: ../data/vinagre.ui.h:47
+#: ../data/vinagre.ui.h:55
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -286,20 +306,20 @@ msgstr ""
 "kapcsolatot a távoli gépnek kell kezdeményeznie az Ön gépével. További "
 "részletekért nézze meg a súgót."
 
-#: ../data/vinagre.ui.h:48
+#: ../data/vinagre.ui.h:56
 msgid "_Enable Reverse Connections"
 msgstr "_Fordított kapcsolatok engedélyezése"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:50
+#: ../data/vinagre.ui.h:58
 msgid "_Always Enabled"
 msgstr "_Mindig engedélyezve"
 
-#: ../data/vinagre.ui.h:51
+#: ../data/vinagre.ui.h:59
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "Ez az asztal a következő IP-címeken érhető el:"
 
-#: ../data/vinagre.ui.h:52
+#: ../data/vinagre.ui.h:60
 msgid "Connectivity"
 msgstr "Összekapcsolhatóság"
 
@@ -367,34 +387,34 @@ msgstr "_Magasság:"
 msgid "Set height of the remote desktop"
 msgstr "Távoli asztal magasságának beállítása"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:125 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/rdp/vinagre-rdp-tab.c:288 ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "S_caling"
 msgstr "_Méretezés"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/rdp/vinagre-rdp-tab.c:289 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:481
 msgid "Fit the remote screen into the current window size"
 msgstr "A távoli képernyő nyújtása a jelenlegi ablak méretére"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
+#: ../plugins/rdp/vinagre-rdp-tab.c:362 ../plugins/rdp/vinagre-rdp-tab.c:363
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:598
 #: ../plugins/spice/vinagre-spice-tab.c:599
 msgid "Scaling"
 msgstr "Méretezés"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
+#: ../plugins/rdp/vinagre-rdp-tab.c:914 ../plugins/rdp/vinagre-rdp-tab.c:956
 msgid "_Cancel"
 msgstr "_Mégse"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1145 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Hiba a géphez csatlakozás közben."
@@ -1395,64 +1415,3 @@ msgstr "Gyorsbillentyűk engedélyezése"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "Hiba a fájl (%s) mentése közben: %s"
-
-#~ msgid "Error while executing xfreerdp"
-#~ msgstr "Hiba az xfreerdp végrehajtása közben"
-
-#~ msgid "Enter a valid hostname or IP address"
-#~ msgstr "Adjon meg érvényes gépnevet vagy IP-címet"
-
-#~ msgid "Always show tabs in the remote desktop display area"
-#~ msgstr ""
-#~ "Mindig láthatók a fülek a távoli asztalt megjelenítő képernyőterületen"
-
-#~ msgid ""
-#~ "Enables menu accelerators and keyboard shortcuts. For more info on why "
-#~ "you may want to disable them, check the documentation"
-#~ msgstr ""
-#~ "Hívóbetűk és gyorsbillentyűk engedélyezése. A letiltásuk értelmével "
-#~ "kapcsolatos bővebb információért nézze meg a dokumentációt."
-
-#~ msgid "Interface"
-#~ msgstr "Felület"
-
-#~ msgid "Preferences"
-#~ msgstr "Beállítások"
-
-#~ msgid ""
-#~ "This option enables menu accelerators and keyboard shortcuts. For more "
-#~ "info on why you may want to disable them, check the documentation."
-#~ msgstr ""
-#~ "Ez engedélyezi a hívóbetűket és gyorsbillentyűket. A letiltásuk "
-#~ "hasznosságáról lásd a dokumentációt."
-
-#~ msgid "_Always show tabs"
-#~ msgstr "_A lapok mindig láthatók"
-
-#~ msgid "Connecting..."
-#~ msgstr "Kapcsolódás…"
-
-#~ msgid "Edit the application preferences"
-#~ msgstr "Az alkalmazás beállításainak szerkesztése"
-
-#~ msgid "About menu accelerators and keyboard shortcuts"
-#~ msgstr "A hívóbetűkről és gyorsbillentyűkről"
-
-#~ msgid ""
-#~ "Vinagre comes with menu accelerators and keyboard shortcuts disabled by "
-#~ "default. The reason is to avoid the keys from being intercepted by the "
-#~ "program, and allow them to be sent to the remote desktop.\n"
-#~ "\n"
-#~ "You can change this behavior through the preferences dialog. For more "
-#~ "information, check the documentation.\n"
-#~ "\n"
-#~ "This message will appear only once."
-#~ msgstr ""
-#~ "A Vinagre-ban alapértelmezésben le vannak tiltva a hívóbetűk és "
-#~ "gyorsbillentyűk. A program így nem fogja el ezeket a kombinációkat, "
-#~ "lehetővé téve azok elküldését a távoli asztalnak.\n"
-#~ "\n"
-#~ "Ezt a viselkedést a Beállítások ablakban módosíthatja. További "
-#~ "információkért nézze meg a dokumentációt.\n"
-#~ "\n"
-#~ "Ez az üzenet csak egyszer jelenik meg."
