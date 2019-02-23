@@ -6,14 +6,15 @@
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010, 2012.
 # Hajime Taira <htaira@redhat.com>, 2012, 2015.
 # Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2015.
+# sicklylife <translation@sicklylife.jp>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2018-09-20 09:17+0000\n"
-"PO-Revision-Date: 2019-01-23 23:12+0900\n"
-"Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
+"POT-Creation-Date: 2019-02-18 15:13+0000\n"
+"PO-Revision-Date: 2019-02-23 18:20+0900\n"
+"Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -46,8 +47,8 @@ msgid ""
 "Set to “true” to always show the tabs. Set to “false” to only show the tabs "
 "when there is more than one active connection."
 msgstr ""
-"“true”に設定すると常にタブを表示します。“false”に設定すると2個以上の接続がある"
-"場合にのみタブを表示します。"
+"“true”に設定すると常にタブを表示します。“false”に設定すると2個以上の接続があ"
+"る場合にのみタブを表示します。"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:5
 msgid "Whether we should show the menu accelerators (shortcut keys)"
@@ -59,9 +60,9 @@ msgid ""
 "that if they are enabled, those keys will be intercepted by the menu and "
 "will not be sent to the remote host."
 msgstr ""
-"“false”に設定するとメニューのショートカットが無効になります。“true”に設定すると"
-"ショートカットを有効にします。ショートカットを有効にした場合、これらのキー入"
-"力はメニューに取られてしまうため、リモートホストへキーが送信されなくなりま"
+"“false”に設定するとメニューのショートカットが無効になります。“true”に設定する"
+"とショートカットを有効にします。ショートカットを有効にした場合、これらのキー"
+"入力はメニューに取られてしまうため、リモートホストへキーが送信されなくなりま"
 "す。"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:7
@@ -82,8 +83,7 @@ msgstr "リバースコネクションを待つプログラムを開始するか
 msgid ""
 "Set to “true” to always start the program listening for reverse connections."
 msgstr ""
-"“true”に設定するとプログラムは常にリバースコネクションの接続を待ち始めま"
-"す。"
+"“true”に設定するとプログラムは常にリバースコネクションの接続を待ち始めます。"
 
 #. Both taken from the desktop file.
 #: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
@@ -126,12 +126,13 @@ msgstr ""
 #: ../data/vinagre.ui.h:3
 msgid "translator-credits"
 msgstr ""
-"相花毅 <takeshi.aihana@gmail.com>\n"
-"Shushi Kurose <md81bird@hitaki.net>\n"
+"相花 毅 <takeshi.aihana@gmail.com>\n"
 "草野 貴之 <AE5T-KSN@asahi-net.or.jp>\n"
 "平 初 <htaira@redhat.com>\n"
+"日本 GNOME ユーザー会 <http://www.gnome.gr.jp/>\n"
 "松澤 二郎 <jmatsuzawa@gnome.org>\n"
-"日本GNOMEユーザー会 <http://www.gnome.gr.jp/>"
+"Shushi Kurose <md81bird@hitaki.net>\n"
+"sicklylife <translation@sicklylife.jp>"
 
 #. This is a button label, in the authentication dialog
 #: ../data/vinagre.ui.h:5
@@ -142,7 +143,7 @@ msgstr "認証(_A)"
 msgid "Authentication is required"
 msgstr "認証が必要です"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:124
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
@@ -220,25 +221,35 @@ msgstr ""
 
 #. Subject of the certificate.
 #: ../data/vinagre.ui.h:27
-msgid "Subject:"
-msgstr "サブジェクト:"
+msgid "New subject:"
+msgstr "新しいサブジェクト:"
 
 #. Issuer of the certificate.
 #: ../data/vinagre.ui.h:29
-msgid "Issuer:"
-msgstr "発行者:"
+msgid "New issuer:"
+msgstr "新しい発行者:"
 
 #. Fingerprint of the new certificate.
 #: ../data/vinagre.ui.h:31
 msgid "New fingerprint:"
 msgstr "新しい指紋:"
 
-#. Fingerprint of the old certificate.
+#. Subject of the old certificate.
 #: ../data/vinagre.ui.h:33
+msgid "Old subject:"
+msgstr "古いサブジェクト:"
+
+#. Issuer of the old certificate.
+#: ../data/vinagre.ui.h:35
+msgid "Old issuer:"
+msgstr "古い発行者:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:37
 msgid "Old fingerprint:"
 msgstr "古い指紋:"
 
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:38
 msgid ""
 "The below certificate could not be verified.\n"
 "Do you trust the certificate?"
@@ -246,49 +257,59 @@ msgstr ""
 "以下の証明書は検証できませんでした。\n"
 "この証明書を信用しますか？"
 
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:41
+msgid "Subject:"
+msgstr "サブジェクト:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:43
+msgid "Issuer:"
+msgstr "発行者:"
+
 #. Fingerprint of the certificate.
-#: ../data/vinagre.ui.h:37
+#: ../data/vinagre.ui.h:45
 msgid "Fingerprint:"
 msgstr "指紋:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
-#: ../plugins/rdp/vinagre-rdp-tab.c:995
+#: ../data/vinagre.ui.h:46 ../plugins/rdp/vinagre-rdp-tab.c:915
+#: ../plugins/rdp/vinagre-rdp-tab.c:957
 msgid "Connect"
 msgstr "接続"
 
-#: ../data/vinagre.ui.h:39
+#: ../data/vinagre.ui.h:47
 msgid "Choose a remote desktop to connect to"
 msgstr "接続先のリモートデスクトップの選択"
 
-#: ../data/vinagre.ui.h:40
+#: ../data/vinagre.ui.h:48
 msgid "_Protocol:"
 msgstr "プロトコル(_P):"
 
-#: ../data/vinagre.ui.h:41
+#: ../data/vinagre.ui.h:49
 msgid "Select a remote desktop protocol for this connection"
 msgstr "この接続に使用するリモートデスクトッププロトコルを選択してください。"
 
-#: ../data/vinagre.ui.h:42
+#: ../data/vinagre.ui.h:50
 msgid "Search for remote hosts on the network"
 msgstr "ネットワーク上のリモートホストを検索"
 
-#: ../data/vinagre.ui.h:43
+#: ../data/vinagre.ui.h:51
 msgid "Connection options"
 msgstr "接続のオプション"
 
-#: ../data/vinagre.ui.h:44
+#: ../data/vinagre.ui.h:52
 msgid "_Fullscreen"
 msgstr "フルスクリーン(_F)"
 
-#: ../data/vinagre.ui.h:45
+#: ../data/vinagre.ui.h:53
 msgid "Enable fullscreen mode for this connection"
 msgstr "この接続のフルスクリーンモードを有効にします"
 
-#: ../data/vinagre.ui.h:46
+#: ../data/vinagre.ui.h:54
 msgid "Reverse Connections"
 msgstr "リバースコネクション"
 
-#: ../data/vinagre.ui.h:47
+#: ../data/vinagre.ui.h:55
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -299,20 +320,20 @@ msgstr ""
 "す。リバースコネクションについて詳しく知りたい場合はヘルプを参照してくださ"
 "い。"
 
-#: ../data/vinagre.ui.h:48
+#: ../data/vinagre.ui.h:56
 msgid "_Enable Reverse Connections"
 msgstr "リバースコネクションを有効にする(_E)"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:50
+#: ../data/vinagre.ui.h:58
 msgid "_Always Enabled"
 msgstr "常に有効にする(_A)"
 
-#: ../data/vinagre.ui.h:51
+#: ../data/vinagre.ui.h:59
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "このデスクトップは以下のIPアドレスにてアクセス可能です:"
 
-#: ../data/vinagre.ui.h:52
+#: ../data/vinagre.ui.h:60
 msgid "Connectivity"
 msgstr "接続性"
 
@@ -380,34 +401,34 @@ msgstr "高さ(_H):"
 msgid "Set height of the remote desktop"
 msgstr "リモートデスクトップの高さを設定します"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:125 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "ポート番号:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/rdp/vinagre-rdp-tab.c:288 ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "S_caling"
 msgstr "サイズの変更(_C)"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/rdp/vinagre-rdp-tab.c:289 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:481
 msgid "Fit the remote screen into the current window size"
 msgstr "リモートの画面を現在のウィンドウの大きさに合わせます"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
+#: ../plugins/rdp/vinagre-rdp-tab.c:362 ../plugins/rdp/vinagre-rdp-tab.c:363
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:598
 #: ../plugins/spice/vinagre-spice-tab.c:599
 msgid "Scaling"
 msgstr "サイズ変更"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
+#: ../plugins/rdp/vinagre-rdp-tab.c:914 ../plugins/rdp/vinagre-rdp-tab.c:956
 msgid "_Cancel"
 msgstr "キャンセル(_C)"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1145 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "ホストへ接続する際にエラーが発生しました。"
@@ -837,8 +858,8 @@ msgstr "このフォルダーの名前が間違っています"
 msgid ""
 "The name “%s” is already used in this folder. Please use a different name."
 msgstr ""
-"すでに“%s”というアイテムがこのフォルダーの中にあります。別の名前を使用し"
-"てください。"
+"すでに“%s”というアイテムがこのフォルダーの中にあります。別の名前を使用してく"
+"ださい。"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:89 ../vinagre/vinagre-bookmarks-ui.c:190
 #: ../vinagre/vinagre-bookmarks-ui.c:201
