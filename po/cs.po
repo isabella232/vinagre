@@ -4,14 +4,14 @@
 #
 # Petr Kovar <pknbe@volny.cz>, 2008, 2009.
 # Lucas Lommer <llommer@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011, 2012.
-# Marek Černocký <marek@manet.cz>, 2012, 2013, 2014, 2015, 2018.
+# Marek Černocký <marek@manet.cz>, 2012, 2013, 2014, 2015, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2018-09-20 09:17+0000\n"
-"PO-Revision-Date: 2018-09-21 19:15+0200\n"
+"POT-Creation-Date: 2019-02-18 15:13+0000\n"
+"PO-Revision-Date: 2019-02-28 10:42+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -132,7 +132,7 @@ msgstr "_Ověřit"
 msgid "Authentication is required"
 msgstr "Je vyžadováno ověření"
 
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:134
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:124
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
 #: ../plugins/spice/vinagre-spice-tab.c:142
 msgid "Host:"
@@ -210,25 +210,35 @@ msgstr ""
 
 #. Subject of the certificate.
 #: ../data/vinagre.ui.h:27
-msgid "Subject:"
-msgstr "Subjekt:"
+msgid "New subject:"
+msgstr "Subjekt nového:"
 
 #. Issuer of the certificate.
 #: ../data/vinagre.ui.h:29
-msgid "Issuer:"
-msgstr "Vydavatel:"
+msgid "New issuer:"
+msgstr "Vydavatel nového:"
 
 #. Fingerprint of the new certificate.
 #: ../data/vinagre.ui.h:31
 msgid "New fingerprint:"
 msgstr "Otisk nového:"
 
-#. Fingerprint of the old certificate.
+#. Subject of the old certificate.
 #: ../data/vinagre.ui.h:33
+msgid "Old subject:"
+msgstr "Subjekt starého:"
+
+#. Issuer of the old certificate.
+#: ../data/vinagre.ui.h:35
+msgid "Old issuer:"
+msgstr "Vydavatel starého:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:37
 msgid "Old fingerprint:"
 msgstr "Otisk starého:"
 
-#: ../data/vinagre.ui.h:34
+#: ../data/vinagre.ui.h:38
 msgid ""
 "The below certificate could not be verified.\n"
 "Do you trust the certificate?"
@@ -236,49 +246,59 @@ msgstr ""
 "Následující certifikát nemůže být ověřen.\n"
 "Budete certifikátu důvěřovat?"
 
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:41
+msgid "Subject:"
+msgstr "Subjekt:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:43
+msgid "Issuer:"
+msgstr "Vydavatel:"
+
 #. Fingerprint of the certificate.
-#: ../data/vinagre.ui.h:37
+#: ../data/vinagre.ui.h:45
 msgid "Fingerprint:"
 msgstr "Otisk:"
 
-#: ../data/vinagre.ui.h:38 ../plugins/rdp/vinagre-rdp-tab.c:954
-#: ../plugins/rdp/vinagre-rdp-tab.c:995
+#: ../data/vinagre.ui.h:46 ../plugins/rdp/vinagre-rdp-tab.c:915
+#: ../plugins/rdp/vinagre-rdp-tab.c:957
 msgid "Connect"
 msgstr "Připojit"
 
-#: ../data/vinagre.ui.h:39
+#: ../data/vinagre.ui.h:47
 msgid "Choose a remote desktop to connect to"
 msgstr "Vyberte vzdálenou pracovní plochu, ke které připojit"
 
-#: ../data/vinagre.ui.h:40
+#: ../data/vinagre.ui.h:48
 msgid "_Protocol:"
 msgstr "_Protokol:"
 
-#: ../data/vinagre.ui.h:41
+#: ../data/vinagre.ui.h:49
 msgid "Select a remote desktop protocol for this connection"
 msgstr "Vyberte protokol připojení ke vzdálené pracovní ploše"
 
-#: ../data/vinagre.ui.h:42
+#: ../data/vinagre.ui.h:50
 msgid "Search for remote hosts on the network"
 msgstr "Vyhledat vzdálené hostitele na síti"
 
-#: ../data/vinagre.ui.h:43
+#: ../data/vinagre.ui.h:51
 msgid "Connection options"
 msgstr "Možnosti spojení"
 
-#: ../data/vinagre.ui.h:44
+#: ../data/vinagre.ui.h:52
 msgid "_Fullscreen"
 msgstr "_Celá obrazovka"
 
-#: ../data/vinagre.ui.h:45
+#: ../data/vinagre.ui.h:53
 msgid "Enable fullscreen mode for this connection"
 msgstr "Povolit u tohoto připojení režim celé obrazovky"
 
-#: ../data/vinagre.ui.h:46
+#: ../data/vinagre.ui.h:54
 msgid "Reverse Connections"
 msgstr "Zpětná připojení"
 
-#: ../data/vinagre.ui.h:47
+#: ../data/vinagre.ui.h:55
 msgid ""
 "By activating reverse connections you can access remote desktops that are "
 "behind a firewall. The remote side is supposed to initiate the connection "
@@ -288,20 +308,20 @@ msgstr ""
 "jsou za bránou firewall. Od vzdálené strany se očekává, že s vámi zahájí "
 "spojení. Více informací popisuje nápověda."
 
-#: ../data/vinagre.ui.h:48
+#: ../data/vinagre.ui.h:56
 msgid "_Enable Reverse Connections"
 msgstr "_Povolit zpětná připojení"
 
 #. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
-#: ../data/vinagre.ui.h:50
+#: ../data/vinagre.ui.h:58
 msgid "_Always Enabled"
 msgstr "_Vždy povoleno"
 
-#: ../data/vinagre.ui.h:51
+#: ../data/vinagre.ui.h:59
 msgid "This desktop is reachable through the following IP address(es):"
 msgstr "Tato pracovní plocha je dostupná skrze následující adresy IP:"
 
-#: ../data/vinagre.ui.h:52
+#: ../data/vinagre.ui.h:60
 msgid "Connectivity"
 msgstr "Připojení"
 
@@ -369,34 +389,34 @@ msgstr "_Výška:"
 msgid "Set height of the remote desktop"
 msgstr "Nastavit výšku vzdálené plochy"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:135 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/rdp/vinagre-rdp-tab.c:125 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
 #: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
 msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:292 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/rdp/vinagre-rdp-tab.c:288 ../plugins/vnc/vinagre-vnc-tab.c:601
 #: ../plugins/spice/vinagre-spice-tab.c:480
 msgid "S_caling"
 msgstr "Š_kálování"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:293 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/rdp/vinagre-rdp-tab.c:289 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:481
 msgid "Fit the remote screen into the current window size"
 msgstr "Přizpůsobit obrazovku vzdálené plochy rozměrům okna"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:366 ../plugins/rdp/vinagre-rdp-tab.c:367
+#: ../plugins/rdp/vinagre-rdp-tab.c:362 ../plugins/rdp/vinagre-rdp-tab.c:363
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
 #: ../plugins/spice/vinagre-spice-tab.c:598
 #: ../plugins/spice/vinagre-spice-tab.c:599
 msgid "Scaling"
 msgstr "Škálování"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:953 ../plugins/rdp/vinagre-rdp-tab.c:994
+#: ../plugins/rdp/vinagre-rdp-tab.c:914 ../plugins/rdp/vinagre-rdp-tab.c:956
 msgid "_Cancel"
 msgstr "_Zrušit"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:1227 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/rdp/vinagre-rdp-tab.c:1145 ../plugins/vnc/vinagre-vnc-tab.c:317
 #: ../plugins/spice/vinagre-spice-tab.c:267
 msgid "Error connecting to host."
 msgstr "Chyba při připojování k hostiteli."
