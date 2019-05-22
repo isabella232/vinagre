@@ -3,12 +3,13 @@
 # Nana Suryana <nana@suryana.or.id>, 2010.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2012.
 # Andika Triwidada <andika@gmail.com>, 2011, 2012, 2013, 2014.
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre gnome-3-20\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2019-02-18 15:13+0000\n"
-"PO-Revision-Date: 2019-02-18 22:25+0700\n"
+"POT-Creation-Date: 2019-02-18 15:26+0000\n"
+"PO-Revision-Date: 2019-05-22 13:59+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -127,7 +128,7 @@ msgstr "Otentik_asi"
 
 #: ../data/vinagre.ui.h:6
 msgid "Authentication is required"
-msgstr "Diperlukan otentikasi"
+msgstr "Diperlukan autentikasi"
 
 #: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:124
 #: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
@@ -586,15 +587,15 @@ msgstr "Penyebab tidak diketahui"
 #: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
 msgid "Authentication method for host %s is unsupported. (%u)"
-msgstr "Metode otentikasi untuk host %s tidak didukung. (%u)"
+msgstr "Metode autentikasi untuk host %s tidak didukung. (%u)"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:366
 msgid "Authentication unsupported"
-msgstr "Otentikasi tak didukung"
+msgstr "Autentikasi tak didukung"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:529 ../plugins/vnc/vinagre-vnc-tab.c:546
 msgid "Authentication error"
-msgstr "Galat otentikasi"
+msgstr "Galat autentikasi"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:530
 msgid "A username is required in order to access this remote desktop."
@@ -902,7 +903,7 @@ msgstr ""
 msgid "The following file could not be opened:"
 msgid_plural "The following files could not be opened:"
 msgstr[0] "Berkas berikut tidak dapat dibuka:"
-msgstr[1] ""
+msgstr[1] "Berkas berikut tidak dapat dibuka:"
 
 #: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
 #: ../vinagre/vinagre-connect.c:474
@@ -977,11 +978,11 @@ msgstr "Koneksi ditutup"
 #: ../vinagre/vinagre-notebook.c:483
 #, c-format
 msgid "Authentication for host %s has failed"
-msgstr "Otentikasi gagal untuk host %s"
+msgstr "Autentikasi gagal untuk host %s"
 
 #: ../vinagre/vinagre-notebook.c:489
 msgid "Authentication failed"
-msgstr "Otentikasi gagal"
+msgstr "Autentikasi gagal"
 
 #: ../vinagre/vinagre-notebook.c:537
 msgid "Connecting…"
@@ -1033,7 +1034,7 @@ msgstr "Argumen %s tidak valid untuk --geometry"
 msgid "The following error has occurred:"
 msgid_plural "The following errors have occurred:"
 msgstr[0] "Kesalahan berikut muncul:"
-msgstr[1] ""
+msgstr[1] "Kesalahan berikut muncul:"
 
 #: ../vinagre/vinagre-prefs.c:83
 msgid "Cannot initialize preferences manager."
@@ -1102,7 +1103,7 @@ msgstr "Tidak dapat mengirim sandi"
 
 #: ../vinagre/vinagre-ssh.c:538
 msgid "Log In Anyway"
-msgstr "Log In Anyway"
+msgstr "Log Masuk Saja"
 
 #: ../vinagre/vinagre-ssh.c:538
 msgid "Cancel Login"
@@ -1369,7 +1370,7 @@ msgstr "Galat sewaktu memuat berkas UI"
 #: ../vinagre/vinagre-utils.vala:116
 #, c-format
 msgid "%s authentication is required"
-msgstr "Diperlukan otentikasi %s"
+msgstr "Diperlukan autentikasi %s"
 
 #: ../vinagre/vinagre-utils.vala:227
 msgid "Error showing help"
