@@ -1261,7 +1261,7 @@ msgstr "Invitació de compartició de l'escriptori"
 #. Toplevel
 #: ../vinagre/vinagre-ui.h:33
 msgid "_Remote"
-msgstr "_Remota"
+msgstr "_Remot"
 
 #: ../vinagre/vinagre-ui.h:34
 msgid "_Edit"
