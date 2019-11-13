@@ -23,7 +23,11 @@
       <_caption><!-- Describe this screenshot in less than ~10 words --></_caption>
     </screenshot>
   </screenshots>
+  <releases>
+    <release version="3.32.0" date="2016-09-20"/>
+  </releases>
   <update_contact>amigadave@amigadave.com</update_contact>
   <project_group>GNOME</project_group>
   <translation type="gettext">vinagre</translation>
+  <content_rating type="oars-1.1" />
 </component>
