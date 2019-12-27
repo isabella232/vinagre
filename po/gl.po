@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre-master-po-gl-26618\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2019-02-18 15:13+0000\n"
-"PO-Revision-Date: 2019-02-20 01:21+0200\n"
+"POT-Creation-Date: 2019-10-13 18:22+0000\n"
+"PO-Revision-Date: 2019-12-27 12:26+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician\n"
 "Language: gl\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -129,7 +129,7 @@ msgstr "Vinagre é un visor de escritorio remoto para o escritorio GNOME"
 #: ../data/vinagre.ui.h:3
 msgid "translator-credits"
 msgstr ""
-"Fran Dieguez <frandieguez@gnome.org>, 2012-2014.\n"
+"Fran Diéguez <frandieguez@gnome.org>, 2012-2020.\n"
 "Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.\n"
 "Antón Méixome <meixome@certima.net>, 2010.\n"
 "Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun."
@@ -172,7 +172,7 @@ msgstr "_Lembrar esta credencial"
 
 #: ../data/vinagre.ui.h:12
 msgid "Store the login credential in GNOME Keyring"
-msgstr "Gardar as credenciais de inicio de sesión no anel de chaves de GNOME."
+msgstr "Gardar as credenciais de inicio de sesión no anel de chaves de GNOME"
 
 #: ../data/vinagre.ui.h:13
 msgid "Bookmarks"
@@ -225,13 +225,11 @@ msgstr ""
 
 #. Subject of the certificate.
 #: ../data/vinagre.ui.h:27
-#| msgid "Subject:"
 msgid "New subject:"
 msgstr "Novo asunto:"
 
 #. Issuer of the certificate.
 #: ../data/vinagre.ui.h:29
-#| msgid "Issuer:"
 msgid "New issuer:"
 msgstr "Novo emisor:"
 
@@ -242,13 +240,11 @@ msgstr "Nova impresión dixital:"
 
 #. Subject of the old certificate.
 #: ../data/vinagre.ui.h:33
-#| msgid "Subject:"
 msgid "Old subject:"
 msgstr "Asunto antigo:"
 
 #. Issuer of the old certificate.
 #: ../data/vinagre.ui.h:35
-#| msgid "Issuer:"
 msgid "Old issuer:"
 msgstr "Emisor antigo:"
 
@@ -563,7 +559,7 @@ msgstr "Usar servid_or"
 #: ../plugins/vnc/vinagre-vnc-plugin.c:352
 #: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
-msgstr "Nome de servidor ou usuario@servidor"
+msgstr "nome de servidor ou usuario@servidor"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:353
 #: ../plugins/spice/vinagre-spice-plugin.c:282
@@ -1097,7 +1093,7 @@ msgstr "No porto %d"
 
 #: ../vinagre/vinagre-reverse-vnc-listener.c:212
 msgid "Error activating reverse connections"
-msgstr "Produciuse un erro ao activar as conexións inversas."
+msgstr "Produciuse un erro ao activar as conexións inversas"
 
 #: ../vinagre/vinagre-reverse-vnc-listener.c:213
 msgid ""
@@ -1326,7 +1322,7 @@ msgstr "Abrir o manual do Vinagre"
 
 #: ../vinagre/vinagre-ui.h:54
 msgid "About this application"
-msgstr "Sobre este aplicativo"
+msgstr "Sobre esta aplicación"
 
 #: ../vinagre/vinagre-ui.h:59
 msgid "_Keyboard shortcuts"
@@ -1447,280 +1443,3 @@ msgstr "Activar atallos"
 #, c-format
 msgid "Error while creating the file %s: %s"
 msgstr "Produciuse un erro ao crear o ficheiro: %s: %s"
-
-#~ msgid "Error while executing xfreerdp"
-#~ msgstr "Produciuse un erro ao executar xfreerdp"
-
-#~ msgid "Enter a valid hostname or IP address"
-#~ msgstr "Introduza un nome de equipo ou un enderezo IP válidos"
-
-#~ msgid "Vinagre failed to open a UI file,"
-#~ msgstr "Vinagre falló ao abrir un ficheiro de IU,"
-
-#~ msgid "Active plugins"
-#~ msgstr "Engadidos activos"
-
-#~ msgid ""
-#~ "List of active plugins. It contains the \"Location\" of the active "
-#~ "plugins. See the .vinagre-plugin file for obtaining the \"Location\" of a "
-#~ "given plugin."
-#~ msgstr ""
-#~ "Lista de engadidos activos. Contén a  \"Localización\" dos engadidos "
-#~ "activos. Ver o ficheiro plugin-vinagre para obter a \"Location\" dun "
-#~ "engadido dado."
-
-#~ msgid "Always show tabs in the remote desktop display area"
-#~ msgstr ""
-#~ "Sempre mostrar as lapelas no área de visualización do escritorio remoto"
-
-#~ msgid ""
-#~ "Enables menu accelerators and keyboard shortcuts. For more info on why "
-#~ "you may want to disable them, check the documentation"
-#~ msgstr ""
-#~ "Activa os aceleradores de menús e combinacións de teclas. Para obter máis "
-#~ "información sobre por que pode querer desactivalos, comprobe a "
-#~ "documentación."
-
-#~ msgid "Interface"
-#~ msgstr "Interface"
-
-#~ msgid "Preferences"
-#~ msgstr "Preferencias"
-
-#~ msgid ""
-#~ "This option enables menu accelerators and keyboard shortcuts. For more "
-#~ "info on why you may want to disable them, check the documentation."
-#~ msgstr ""
-#~ "Esta opción activa teclas rápidas e atallos de teclado. Para información "
-#~ "detallada ou se quere desactivalos, consulte a documentación."
-
-#~ msgid "_Always show tabs"
-#~ msgstr "_Mostrar sempre as lapelas"
-
-#~ msgid "RDP support"
-#~ msgstr "Compatibilidade con RDP"
-
-#~ msgid "SSH support"
-#~ msgstr "Capacidade SSH"
-
-#~ msgid "VNC support"
-#~ msgstr "Compatibilidade VNC"
-
-#~ msgid "Allows reverse VNC connections"
-#~ msgstr "Permite as conexións VNC inversas"
-
-#~ msgid "Reverse VNC"
-#~ msgstr "VNC inverso"
-
-#~ msgid "Spice"
-#~ msgstr "Spice"
-
-#~ msgid "Spice support"
-#~ msgstr "Compatibilidade para Spice"
-
-#~ msgid ""
-#~ "Changes Instant Messenger status to busy when window toggles to "
-#~ "fullscreen (works with Empathy)"
-#~ msgstr ""
-#~ "Cambia o estado na Mensaxaría instantánea a ocupado cando se estabelece a "
-#~ "xanela a pantalla completa (funciona con Empathy)"
-
-#~ msgid "IM Status"
-#~ msgstr "Estado na IM"
-
-#~ msgid "Could not communicate to Telepathy. IM Status plugin will not work."
-#~ msgstr ""
-#~ "Non foi posíbel estabelecer unha comunicación con Telepathy. O engadido "
-#~ "do estado na IM non funciona correctamente."
-
-#~ msgid "_New folder"
-#~ msgstr "Cartafol _novo"
-
-#~ msgid "Create a new folder"
-#~ msgstr "Crear un cartafol novo"
-
-#~ msgid "_Open bookmark"
-#~ msgstr "_Abrir un marcador"
-
-#~ msgid "_Edit bookmark"
-#~ msgstr "_Editar marcador"
-
-#~ msgid "Edit the details of selected bookmark"
-#~ msgstr "Editar os detalles do marcador seleccionado"
-
-#~ msgid "_Remove from bookmarks"
-#~ msgstr "_Eliminar dos marcadores"
-
-#~ msgid "Remove current selected connection from bookmarks"
-#~ msgstr "Eliminar dos marcadores a conexión seleccionada neste momento"
-
-#~ msgid "Invalid operation"
-#~ msgstr "A operación non é válida"
-
-#~ msgid "Data received from drag&drop operation is invalid."
-#~ msgstr "Os datos recibidos operación arrastrar&soltar non son correctos."
-
-#~ msgid "Hide panel"
-#~ msgstr "Agochar panel"
-
-#~ msgid "Hosts nearby"
-#~ msgstr "Servidores próximos"
-
-#~ msgid "Connecting..."
-#~ msgstr "Conectando…"
-
-#~ msgid "Plugin Manager"
-#~ msgstr "Xestor de engadidos"
-
-#~ msgid "Edit the application preferences"
-#~ msgstr "Editar as preferencias do aplicativo"
-
-#~ msgid "_Plugins"
-#~ msgstr "Com_plementos"
-
-#~ msgid "Select active plugins"
-#~ msgstr "Seleccionar engadidos activos"
-
-#~ msgid "Side _Pane"
-#~ msgstr "_Panel lateral"
-
-#~ msgid "Show or hide the side pane"
-#~ msgstr "Mostrar ou ocultar o panel lateral"
-
-#~ msgid "Vinagre Website"
-#~ msgstr "Sitio web do Vinagre"
-
-#~ msgid "About menu accelerators and keyboard shortcuts"
-#~ msgstr "Sobre as teclas rápidas e atallos de teclado"
-
-#~ msgid ""
-#~ "Vinagre comes with menu accelerators and keyboard shortcuts disabled by "
-#~ "default. The reason is to avoid the keys from being intercepted by the "
-#~ "program, and allow them to be sent to the remote desktop.\n"
-#~ "\n"
-#~ "You can change this behavior through the preferences dialog. For more "
-#~ "information, check the documentation.\n"
-#~ "\n"
-#~ "This message will appear only once."
-#~ msgstr ""
-#~ "Vinagre ten as teclas rápidas e os atallos de teclado desactivados por "
-#~ "omisión. A razón é a de evitar que as teclas sexan interceptadas polo "
-#~ "programa, e permitir que se envíen á máquina remota.\n"
-#~ "\n"
-#~ "Pode cambiar este comportamento a través do diálogo de preferencias. Para "
-#~ "máis información, comprobe a documentación.\n"
-#~ "\n"
-#~ "Esta mensaxe aparecerá só unha vez."
-
-#~ msgid ""
-#~ "The program tried to open an UI file but did not succeed, with the error "
-#~ "message:"
-#~ msgstr ""
-#~ "Un programa tentou abrir un ficheiro de IU pero non tivo éxito, obtivo a "
-#~ "seguinte mensaxe de erro:"
-
-#~ msgid "Could not run vinagre:"
-#~ msgstr "Non foi posíbel executar Vinagre:"
-
-#~ msgid "Open Remote Desktop Viewer"
-#~ msgstr "Abrir o visualizador de escritorio remoto"
-
-#~ msgid "_About"
-#~ msgstr "_Sobre"
-
-#~ msgid "Access your bookmarks"
-#~ msgstr "Acceder aos seus marcadores"
-
-#~ msgid ""
-#~ "Vinagre is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "O Vinagre é software libre, pode redistribuílo ou modificalo baixo as "
-#~ "condicións da Licenza pública xeral GNU tal como a publica a Free "
-#~ "Software Foundation, tanto na versión 2 da licenza como (segundo o seu "
-#~ "criterio) en calquera versión posterior."
-
-#~ msgid ""
-#~ "Vinagre is distributed in the hope that it will be useful, but WITHOUT "
-#~ "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-#~ "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-#~ "more details."
-#~ msgstr ""
-#~ "O Vinagre distribúese esperando que sexa útil mais SEN NINGUNHA GARANTÍA, "
-#~ "nin sequera a garantía implícita de VALOR COMERCIAL ou ADECUACIÓN PARA UN "
-#~ "FIN ESPECÍFICO. Para máis detalles vexa a Licenza pública xeral GNU."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program. If not, see <http://www.gnu.org/licenses/>."
-#~ msgstr ""
-#~ "Debeu recibir unha copia da Licenza pública xeral GNU xunto con este "
-#~ "programa. Se non é así, vexa <http://www.gnu.org/licenses/>."
-
-#~ msgid "Which machine do you want to connect to?"
-#~ msgstr "A que máquina se quere conectar?"
-
-#~ msgid "Access MS Windows machines"
-#~ msgstr "Acceder a computadores MS Windows."
-
-#~ msgid "_Depth Color:"
-#~ msgstr "_Profundidade da cor:"
-
-#~ msgid "_Reverse Connections..."
-#~ msgstr "Conexións _inversas…"
-
-#~ msgid "A menu to quickly access remote machines"
-#~ msgstr "Un menú para acceder rapidamente a máquinas remotas"
-
-#~ msgid "Vinagre Applet Factory"
-#~ msgstr "Fábrica de miniaplicativos Vinagre"
-
-#~ msgid "Connect to this machine"
-#~ msgstr "Conectarse a esta máquina"
-
-#~ msgid "_Machine"
-#~ msgstr "_Máquina"
-
-#~ msgid "C_lose All"
-#~ msgstr "_Pechar todos"
-
-#~ msgid "The handler for \"vnc://\" URLs"
-#~ msgstr "O manipulador para os URL \"vnc://\""
-
-#~ msgid "Incoming VNC connection arrived but there is no active window"
-#~ msgstr "A conexión VNC entrante chegou pero non hai ningunha xanela activa"
-
-#~ msgid ""
-#~ "Run 'vinagre --help' to see a full list of available command line options"
-#~ msgstr ""
-#~ "Execute «vinagre --help» para ver unha lista completa das opcións "
-#~ "dispoñíbeis na liña de ordes"
-
-#~ msgid "Plugin %s has already registered a browser for service %s."
-#~ msgstr "O engadido %s xa ten rexistrado un navegador para o servizo %s."
-
-#~ msgid "Plugin"
-#~ msgstr "Engadido"
-
-#~ msgid "Enabled"
-#~ msgstr "Activado"
-
-#~ msgid "C_onfigure"
-#~ msgstr "C_onfigurar"
-
-#~ msgid "A_ctivate"
-#~ msgstr "A_ctivar"
-
-#~ msgid "Ac_tivate All"
-#~ msgstr "Ac_tivar todos"
-
-#~ msgid "_Deactivate All"
-#~ msgstr "_Desactivar todos"
-
-#~ msgid "_About Plugin"
-#~ msgstr "_Sobre o engadido"
-
-#~ msgid "C_onfigure Plugin"
-#~ msgstr "C_onfigurar o engadido"
