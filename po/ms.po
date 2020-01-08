@@ -6,698 +6,829 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=vinagre&component=general\n"
-"POT-Creation-Date: 2010-07-05 16:25+0000\n"
-"PO-Revision-Date: 2010-07-06 21:58+0800\n"
-"Last-Translator: Ahmed Noor Kader Mustajir Md Eusoff <sir.ade@gmail.com>\n"
-"Language-Team: Malay <ms@li.org>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
+"POT-Creation-Date: 2019-10-08 11:44+0000\n"
+"PO-Revision-Date: 2019-12-08 02:43+0800\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
+"Language-Team: Pasukan Terjemahan GNOME Malaysia\n"
 "Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.4\n"
 
-#: ../data/GNOME_VinagreApplet.xml.h:1 ../vinagre/vinagre-plugin-manager.c:496
-msgid "_About"
-msgstr "_Mengenai"
+#: ../data/org.gnome.Vinagre.gschema.xml.h:1
+msgid "Whether we should leave other clients connected"
+msgstr "Sama ada kita patut biarkan klien-klien lain bersambung"
 
-#: ../data/GNOME_VinagreApplet.xml.h:2 ../vinagre/vinagre-ui.h:37
-msgid "_Help"
-msgstr "_Bantuan"
-
-#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
-msgid "Access remote desktops"
-msgstr ""
-
-#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
-#: ../vinagre/GNOME_VinagreApplet.server.in.in.h:2
-#: ../vinagre/vinagre-applet.c:444 ../vinagre/vinagre-applet.c:496
-#: ../vinagre/vinagre-main.c:201
-msgid "Remote Desktop Viewer"
-msgstr ""
-
-#: ../data/vinagre.ui.h:1
-msgid "Allow _keyboard shortcuts"
-msgstr ""
-
-#: ../data/vinagre.ui.h:2
-msgid "Authentication is required"
-msgstr "Pengesahan diperlukan"
-
-#. setup label
-#: ../data/vinagre.ui.h:3 ../vinagre/vinagre-fav.c:855
-msgid "Bookmarks"
-msgstr ""
-
-#: ../data/vinagre.ui.h:4
-msgid "Connection"
-msgstr "Sambungan"
-
-#: ../data/vinagre.ui.h:5
-msgid "Connection options"
-msgstr "Sambungan pilihan"
-
-#: ../data/vinagre.ui.h:6
-msgid "Folder"
-msgstr ""
-
-#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:53
-#: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:148
-#: ../vinagre/vinagre-fav.c:406
-msgid "Host:"
-msgstr "Hos:"
-
-#: ../data/vinagre.ui.h:8
-msgid "Interface"
-msgstr "Antaramuka"
-
-#: ../data/vinagre.ui.h:9
-msgid "Options"
-msgstr "Opsyen"
-
-#: ../data/vinagre.ui.h:10
-msgid "Parent Folder"
-msgstr ""
-
-#: ../data/vinagre.ui.h:11
-msgid "Preferences"
-msgstr "Pilihan"
-
-#. This is a tooltip in preferences dialog
-#: ../data/vinagre.ui.h:13
-msgid ""
-"This option enables menu accelerators and keyboard shortcuts. For more info "
-"on why you may want to disable them, check the documentation."
-msgstr ""
-
-#: ../data/vinagre.ui.h:14
-msgid "Which machine do you want to connect to?"
-msgstr "Mesin yang mana anda ingin menyambung ke?"
-
-#: ../data/vinagre.ui.h:15
-msgid "_Always show tabs"
-msgstr ""
-
-#. This is a button label, in the authentication dialog
-#: ../data/vinagre.ui.h:17
-msgid "_Authenticate"
-msgstr ""
-
-#: ../data/vinagre.ui.h:18
-msgid "_Full screen"
-msgstr "_Skrin penuh"
-
-#: ../data/vinagre.ui.h:19
-msgid "_Host:"
-msgstr "_Hos:"
-
-#. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
-#: ../data/vinagre.ui.h:21
-msgid "_Name:"
-msgstr "_Nama:"
-
-#: ../data/vinagre.ui.h:22
-msgid "_Password:"
-msgstr "_Katalaluan:"
-
-#: ../data/vinagre.ui.h:23
-msgid "_Protocol:"
-msgstr "_Protokol:"
-
-#: ../data/vinagre.ui.h:24
-msgid "_Remember this credential"
-msgstr ""
-
-#: ../data/vinagre.ui.h:25 ../plugins/rdp/vinagre-rdp-plugin.c:133
-#: ../plugins/ssh/vinagre-ssh-plugin.c:144
-msgid "_Username:"
-msgstr "_Nama pengguna:"
-
-#: ../data/vinagre.schemas.in.in.h:1 ../vinagre/vinagre-plugin-manager.c:796
-msgid "Active plugins"
-msgstr ""
-
-#: ../data/vinagre.schemas.in.in.h:2
-msgid ""
-"List of active plugins. It contains the \"Location\" of the active plugins. "
-"See the .vinagre-plugin file for obtaining the \"Location\" of a given "
-"plugin."
-msgstr ""
-
-#: ../data/vinagre.schemas.in.in.h:3
-msgid "Maximum number of history items in connect dialog"
-msgstr ""
-
-#: ../data/vinagre.schemas.in.in.h:4
-msgid ""
-"Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable them. "
-"Note that if they are enabled, those keys will be intercepted by the menu "
-"and will not be sent to the remote host."
-msgstr ""
-
-#: ../data/vinagre.schemas.in.in.h:5
-msgid ""
-"Set to \"true\" to always show the tabs. Set to \"false\" to only show the "
-"tabs when there is more than one active connection."
-msgstr ""
-
-#: ../data/vinagre.schemas.in.in.h:6
-msgid ""
-"Set to \"true\" to always start the program listening for reverse "
-"connections."
-msgstr ""
-
-#: ../data/vinagre.schemas.in.in.h:7
-msgid "Specifies the maximum number of items in the host dropdown entry."
-msgstr ""
-
-#: ../data/vinagre.schemas.in.in.h:8
-msgid "The handler for \"vnc://\" URLs"
-msgstr ""
-
-#: ../data/vinagre.schemas.in.in.h:9
+#: ../data/org.gnome.Vinagre.gschema.xml.h:2
 msgid ""
 "When connecting to a host, the client can say to the server to leave other "
 "clients connected or to drop the existent connections. Set the value to true "
 "to share the desktop with the other clients."
 msgstr ""
+"Ketika bersambung dengan satu hos, klien boleh arahkan pelayan biarkan klien-"
+"klien lain bersambung atau lepaskan sambungan sedia ada. Tetapkan nilai pada "
+"benar untuk berkongsi atas meja dengan klien-klien lain."
 
-#: ../data/vinagre.schemas.in.in.h:10
-msgid "Whether we should leave other clients connected"
-msgstr "Apakah kita harus meninggalkan pelanggan lain berhubung"
-
-#: ../data/vinagre.schemas.in.in.h:11
+#: ../data/org.gnome.Vinagre.gschema.xml.h:3
 msgid ""
 "Whether we should show tabs even when there is only one active connection"
 msgstr ""
-"Apakah kita harus menunjukkan tab bahkan ketika hanya ada satu sambungan "
+"Sama ada kita patut tunjukkan tab-tab walaupun hanya terdapat satu sambungan "
 "aktif"
 
-#: ../data/vinagre.schemas.in.in.h:12
-msgid "Whether we should show the menu accelerators (shortcut keys)"
-msgstr "Apakah kita harus menunjukkan akselerator menu (shortcut keys)"
+#: ../data/org.gnome.Vinagre.gschema.xml.h:4
+msgid ""
+"Set to “true” to always show the tabs. Set to “false” to only show the tabs "
+"when there is more than one active connection."
+msgstr ""
+"Tetapkan pada \"benar\" untuk sentiasa tunjuk tab-tab. Tetapkan pada \"palsu"
+"\" hanya untuk tunjuk tab-tab jika ada lebih dari satu sambungan aktif."
 
-#: ../data/vinagre.schemas.in.in.h:13
+#: ../data/org.gnome.Vinagre.gschema.xml.h:5
+msgid "Whether we should show the menu accelerators (shortcut keys)"
+msgstr "Sama ada kita patut tunjukkan pemecut menu (kekunci pintasan)"
+
+#: ../data/org.gnome.Vinagre.gschema.xml.h:6
+msgid ""
+"Set to “false” to disable menu shortcuts. Set to “true” to enable them. Note "
+"that if they are enabled, those keys will be intercepted by the menu and "
+"will not be sent to the remote host."
+msgstr ""
+"Tetapkan pada \"palsu\" untuk lumpuhkan pintasan menu. Tetapkan pada \"benar"
+"\" untuk membenarkannya. Perhatian, jika ia dibenarkan, kekunci-kekunci "
+"tersebut akan dipintas oleh menu dan tidak akan dihantar ke hos jauh."
+
+#: ../data/org.gnome.Vinagre.gschema.xml.h:7
+msgid "Maximum number of history items in connect dialog"
+msgstr "Bilangan maksimum item sejarah dalam dialog sambung"
+
+#: ../data/org.gnome.Vinagre.gschema.xml.h:8
+msgid "Specifies the maximum number of items in the host dropdown entry."
+msgstr "Nyatakan bilangan maksimum item di dalam masukan tarik-turun hos."
+
+#: ../data/org.gnome.Vinagre.gschema.xml.h:9
 msgid "Whether we should start the program listening for reverse connections"
 msgstr ""
+"Sama ada kita patut mulakan pendengaran program untuk sambungan songsang"
+
+#: ../data/org.gnome.Vinagre.gschema.xml.h:10
+msgid ""
+"Set to “true” to always start the program listening for reverse connections."
+msgstr ""
+"Tetapkan pada \"benar\" untuk sentiasa mulakan pendengaran program untuk "
+"sambungan songsang."
+
+#. Both taken from the desktop file.
+#: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
+#: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
+msgid "Remote Desktop Viewer"
+msgstr "Pelihat Atas Meja Jauh"
+
+#: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
+#: ../data/vinagre-file.desktop.in.in.h:2
+msgid "Access remote desktops"
+msgstr "Capai atas meja Jauh"
+
+#: ../data/vinagre.appdata.xml.in.h:4
+msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
+msgstr "Vinagre menunjukkan atas meja Windows, Mac OS X dan Linux jauh."
+
+#: ../data/vinagre.appdata.xml.in.h:5
+msgid ""
+"It uses the VNC, RDP and SPICE protocols, and can even be used to connect to "
+"SSH servers."
+msgstr ""
+"Aplikasi ini menggunakan protokol-protokol VNC, RDP dan SPICE, serta dapat "
+"digunakan untuk bersambung dengan pelayan-pelayan SSH."
+
+#: ../data/vinagre.desktop.in.in.h:3
+msgid "VNC;RDP;SSH;"
+msgstr "VNC;RDP;SSH;"
+
+#: ../data/vinagre.ui.h:1
+msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
+msgstr "Vinagre ialah sebuah pelihat atas meja jauh untuk atas meja GNOME"
+
+#. Add your name here to appear as a translator in the about dialog
+#: ../data/vinagre.ui.h:3
+msgid "translator-credits"
+msgstr "abuyop https://launchpad.net/~abuyop"
+
+#. This is a button label, in the authentication dialog
+#: ../data/vinagre.ui.h:5
+msgid "_Authenticate"
+msgstr "S_ahihkan"
+
+#: ../data/vinagre.ui.h:6
+msgid "Authentication is required"
+msgstr "Pengesahihan diperlukan"
+
+#: ../data/vinagre.ui.h:7 ../plugins/rdp/vinagre-rdp-tab.c:124
+#: ../plugins/ssh/vinagre-ssh-tab.c:49 ../plugins/vnc/vinagre-vnc-tab.c:149
+#: ../plugins/spice/vinagre-spice-tab.c:142
+msgid "Host:"
+msgstr "Hos:"
+
+#: ../data/vinagre.ui.h:8 ../plugins/rdp/vinagre-rdp-plugin.c:130
+#: ../plugins/ssh/vinagre-ssh-plugin.c:112
+msgid "_Username:"
+msgstr "_Nama Pengguna:"
+
+#: ../data/vinagre.ui.h:9 ../plugins/spice/vinagre-spice-plugin.c:310
+msgid "_Password:"
+msgstr "_Kata Laluan:"
+
+#: ../data/vinagre.ui.h:10 ../plugins/rdp/vinagre-rdp-plugin.c:149
+msgid "_Domain:"
+msgstr "_Domain:"
+
+#: ../data/vinagre.ui.h:11
+msgid "_Remember this credential"
+msgstr "_Ingat kelayakan ini"
+
+#: ../data/vinagre.ui.h:12
+msgid "Store the login credential in GNOME Keyring"
+msgstr "Simpan kelayakan daftar masuk dalam Gelang Kunci GNOME"
+
+#: ../data/vinagre.ui.h:13
+msgid "Bookmarks"
+msgstr "Tanda Buku"
+
+#: ../data/vinagre.ui.h:14
+msgid "Connection"
+msgstr "Sambungan"
+
+#. Translators: This is the name of a bookmark. It appears in the add/edit bookmark dialog.
+#: ../data/vinagre.ui.h:16
+msgid "_Name:"
+msgstr "_Nama:"
+
+#: ../data/vinagre.ui.h:17
+msgid "_Host:"
+msgstr "_Hos:"
+
+#: ../data/vinagre.ui.h:18
+msgid "Options"
+msgstr "Pilihan"
+
+#: ../data/vinagre.ui.h:19
+msgid "_Full screen"
+msgstr "_Skrin penuh"
+
+#: ../data/vinagre.ui.h:20
+msgid "Folder"
+msgstr "Folder"
+
+#: ../data/vinagre.ui.h:21
+msgid "Bookmark Folder"
+msgstr "Folder Tanda Buku"
+
+#: ../data/vinagre.ui.h:22
+msgid "Parent Folder"
+msgstr "Folder Induk"
+
+#: ../data/vinagre.ui.h:23
+msgid "Certificate Verification"
+msgstr "Pengesahan Sijil"
+
+#: ../data/vinagre.ui.h:24
+msgid ""
+"The remote host has changed its certificate.\n"
+"Do you trust the new certificate?"
+msgstr ""
+"Hos jauh telah mengubah sijilnya.\n"
+"Anda masih percayai sijil baharu ini?"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:27
+msgid "New subject:"
+msgstr "Subjek baharu:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:29
+msgid "New issuer:"
+msgstr "Pengeluar baharu:"
+
+#. Fingerprint of the new certificate.
+#: ../data/vinagre.ui.h:31
+msgid "New fingerprint:"
+msgstr "Cap jari baharu:"
+
+#. Subject of the old certificate.
+#: ../data/vinagre.ui.h:33
+msgid "Old subject:"
+msgstr "Subjek lama:"
+
+#. Issuer of the old certificate.
+#: ../data/vinagre.ui.h:35
+msgid "Old issuer:"
+msgstr "Pengeluar lama:"
+
+#. Fingerprint of the old certificate.
+#: ../data/vinagre.ui.h:37
+msgid "Old fingerprint:"
+msgstr "Cap jari lama:"
+
+#: ../data/vinagre.ui.h:38
+msgid ""
+"The below certificate could not be verified.\n"
+"Do you trust the certificate?"
+msgstr ""
+"Sijil di bawah tidak dapat disahkan.\n"
+"Anda masih percayai sijil ini?"
+
+#. Subject of the certificate.
+#: ../data/vinagre.ui.h:41
+msgid "Subject:"
+msgstr "Subjek:"
+
+#. Issuer of the certificate.
+#: ../data/vinagre.ui.h:43
+msgid "Issuer:"
+msgstr "Pengeluar:"
+
+#. Fingerprint of the certificate.
+#: ../data/vinagre.ui.h:45
+msgid "Fingerprint:"
+msgstr "Cap Jari:"
+
+#: ../data/vinagre.ui.h:46 ../plugins/rdp/vinagre-rdp-tab.c:915
+#: ../plugins/rdp/vinagre-rdp-tab.c:957
+msgid "Connect"
+msgstr "Sambung"
+
+#: ../data/vinagre.ui.h:47
+msgid "Choose a remote desktop to connect to"
+msgstr "Pilih satu atas meja jauh untuk disambungkan"
+
+#: ../data/vinagre.ui.h:48
+msgid "_Protocol:"
+msgstr "_Protokol:"
+
+#: ../data/vinagre.ui.h:49
+msgid "Select a remote desktop protocol for this connection"
+msgstr "Pilih satu protokol atas meja jauh untuk sambungan ini"
+
+#: ../data/vinagre.ui.h:50
+msgid "Search for remote hosts on the network"
+msgstr "Gelintar hos-hos jauh dalam rangkaian"
+
+#: ../data/vinagre.ui.h:51
+msgid "Connection options"
+msgstr "Sambungan pilihan"
+
+#: ../data/vinagre.ui.h:52
+msgid "_Fullscreen"
+msgstr "Skrin P_enuh"
+
+#: ../data/vinagre.ui.h:53
+msgid "Enable fullscreen mode for this connection"
+msgstr "Benarkan mod skrin penuh untuk sambungan ini"
+
+#: ../data/vinagre.ui.h:54
+msgid "Reverse Connections"
+msgstr "Sambungan Songsang"
+
+#: ../data/vinagre.ui.h:55
+msgid ""
+"By activating reverse connections you can access remote desktops that are "
+"behind a firewall. The remote side is supposed to initiate the connection "
+"with you. For further information, read the help."
+msgstr ""
+"Dengan mengaktifkan sambungan songsang, anda boleh mencapai atas-meja jauh "
+"yang berada di sebalik dinding api. Sisi jauh berfungsi untuk mengawalkan "
+"sambungan dengan anda. Untuk maklumat lanjut, sila rujuk bantuan."
+
+#: ../data/vinagre.ui.h:56
+msgid "_Enable Reverse Connections"
+msgstr "_Benarkan Sambungan Songsang"
+
+#. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Remote->Reverse connections.
+#: ../data/vinagre.ui.h:58
+msgid "_Always Enabled"
+msgstr "Sentiasa _Dibenarkan"
+
+#: ../data/vinagre.ui.h:59
+msgid "This desktop is reachable through the following IP address(es):"
+msgstr "Atas meja ini boleh dicapai melalui alamat-alamat IP berikut:"
+
+#: ../data/vinagre.ui.h:60
+msgid "Connectivity"
+msgstr "Kesinambungan"
 
 #: ../data/vinagre-mime.xml.in.h:1
 msgid "Remote Desktop (VNC) file"
-msgstr ""
+msgstr "Fail Atas Meja Jauh (VNC)"
 
 #: ../data/vinagre-mime.xml.in.h:2
 msgid "Remote Desktop Connection"
-msgstr ""
+msgstr "Sambungan Atas Meja Jauh"
 
-#: ../plugins/rdp/rdp.vinagre-plugin.desktop.in.h:1
-#: ../plugins/rdp/vinagre-rdp-plugin.c:71
+#: ../plugins/rdp/vinagre-rdp-plugin.c:61
 msgid "RDP"
 msgstr "RDP"
 
-#: ../plugins/rdp/rdp.vinagre-plugin.desktop.in.h:2
-msgid "RDP support"
-msgstr "Sokongan RDP"
+#. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
+#: ../plugins/rdp/vinagre-rdp-plugin.c:63
+msgid "Access MS Windows remote desktops"
+msgstr "Capai atas meja jauh MS Windows"
 
-#. Translators: This is a description of the RDP protocol. It appears at Connect dialog.
-#: ../plugins/rdp/vinagre-rdp-plugin.c:73
-msgid "Access MS Windows machines"
-msgstr ""
-
-#: ../plugins/rdp/vinagre-rdp-plugin.c:121
+#: ../plugins/rdp/vinagre-rdp-plugin.c:111
 msgid "RDP Options"
-msgstr "Opysen RDP"
+msgstr "Pilihan RDP"
+
+#. Scaling check button
+#: ../plugins/rdp/vinagre-rdp-plugin.c:120
+#: ../plugins/vnc/vinagre-vnc-plugin.c:285
+#: ../plugins/spice/vinagre-spice-plugin.c:261
+msgid "_Scaling"
+msgstr "Pen_skalaan"
 
 #. Translators: This is the tooltip for the username field in a RDP connection
 #. Translators: This is the tooltip for the username field in a SSH connection
-#: ../plugins/rdp/vinagre-rdp-plugin.c:138
-#: ../plugins/ssh/vinagre-ssh-plugin.c:149
+#: ../plugins/rdp/vinagre-rdp-plugin.c:137
+#: ../plugins/ssh/vinagre-ssh-plugin.c:117
 msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
-"the Machine field above, in the form username@hostname."
+"the Host field above, in the form username@hostname."
 msgstr ""
-"Pilihan. Jika kosong, nama pengguna anda akan digunakan. Selain itu, boleh "
-"diberikan di bidang Mesin di atas, dalam bentuk username@hostname."
+"Secara pilihan. Jika kosong, nama pengguna anda akan digunakan. Selain itu, "
+"boleh dimasukkan dalam medan Hos di atas, iaitu dalam bentuk "
+"username@hostname."
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:54 ../plugins/ssh/vinagre-ssh-tab.c:50
-#: ../plugins/vnc/vinagre-vnc-tab.c:149
+#. Translators: This is the tooltip for the domain field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:156
+msgid "Optional."
+msgstr "Pilihan."
+
+#. Host width
+#: ../plugins/rdp/vinagre-rdp-plugin.c:169
+msgid "_Width:"
+msgstr "_Lebar:"
+
+#. Translators: This is the tooltip for the width field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:176
+msgid "Set width of the remote desktop"
+msgstr "Tetapkan lebar atas meja jauh"
+
+#. Host height
+#: ../plugins/rdp/vinagre-rdp-plugin.c:189
+msgid "_Height:"
+msgstr "_Tinggi:"
+
+#. Translators: This is the tooltip for the height field in a RDP connection
+#: ../plugins/rdp/vinagre-rdp-plugin.c:196
+msgid "Set height of the remote desktop"
+msgstr "Tetapkan tinggi atas meja jauh"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:125 ../plugins/ssh/vinagre-ssh-tab.c:50
+#: ../plugins/vnc/vinagre-vnc-tab.c:150
+#: ../plugins/spice/vinagre-spice-tab.c:143
 msgid "Port:"
-msgstr ""
+msgstr "Port:"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:129
-msgid "Error while executing xfreerdp"
-msgstr ""
+#: ../plugins/rdp/vinagre-rdp-tab.c:288 ../plugins/vnc/vinagre-vnc-tab.c:601
+#: ../plugins/spice/vinagre-spice-tab.c:480
+msgid "S_caling"
+msgstr "Pe_nskalaan"
 
-#: ../plugins/rdp/vinagre-rdp-tab.c:130 ../vinagre/vinagre-bookmarks.c:347
-#: ../vinagre/vinagre-bookmarks.c:462
-#: ../vinagre/vinagre-bookmarks-migration.c:136
-#: ../vinagre/vinagre-cache-prefs.c:56 ../vinagre/vinagre-commands.c:173
-#: ../vinagre/vinagre-connect.c:487 ../vinagre/vinagre-fav.c:767
-#: ../vinagre/vinagre-main.c:102 ../vinagre/vinagre-main.c:121
-#: ../vinagre/vinagre-window.c:269 ../vinagre/vinagre-window.c:739
-msgid "Unknown error"
-msgstr "Ralat tidak diketahui"
+#: ../plugins/rdp/vinagre-rdp-tab.c:289 ../plugins/vnc/vinagre-vnc-tab.c:602
+#: ../plugins/spice/vinagre-spice-tab.c:481
+msgid "Fit the remote screen into the current window size"
+msgstr "Suai muat skrin jauh mengikut saiz tetingkap semasa"
 
-#. vim: set ts=8:
-#: ../plugins/ssh/vinagre-ssh-plugin.c:76
-#: ../plugins/ssh/ssh.vinagre-plugin.desktop.in.h:1
+#: ../plugins/rdp/vinagre-rdp-tab.c:362 ../plugins/rdp/vinagre-rdp-tab.c:363
+#: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
+#: ../plugins/spice/vinagre-spice-tab.c:598
+#: ../plugins/spice/vinagre-spice-tab.c:599
+msgid "Scaling"
+msgstr "Penskalaan"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:914 ../plugins/rdp/vinagre-rdp-tab.c:956
+msgid "_Cancel"
+msgstr "_Batal"
+
+#: ../plugins/rdp/vinagre-rdp-tab.c:1145 ../plugins/vnc/vinagre-vnc-tab.c:317
+#: ../plugins/spice/vinagre-spice-tab.c:267
+msgid "Error connecting to host."
+msgstr "Ralat ketika menyambung dengan hos."
+
+#: ../plugins/ssh/vinagre-ssh-plugin.c:61
 msgid "SSH"
 msgstr "SSH"
 
 #. Translators: This is a description of the SSH protocol. It appears at Connect dialog.
-#: ../plugins/ssh/vinagre-ssh-plugin.c:78
+#: ../plugins/ssh/vinagre-ssh-plugin.c:63
 msgid "Access Unix/Linux terminals"
-msgstr "Akses terminal Unix/Linux"
+msgstr "Capai terminal Unix/Linux"
 
-#: ../plugins/ssh/vinagre-ssh-plugin.c:132
+#: ../plugins/ssh/vinagre-ssh-plugin.c:103
 msgid "SSH Options"
-msgstr "Opysen SSH"
-
-#: ../plugins/ssh/ssh.vinagre-plugin.desktop.in.h:2
-msgid "SSH support"
-msgstr "Sokongan SSH"
+msgstr "Pilihan SSH"
 
 #. Translators: 'shared' here is a VNC protocol specific flag. You can translate it, but I think it's better to let it untranslated
-#: ../plugins/vnc/vinagre-vnc-connection.c:291
-#: ../plugins/vnc/vinagre-vnc-plugin.c:325
+#: ../plugins/vnc/vinagre-vnc-connection.c:317
+#: ../plugins/vnc/vinagre-vnc-plugin.c:201
 #, c-format
 msgid ""
-"Bad value for 'shared' flag: %d. It is supposed to be 0 or 1. Ignoring it."
+"Bad value for “shared” flag: %d. It is supposed to be 0 or 1. Ignoring it."
 msgstr ""
-
-#. Translators: "Reverse" here is an adjective, not a verb.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:85
-msgid "_Reverse Connections..."
-msgstr ""
-
-#: ../plugins/vnc/vinagre-vnc-plugin.c:87
-msgid "Configure incoming VNC connections"
-msgstr ""
+"Nilai tidak elok untuk bendera \"terkongsi\": %d. Ia sepatutnya 0 atau 1. "
+"Abaikannya."
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:174
+#: ../plugins/vnc/vinagre-vnc-plugin.c:52
 msgid "Enable scaled mode"
-msgstr ""
+msgstr "Benarkan mod berskala"
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:189
+#: ../plugins/vnc/vinagre-vnc-plugin.c:65
 msgid "VNC Options:"
-msgstr "Opysen VNC:"
+msgstr "Pilihan VNC:"
 
 #. Translators: this is a command line option (run vinagre --help)
-#: ../plugins/vnc/vinagre-vnc-plugin.c:191
+#: ../plugins/vnc/vinagre-vnc-plugin.c:67
 msgid "Show VNC Options"
-msgstr "Tunjuk Opysen VNC"
+msgstr "Tunjuk Pilihan VNC"
 
-#. vim: set ts=8:
-#: ../plugins/vnc/vinagre-vnc-plugin.c:213
-#: ../plugins/vnc/vnc.vinagre-plugin.desktop.in.h:1
+#: ../plugins/vnc/vinagre-vnc-plugin.c:89
 msgid "VNC"
 msgstr "VNC"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:214
-msgid "Access Unix/Linux, Windows and other machines."
-msgstr ""
+#: ../plugins/vnc/vinagre-vnc-plugin.c:90
+msgid "Access Unix/Linux, Windows and other remote desktops."
+msgstr "Capai atas meja Unix/Linux, Windows dan yang lain."
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:271
+#: ../plugins/vnc/vinagre-vnc-plugin.c:147
+#: ../plugins/spice/vinagre-spice-plugin.c:101
 msgid "Could not parse the file."
-msgstr ""
+msgstr "Tidak dapat menghurai fail."
 
-#. Translators: Do not translate "connection". It's the name of a group in the .vnc (.ini like) file.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:279
-msgid "The file is not a VNC one: Missing the group \"connection\"."
-msgstr ""
+#. Translators: Do not translate "Connection". It's the name of a group in the .vnc (.ini like) file.
+#: ../plugins/vnc/vinagre-vnc-plugin.c:155
+msgid "The file is not a VNC one: Missing the group “Connection”."
+msgstr "Fail bukanlah VNC: Kumpulan \"Sambungan\" hilang."
 
-#. Translators: Do not translate "host". It's the name of a key in the .vnc (.ini like) file.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:286
-msgid "The file is not a VNC one: Missing the key \"host\"."
-msgstr ""
+#. Translators: Do not translate "Host". It's the name of a key in the .vnc (.ini like) file.
+#: ../plugins/vnc/vinagre-vnc-plugin.c:162
+msgid "The file is not a VNC one: Missing the key “Host”."
+msgstr "Fail bukanlah VNC: Kunci \"Hos\" hilang."
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:378
+#: ../plugins/vnc/vinagre-vnc-plugin.c:268
 msgid "VNC Options"
-msgstr "Opysen VNC"
+msgstr "Pilihan VNC"
 
 #. View only check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:391
-#: ../plugins/vnc/vinagre-vnc-tab.c:633
+#. View only check button - not fully ready on spice-gtk side
+#: ../plugins/vnc/vinagre-vnc-plugin.c:276 ../plugins/vnc/vinagre-vnc-tab.c:630
+#: ../plugins/spice/vinagre-spice-plugin.c:237
+#: ../plugins/spice/vinagre-spice-tab.c:521
 msgid "_View only"
 msgstr "_Lihat sahaja"
 
-#. Scaling check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:399
-msgid "_Scaling"
-msgstr ""
-
-#: ../plugins/vnc/vinagre-vnc-plugin.c:415
+#. Keep ratio check button
+#: ../plugins/vnc/vinagre-vnc-plugin.c:299
 msgid "_Keep aspect ratio"
-msgstr ""
+msgstr "_Kekalkan nisbah bidang"
 
 #. JPEG Compression check button
-#: ../plugins/vnc/vinagre-vnc-plugin.c:425
+#: ../plugins/vnc/vinagre-vnc-plugin.c:309
 msgid "_Use JPEG Compression"
-msgstr ""
+msgstr "_Guna Pemampatan JPEG"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:426
+#: ../plugins/vnc/vinagre-vnc-plugin.c:310
 msgid "This might not work on all VNC servers"
-msgstr ""
+msgstr "Ia mungkin tidak berfungsi pada semua pelayan VNC"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:435
-msgid "_Depth Color:"
-msgstr "_Kedalaman Warna:"
+#: ../plugins/vnc/vinagre-vnc-plugin.c:320
+msgid "Color _Depth:"
+msgstr "Kedalaman _Warna:"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:440
+#: ../plugins/vnc/vinagre-vnc-plugin.c:325
 msgid "Use Server Settings"
-msgstr "Gunakan Tetapan Pelayan"
+msgstr "Guna Tetapan Pelayan"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:441
+#: ../plugins/vnc/vinagre-vnc-plugin.c:326
 msgid "True Color (24 bits)"
 msgstr "Warna Sebenar (24 bits)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:442
+#: ../plugins/vnc/vinagre-vnc-plugin.c:327
 msgid "High Color (16 bits)"
 msgstr "Warna Tinggi (16 bits)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:443
+#: ../plugins/vnc/vinagre-vnc-plugin.c:328
 msgid "Low Color (8 bits)"
 msgstr "Warna Rendah (8 bits)"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:444
+#: ../plugins/vnc/vinagre-vnc-plugin.c:329
 msgid "Ultra Low Color (3 bits)"
-msgstr ""
+msgstr "Warna Ultra Rendah (3 bits)"
 
+#. Translators: the whole sentence will be: Use Host <hostname> as a SSH tunnel
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
-#: ../plugins/vnc/vinagre-vnc-plugin.c:457
+#: ../plugins/vnc/vinagre-vnc-plugin.c:343
+#: ../plugins/spice/vinagre-spice-plugin.c:272
 msgid "Use h_ost"
 msgstr "Guna h_os"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:466
+#. Translators: This is the tooltip of the SSH tunneling entry
+#: ../plugins/vnc/vinagre-vnc-plugin.c:352
+#: ../plugins/spice/vinagre-spice-plugin.c:281
 msgid "hostname or user@hostname"
-msgstr "namahos atau pengguna@namahos"
+msgstr "nama hos atau pengguna@namahos"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:467
+#: ../plugins/vnc/vinagre-vnc-plugin.c:353
+#: ../plugins/spice/vinagre-spice-plugin.c:282
 msgid "Supply an alternative port using colon"
-msgstr ""
+msgstr "Sediakan satu port alternatif menggunakan tanda titik bertindih"
 
-#: ../plugins/vnc/vinagre-vnc-plugin.c:468
+#: ../plugins/vnc/vinagre-vnc-plugin.c:354
+#: ../plugins/spice/vinagre-spice-plugin.c:283
 msgid "For instance: joe@example.com:5022"
 msgstr "Sebagai contoh: joe@example.com:5022"
 
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
-#: ../plugins/vnc/vinagre-vnc-plugin.c:474
+#: ../plugins/vnc/vinagre-vnc-plugin.c:360
+#: ../plugins/spice/vinagre-spice-plugin.c:289
 msgid "as a SSH tunnel"
-msgstr "guna sebagai terowong SSH"
+msgstr "sebagai satu terowong SSH"
 
 #. Translators: this is a pattern to open *.vnc files in a open dialog.
-#: ../plugins/vnc/vinagre-vnc-plugin.c:509
+#: ../plugins/vnc/vinagre-vnc-plugin.c:395
 msgid "VNC Files"
 msgstr "Fail-fail VNC"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:147
+#: ../plugins/vnc/vinagre-vnc-tab.c:148
 msgid "Desktop Name:"
-msgstr ""
+msgstr "Nama Atas Meja:"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:150
+#: ../plugins/vnc/vinagre-vnc-tab.c:151
 msgid "Dimensions:"
 msgstr "Dimensi:"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:304
+#: ../plugins/vnc/vinagre-vnc-tab.c:306
+#: ../plugins/spice/vinagre-spice-tab.c:255
 msgid "Error creating the SSH tunnel"
-msgstr ""
+msgstr "Ralat ketika mencipta terowong SSH"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:305 ../plugins/vnc/vinagre-vnc-tab.c:316
+#: ../plugins/vnc/vinagre-vnc-tab.c:307 ../plugins/vnc/vinagre-vnc-tab.c:318
+#: ../plugins/spice/vinagre-spice-tab.c:256
+#: ../plugins/spice/vinagre-spice-tab.c:268
 msgid "Unknown reason"
-msgstr ""
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:315
-msgid "Error connecting to host."
-msgstr ""
+msgstr "Sebab tidak diketahui"
 
 #. Translators: %s is a host name or IP address; %u is a code error (number).
-#: ../plugins/vnc/vinagre-vnc-tab.c:360
+#: ../plugins/vnc/vinagre-vnc-tab.c:362
 #, c-format
 msgid "Authentication method for host %s is unsupported. (%u)"
-msgstr ""
+msgstr "Kaedah pengesahihan untuk hos %s tidak disokong. (%u)"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:364
+#: ../plugins/vnc/vinagre-vnc-tab.c:366
 msgid "Authentication unsupported"
-msgstr ""
+msgstr "Pengesahihan tidak disokong"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:532 ../plugins/vnc/vinagre-vnc-tab.c:549
+#: ../plugins/vnc/vinagre-vnc-tab.c:529 ../plugins/vnc/vinagre-vnc-tab.c:546
 msgid "Authentication error"
-msgstr "Ralat pengesahan"
+msgstr "Ralat pengesahihan"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:533
-msgid "A username is required in order to access this machine."
-msgstr "Nama pengguna diperlukan untuk mengakses mesin ini."
+#: ../plugins/vnc/vinagre-vnc-tab.c:530
+msgid "A username is required in order to access this remote desktop."
+msgstr "Satu nama pengguna diperlukan untuk mencapai atas meja jauh ini."
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:550
-msgid "A password is required in order to access this machine."
-msgstr "Katalaluan diperlukan untuk mengakses mesin ini."
+#: ../plugins/vnc/vinagre-vnc-tab.c:547
+msgid "A password is required in order to access this remote desktop."
+msgstr "Satu kata laluan diperlukan untuk mencapai atas meja jauh ini."
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:604
-msgid "S_caling"
-msgstr ""
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:605
-msgid "Fits the remote screen into the current window size"
-msgstr ""
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:618
+#: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
-msgstr ""
+msgstr "_Kekalkan Nisbah Bidang"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:619
-msgid "Keeps the screen aspect ratio when using scaling"
-msgstr ""
+#: ../plugins/vnc/vinagre-vnc-tab.c:616
+msgid "Keep the screen aspect ratio when using scaling"
+msgstr "Kekalkan nisbah bidang skrin ketika menggunakan penskalaan"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:634
-msgid "Does not send mouse and keyboard events"
-msgstr ""
+#: ../plugins/vnc/vinagre-vnc-tab.c:631
+#: ../plugins/spice/vinagre-spice-tab.c:522
+msgid "Do not send mouse and keyboard events"
+msgstr "Jangan hantar peristiwa tetikus dan papan kekunci"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:647
+#: ../plugins/vnc/vinagre-vnc-tab.c:644
 msgid "_Original size"
 msgstr "_Saiz Asal"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:648
-msgid "Adjusts the window to the remote desktop's size"
-msgstr ""
+#: ../plugins/vnc/vinagre-vnc-tab.c:645
+msgid "Adjust the window to the size of the remote desktop"
+msgstr "Laras tetingkap mengikut saiz atas meja jauh"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:661
+#: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
-msgstr ""
+msgstr "_Segar Semula Skrin"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:662
+#: ../plugins/vnc/vinagre-vnc-tab.c:659
 msgid "Requests an update of the screen"
-msgstr ""
+msgstr "Permintaan satu kemas kini skrin"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:684
+#: ../plugins/vnc/vinagre-vnc-tab.c:681
+#: ../plugins/spice/vinagre-spice-tab.c:545
 msgid "_Send Ctrl-Alt-Del"
 msgstr "_Hantar Ctrl-Alt-Del"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:685
-msgid "Sends Ctrl+Alt+Del to the remote machine"
-msgstr ""
+#: ../plugins/vnc/vinagre-vnc-tab.c:682 ../plugins/vnc/vinagre-vnc-tab.c:756
+#: ../plugins/spice/vinagre-spice-tab.c:546
+#: ../plugins/spice/vinagre-spice-tab.c:619
+msgid "Send Ctrl+Alt+Del to the remote desktop"
+msgstr "Hantar Ctrl-Alt-Del ke dalam atas meja jauh"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:737 ../plugins/vnc/vinagre-vnc-tab.c:738
-msgid "Scaling"
-msgstr ""
-
-#: ../plugins/vnc/vinagre-vnc-tab.c:747 ../plugins/vnc/vinagre-vnc-tab.c:748
+#: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
+#: ../plugins/spice/vinagre-spice-tab.c:608
+#: ../plugins/spice/vinagre-spice-tab.c:609
 msgid "Read only"
 msgstr "Baca sahaja"
 
 #. Send Ctrl-alt-del
-#: ../plugins/vnc/vinagre-vnc-tab.c:756 ../plugins/vnc/vinagre-vnc-tab.c:758
+#: ../plugins/vnc/vinagre-vnc-tab.c:754
+#: ../plugins/spice/vinagre-spice-tab.c:617
 msgid "Send Ctrl-Alt-Del"
 msgstr "Hantar Ctrl-Alt-Del"
 
-#: ../plugins/vnc/vinagre-vnc-tab.c:920
+#: ../plugins/vnc/vinagre-vnc-tab.c:919
 msgid ""
 "Scaling is not supported on this installation.\n"
 "\n"
 "Read the README file (shipped with Vinagre) in order to know how to enable "
 "this feature."
 msgstr ""
+"Penskalaan tidak disokong dalam pemasangan ini.\n"
+"\n"
+"Sila baca fail README (yang disertakan dalam Vinagre) untuk mengetahui "
+"bagaimana hendak membenarkan fitur ini."
 
-#: ../plugins/vnc/vinagre-vnc-tunnel.c:96
+#: ../plugins/vnc/vinagre-vnc-tunnel.c:97
+#: ../plugins/spice/vinagre-spice-tunnel.c:103
 #, c-format
 msgid "Unable to find a free TCP port"
-msgstr ""
+msgstr "Tidak boleh mencari satu port TCP bebas"
 
-#: ../plugins/vnc/vnc.vinagre-plugin.desktop.in.h:2
-msgid "VNC support"
-msgstr "Sokongan VNC"
+#. Translators: Do not translate "connection". It's the name of a group in the .spice (.ini like) file.
+#: ../plugins/spice/vinagre-spice-plugin.c:108
+msgid "The file is not a Spice one: Missing the group “connection”."
+msgstr "Fail bukanlah sebuah Spice. Kumpulan \"sambungan\" hilang."
 
-#: ../plugins/vnc/vinagre-vnc-listener-dialog.c:100
-msgid "IPv4:"
-msgstr "IPv4:"
+#. Translators: Do not translate "host". It's the name of a key in the .spice (.ini like) file.
+#: ../plugins/spice/vinagre-spice-plugin.c:115
+msgid "The file is not a Spice one: Missing the key “host”."
+msgstr "Fail bukanlah sebuah Spice. Kunci \"hos\" hilang."
 
-#: ../plugins/vnc/vinagre-vnc-listener-dialog.c:112
-msgid ""
-"\n"
-"\n"
-"IPv6:"
-msgstr ""
-"\n"
-"\n"
-"IPv6:"
+#: ../plugins/spice/vinagre-spice-plugin.c:174
+msgid "SPICE"
+msgstr "SPICE"
 
-#: ../plugins/vnc/vinagre-vnc-listener-dialog.c:171
-#, c-format
-msgid "On the port %d"
-msgstr ""
+#. Translators: This is a description of the SPICE protocol. It appears at Connect dialog.
+#: ../plugins/spice/vinagre-spice-plugin.c:176
+msgid "Access Spice desktop server"
+msgstr "Capai pelayan atas meja Spice"
 
-#: ../plugins/vnc/vinagre-vnc-listener.c:168
-msgid "Incoming VNC connection arrived but there is no active window"
-msgstr ""
+#: ../plugins/spice/vinagre-spice-plugin.c:224
+msgid "SPICE Options"
+msgstr "Pilihan SPICE"
 
-#. vim: set ts=8:
-#: ../plugins/vnc/vnc.ui.h:1
-msgid ""
-"By activating reverse connections you can access machines that are behind a "
-"firewall. The remote side is supposed to initiate the connection with you. "
-"For further information, checkout the help."
-msgstr ""
+#. Resize guest check button
+#: ../plugins/spice/vinagre-spice-plugin.c:245
+#: ../plugins/spice/vinagre-spice-tab.c:494
+msgid "_Resize guest"
+msgstr "_Saiz semula tetamu"
 
-#: ../plugins/vnc/vnc.ui.h:2
-msgid "Connectivity"
-msgstr ""
+#. Clipboard sharing check button
+#: ../plugins/spice/vinagre-spice-plugin.c:253
+#: ../plugins/spice/vinagre-spice-tab.c:507
+msgid "_Share clipboard"
+msgstr "_Kongsi papan keratan"
 
-#: ../plugins/vnc/vnc.ui.h:3
-msgid "Reverse Connections"
-msgstr ""
+#. Translators: This is the tooltip for the password field in a SPICE connection
+#: ../plugins/spice/vinagre-spice-plugin.c:315
+msgid "Optional"
+msgstr "Pilihan"
 
-#: ../plugins/vnc/vnc.ui.h:4
-msgid "This machine is reachable through the following IP address(es):"
-msgstr ""
+#. Translators: this is a pattern to open *.spice files in a open dialog.
+#: ../plugins/spice/vinagre-spice-plugin.c:336
+msgid "Spice Files"
+msgstr "Fail-fail Spice"
 
-#. Translators: this is the reverse connection mode. "Always enabled" means it will be enabled by default in the program startup. You can see this string in the dialog Machine->Reverse connections.
-#: ../plugins/vnc/vnc.ui.h:6
-msgid "_Always Enabled"
-msgstr ""
+#: ../plugins/spice/vinagre-spice-tab.c:495
+msgid "Resize the screen guest to best fit"
+msgstr "Saiz semula skrin tetamu mengikut suai muat terbaik"
 
-#: ../plugins/vnc/vnc.ui.h:7
-msgid "_Enable Reverse Connections"
-msgstr ""
+#: ../plugins/spice/vinagre-spice-tab.c:508
+msgid "Automatically share clipboard between client and guest"
+msgstr "Kongsi papan keratan secara automatik antara klien dengan tetamu"
 
-#: ../vinagre/GNOME_VinagreApplet.server.in.in.h:1
-msgid "A menu to quickly access remote machines"
-msgstr ""
-
-#: ../vinagre/GNOME_VinagreApplet.server.in.in.h:3
-msgid "Vinagre Applet Factory"
-msgstr ""
-
-#: ../vinagre/vinagre-applet.c:287 ../vinagre/vinagre-applet.c:370
-msgid "Could not run vinagre:"
-msgstr ""
-
-#: ../vinagre/vinagre-applet.c:390
-msgid "Open Remote Desktop Viewer"
-msgstr ""
-
-#: ../vinagre/vinagre-applet.c:445
-msgid "Access your bookmarks"
-msgstr ""
-
-#: ../vinagre/vinagre-bookmarks.c:269 ../vinagre/vinagre-connection.c:525
-#: ../vinagre/vinagre-tab.c:535 ../vinagre/vinagre-tube-handler.c:253
-#, c-format
-msgid "The protocol %s is not supported."
-msgstr ""
-
-#: ../vinagre/vinagre-bookmarks.c:347
+#: ../vinagre/vinagre-bookmarks.c:366
 #, c-format
 msgid "Error while initializing bookmarks: %s"
-msgstr ""
+msgstr "Ralat ketika mengawalkan tanda buku: %s"
 
-#: ../vinagre/vinagre-bookmarks.c:354
+#: ../vinagre/vinagre-bookmarks.c:366 ../vinagre/vinagre-bookmarks.c:492
+#: ../vinagre/vinagre-bookmarks-migration.c:135
+#: ../vinagre/vinagre-cache-prefs.c:57 ../vinagre/vinagre-commands.c:163
+#: ../vinagre/vinagre-connect.c:510 ../vinagre/vinagre-options.c:85
+#: ../vinagre/vinagre-options.c:103 ../vinagre/vinagre-window.c:260
+#: ../vinagre/vinagre-window.c:798
+msgid "Unknown error"
+msgstr "Ralat tidak diketahui"
+
+#: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
-msgstr ""
+msgstr "Ralat ketika mengawalkan tanda buku: Fail nampaknya kosong"
 
-#: ../vinagre/vinagre-bookmarks.c:361
+#: ../vinagre/vinagre-bookmarks.c:380
 msgid ""
 "Error while initializing bookmarks: The file is not a vinagre bookmarks file"
 msgstr ""
+"Ralat ketika mengawalkan tanda buku: Fail bukanlah fail tanda buku vinagre"
 
-#: ../vinagre/vinagre-bookmarks.c:423 ../vinagre/vinagre-bookmarks.c:430
+#: ../vinagre/vinagre-bookmarks.c:453 ../vinagre/vinagre-bookmarks.c:460
 msgid "Error while saving bookmarks: Failed to create the XML structure"
-msgstr ""
+msgstr "Ralat ketika menyimpan tanda buku: Gagal mencipta struktur XML"
 
-#: ../vinagre/vinagre-bookmarks.c:437 ../vinagre/vinagre-bookmarks.c:444
+#: ../vinagre/vinagre-bookmarks.c:467 ../vinagre/vinagre-bookmarks.c:474
 msgid "Error while saving bookmarks: Failed to initialize the XML structure"
-msgstr ""
+msgstr "Ralat ketika menyimpan tanda buku: Gagal mengawalkan struktur XML"
 
-#: ../vinagre/vinagre-bookmarks.c:453
+#: ../vinagre/vinagre-bookmarks.c:483
 msgid "Error while saving bookmarks: Failed to finalize the XML structure"
-msgstr ""
+msgstr "Ralat ketika menyimpan tanda buku: Gagal memuktamadkan struktur XML"
 
-#: ../vinagre/vinagre-bookmarks.c:462
+#: ../vinagre/vinagre-bookmarks.c:492
 #, c-format
 msgid "Error while saving bookmarks: %s"
-msgstr ""
+msgstr "Ralat ketika menyimpan tanda buku: %s"
 
-#: ../vinagre/vinagre-bookmarks-migration.c:96
-#: ../vinagre/vinagre-bookmarks-migration.c:103
+#: ../vinagre/vinagre-bookmarks-migration.c:95
+#: ../vinagre/vinagre-bookmarks-migration.c:102
 msgid "Error while migrating bookmarks: Failed to create the XML structure"
-msgstr ""
+msgstr "Ralat ketika memindahkan tanda buku: Gagal mencipta struktur XML"
 
-#: ../vinagre/vinagre-bookmarks-migration.c:110
-#: ../vinagre/vinagre-bookmarks-migration.c:117
+#: ../vinagre/vinagre-bookmarks-migration.c:109
+#: ../vinagre/vinagre-bookmarks-migration.c:116
 msgid "Error while migrating bookmarks: Failed to initialize the XML structure"
-msgstr ""
+msgstr "Ralat ketika memindahkan tanda buku: Gagal mengawalkan struktur XML"
 
-#: ../vinagre/vinagre-bookmarks-migration.c:126
+#: ../vinagre/vinagre-bookmarks-migration.c:125
 msgid "Error while migrating bookmarks: Failed to finalize the XML structure"
-msgstr ""
+msgstr "Ralat ketika memindahkan tanda buku: Gagal memuktamadkan struktur XML"
 
-#: ../vinagre/vinagre-bookmarks-migration.c:136
-#: ../vinagre/vinagre-bookmarks-migration.c:218
+#: ../vinagre/vinagre-bookmarks-migration.c:135
+#: ../vinagre/vinagre-bookmarks-migration.c:216
 #, c-format
 msgid "Error while migrating bookmarks: %s"
-msgstr ""
+msgstr "Ralat ketika memindahkan tanda buku: %s"
 
-#: ../vinagre/vinagre-bookmarks-migration.c:165
+#: ../vinagre/vinagre-bookmarks-migration.c:164
 msgid "Error while migrating bookmarks: VNC plugin is not activated"
-msgstr ""
+msgstr "Ralat ketika memindahkan tanda buku: Pemalam VNC tidak diaktifkan"
 
-#: ../vinagre/vinagre-bookmarks-migration.c:218
+#: ../vinagre/vinagre-bookmarks-migration.c:216
 msgid "Failed to create the directory"
-msgstr ""
+msgstr "Gagal mencipta direktori"
 
-#: ../vinagre/vinagre-bookmarks-migration.c:243
+#: ../vinagre/vinagre-bookmarks-migration.c:241
 msgid ""
 "Migrating the bookmarks file to the new format. This operation is only "
 "supposed to run once."
 msgstr ""
+"Memindahkan fail tanda buku ke format baharu. Operasi ini hanya dijalankan "
+"sekali sahaja."
 
-#: ../vinagre/vinagre-bookmarks-migration.c:251
+#: ../vinagre/vinagre-bookmarks-migration.c:249
 #, c-format
 msgid "Error opening old bookmarks file: %s"
-msgstr ""
+msgstr "Ralat ketika membuka fail tanda buku lama: %s"
 
-#: ../vinagre/vinagre-bookmarks-migration.c:252
-#: ../vinagre/vinagre-bookmarks-migration.c:264
+#: ../vinagre/vinagre-bookmarks-migration.c:250
+#: ../vinagre/vinagre-bookmarks-migration.c:262
 msgid "Migration cancelled"
-msgstr ""
+msgstr "Pemindahan dibatalkan"
 
-#: ../vinagre/vinagre-bookmarks-migration.c:261
+#: ../vinagre/vinagre-bookmarks-migration.c:259
 msgid "Could not remove the old bookmarks file"
-msgstr ""
+msgstr "Tidak dapat membuang fail tanda buku lama"
 
 #: ../vinagre/vinagre-bookmarks-tree.c:120
 msgid "Root Folder"
-msgstr ""
+msgstr "Folder Root"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:78
 msgid "Invalid name for this folder"
-msgstr ""
+msgstr "Nama tidak sah untuk folder ini"
 
 #: ../vinagre/vinagre-bookmarks-ui.c:88 ../vinagre/vinagre-bookmarks-ui.c:200
 #, c-format
 msgid ""
-"The name \"%s\" is already used in this folder. Please use a different name."
-msgstr ""
+"The name “%s” is already used in this folder. Please use a different name."
+msgstr "Nama \"%s\" sudah digunakan dalam folder ini. Sila guna nama lain."
 
 #: ../vinagre/vinagre-bookmarks-ui.c:89 ../vinagre/vinagre-bookmarks-ui.c:190
 #: ../vinagre/vinagre-bookmarks-ui.c:201
@@ -711,411 +842,395 @@ msgid "(Protocol: %s)"
 msgstr "(Protokol: %s)"
 
 #. Translators: %s is a bookmark entry name
-#: ../vinagre/vinagre-bookmarks-ui.c:308
+#: ../vinagre/vinagre-bookmarks-ui.c:306
 #, c-format
 msgid "Are you sure you want to remove %s from bookmarks?"
-msgstr ""
+msgstr "Anda pasti mahu membuang %s daripada tanda buku?"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:314
+#: ../vinagre/vinagre-bookmarks-ui.c:312
 msgid "Remove Folder?"
-msgstr ""
+msgstr "Buang Folder?"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:315
-msgid "Notice that all its subfolders and items will be removed as well."
-msgstr ""
+#: ../vinagre/vinagre-bookmarks-ui.c:313
+msgid "Note that all its subfolders and bookmarks will be removed as well."
+msgstr "Perhatian, semua sub-folder dan tanda buku akan dibuang sekali."
 
-#: ../vinagre/vinagre-bookmarks-ui.c:320
+#: ../vinagre/vinagre-bookmarks-ui.c:318
 msgid "Remove Item?"
-msgstr ""
+msgstr "Buang Item?"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:337
+#: ../vinagre/vinagre-bookmarks-ui.c:334
 msgid "Error removing bookmark: Entry not found"
-msgstr ""
+msgstr "Ralat ketika membuang tanda buku: Masukan tidak ditemui"
 
-#: ../vinagre/vinagre-bookmarks-ui.c:354
+#: ../vinagre/vinagre-bookmarks-ui.c:351
 msgid "New Folder"
-msgstr ""
+msgstr "Folder Baharu"
 
-#: ../vinagre/vinagre-cache-prefs.c:56
+#: ../vinagre/vinagre-cache-prefs.c:57
 #, c-format
 msgid "Error while saving preferences: %s"
-msgstr ""
+msgstr "Ralat ketika menyimpan keutamaan: %s"
 
-#: ../vinagre/vinagre-commands.c:121
+#: ../vinagre/vinagre-commands.c:115
 msgid "Choose the file"
-msgstr ""
+msgstr "Pilih fail"
 
-#: ../vinagre/vinagre-commands.c:149
+#: ../vinagre/vinagre-commands.c:139
 msgid "There are no supported files"
-msgstr ""
+msgstr "Tiada fail-fail disokong"
 
-#: ../vinagre/vinagre-commands.c:150
+#: ../vinagre/vinagre-commands.c:140
 msgid ""
 "None of the active plugins support this action. Activate some plugins and "
 "try again."
 msgstr ""
+"Tiada sokongan pemalam aktif untuk tindakan ini. Aktifkan beberapa pemalam "
+"dan cuba lagi."
 
-#: ../vinagre/vinagre-commands.c:184
+#: ../vinagre/vinagre-commands.c:174
 msgid "The following file could not be opened:"
 msgid_plural "The following files could not be opened:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fail berikut tidak dapat dibuka:"
 
-#: ../vinagre/vinagre-connect.c:92 ../vinagre/vinagre-connect.c:339
-#: ../vinagre/vinagre-connect.c:451
+#: ../vinagre/vinagre-connect.c:91 ../vinagre/vinagre-connect.c:344
+#: ../vinagre/vinagre-connect.c:474
 msgid "Could not get the active protocol from the protocol list."
-msgstr ""
+msgstr "Tidak memperoleh protokol aktif melalui senarai protokol."
 
-#: ../vinagre/vinagre-connect.c:320
+#: ../vinagre/vinagre-connect.c:318
 #, c-format
 msgid "Error while saving history file: %s"
-msgstr ""
+msgstr "Ralat ketika menyimpan fail sejarah: %s"
 
-#: ../vinagre/vinagre-connect.c:355
+#: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
-msgstr ""
+msgstr "Pilih satu Atas Meja Jauh"
 
-#: ../vinagre/vinagre-connection.c:633
-msgid "Could not open the file."
-msgstr ""
-
-#: ../vinagre/vinagre-connection.c:657
-msgid "The file was not recognized by any of the plugins."
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:569
-msgid "_New Folder"
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:570
-msgid "Create a new folder"
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:575
-msgid "_Open bookmark"
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:576
-msgid "Connect to this machine"
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:577
-msgid "_Edit bookmark"
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:578
-msgid "Edit the details of selected bookmark"
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:579
-msgid "_Remove from bookmarks"
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:580
-msgid "Remove current selected connection from bookmarks"
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:598 ../vinagre/vinagre-window.c:400
+#: ../vinagre/vinagre-connection.c:658 ../vinagre/vinagre-tab.c:590
+#: ../vinagre/vinagre-tube-handler.c:257
 #, c-format
-msgid "Could not merge UI XML file: %s"
-msgstr ""
+msgid "The protocol %s is not supported."
+msgstr "Fail protokol %s tidak disokong."
 
-#: ../vinagre/vinagre-fav.c:756
-msgid "Invalid operation"
-msgstr ""
+#: ../vinagre/vinagre-connection.c:766
+msgid "Could not open the file."
+msgstr "Tidak dapat membuka fail."
 
-#: ../vinagre/vinagre-fav.c:757
-msgid "Data received from drag&drop operation is invalid."
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:863
-msgid "Hide panel"
-msgstr ""
-
-#: ../vinagre/vinagre-fav.c:1048
-msgid "Hosts nearby"
-msgstr ""
-
-#. Translators: this is a command line option (run vinagre --help)
-#: ../vinagre/vinagre-main.c:64
-msgid "Open vinagre in fullscreen mode"
-msgstr ""
-
-#. Translators: this is a command line option (run vinagre --help)
-#: ../vinagre/vinagre-main.c:68
-msgid "Create a new toplevel window in an existing instance of vinagre"
-msgstr ""
-
-#. Translators: this is a command line option (run vinagre --help)
-#: ../vinagre/vinagre-main.c:72
-msgid "Open a file recognized by vinagre"
-msgstr ""
-
-#: ../vinagre/vinagre-main.c:72
-msgid "filename"
-msgstr ""
-
-#. Translators: this is a command line option (run vinagre --help)
-#: ../vinagre/vinagre-main.c:77
-msgid "[server:port]"
-msgstr ""
-
-#: ../vinagre/vinagre-main.c:132
-msgid "The following error has occurred:"
-msgid_plural "The following errors have occurred:"
-msgstr[0] ""
-msgstr[1] ""
+#: ../vinagre/vinagre-connection.c:792
+msgid "The file was not recognized by any of the plugins."
+msgstr "Fail tidak dikenal pasti oleh mana-mana pemalam."
 
 #. Setup command line options
-#: ../vinagre/vinagre-main.c:171
-msgid "- Remote Desktop Viewer"
-msgstr ""
+#: ../vinagre/vinagre-main.c:91
+msgid "— Remote Desktop Viewer"
+msgstr "— Pelihat Atas Meja Jauh"
 
-#: ../vinagre/vinagre-main.c:196
-msgid ""
-"Run 'vinagre --help' to see a full list of available command line options"
-msgstr ""
-
-#: ../vinagre/vinagre-mdns.c:159
+#: ../vinagre/vinagre-mdns.c:172
 #, c-format
 msgid "Failed to resolve avahi hostname: %s\n"
-msgstr ""
-
-#: ../vinagre/vinagre-mdns.c:217
-#, c-format
-msgid "Plugin %s has already registered a browser for service %s."
-msgstr ""
+msgstr "Gagal meleraikan nama hos avahi: %s\n"
 
 #: ../vinagre/vinagre-mdns.c:226
 #, c-format
-msgid "Failed to add mDNS browser for service %s."
-msgstr ""
+msgid "The service %s was already registered by another plugin."
+msgstr "Perkhidmatan %s telah pun didaftarkan oleh pemalam lain."
 
-#. Translators: "Browse for hosts" means the ability to find/locate some machines [with the VNC service enabled] in the local network
-#: ../vinagre/vinagre-mdns.c:243
+#: ../vinagre/vinagre-mdns.c:234
+#, c-format
+msgid "Failed to add mDNS browser for service %s."
+msgstr "Gagal menambah pelayar mDNS untuk perkhidmatan %s."
+
+#. Translators: "Browse for hosts" means the ability to find/locate some remote hosts [with the VNC service enabled] in the local network
+#: ../vinagre/vinagre-mdns.c:251
 #, c-format
 msgid "Failed to browse for hosts: %s\n"
 msgstr ""
+"Gagal melayari untuk hos: %s\n"
+"\n"
 
-#: ../vinagre/vinagre-mdns.c:316
+#: ../vinagre/vinagre-mdns.c:320
 #, c-format
 msgid "Failed to initialize mDNS browser: %s\n"
-msgstr ""
+msgstr "Gagal mengawalkan pelayar mDNS: %s\n"
 
 #. Translators: %s is a host name or IP address.
-#: ../vinagre/vinagre-notebook.c:459
+#: ../vinagre/vinagre-notebook.c:462
 #, c-format
 msgid "Connection to host %s was closed."
-msgstr ""
+msgstr "Sambungan pada hos %s telah ditutup."
 
-#: ../vinagre/vinagre-notebook.c:461
+#: ../vinagre/vinagre-notebook.c:464
 msgid "Connection closed"
-msgstr ""
+msgstr "Sambungan ditutup"
 
 #. Translators: %s is a host name or IP address.
-#: ../vinagre/vinagre-notebook.c:480
+#: ../vinagre/vinagre-notebook.c:483
 #, c-format
 msgid "Authentication for host %s has failed"
-msgstr ""
+msgstr "Pengesahihan untuk hos %s telah gagal"
 
-#: ../vinagre/vinagre-notebook.c:486
+#: ../vinagre/vinagre-notebook.c:489
 msgid "Authentication failed"
-msgstr ""
+msgstr "Pengesahihan telah gagal"
 
-#: ../vinagre/vinagre-notebook.c:524
-msgid "Connecting..."
-msgstr ""
+#: ../vinagre/vinagre-notebook.c:537
+msgid "Connecting…"
+msgstr "Menyambung..."
 
-#: ../vinagre/vinagre-notebook.c:551 ../vinagre/vinagre-tab.c:325
+#: ../vinagre/vinagre-notebook.c:559
 msgid "Close connection"
-msgstr ""
+msgstr "Sambungan tutup"
 
-#: ../vinagre/vinagre-plugin-dialog.c:83
-msgid "Plugin Manager"
-msgstr ""
+#. Translators: this is a command line option (run vinagre --help)
+#: ../vinagre/vinagre-options.c:33
+msgid "Specify geometry of the main Vinagre window"
+msgstr "Nyatakan geometri bagi tetingkap utama Vinagre"
 
-#: ../vinagre/vinagre-plugin-manager.c:45
-msgid "Plugin"
-msgstr ""
+#. Translators: this is a command line option (run vinagre --help)
+#: ../vinagre/vinagre-options.c:37
+msgid "Open Vinagre in fullscreen mode"
+msgstr "Buka Vinagre dengan mod skrin penuh"
 
-#. Translators: "Enabled" is the title of a column in the plugins treeview. This column shows a checkbox, where the plugin can be [de]activated. If it's activated, its status is "enabled" and the checkbox is checked.
-#: ../vinagre/vinagre-plugin-manager.c:47
-msgid "Enabled"
-msgstr ""
+#. Translators: this is a command line option (run vinagre --help)
+#: ../vinagre/vinagre-options.c:41
+msgid "Create a new toplevel window in an existing instance of Vinagre"
+msgstr "Cipta satu tetingkap aras-teratas baharu dalam tika sedia ada Vinagre"
 
-#: ../vinagre/vinagre-plugin-manager.c:504
-msgid "C_onfigure"
-msgstr ""
+#. Translators: this is a command line option (run vinagre --help)
+#: ../vinagre/vinagre-options.c:45
+msgid "Open a file recognized by Vinagre"
+msgstr "Buka satu fail yang dapat dikenal pasti oleh Vinagre"
 
-#: ../vinagre/vinagre-plugin-manager.c:513
-msgid "A_ctivate"
-msgstr ""
+#: ../vinagre/vinagre-options.c:45
+msgid "filename"
+msgstr "nama fail"
 
-#: ../vinagre/vinagre-plugin-manager.c:524
-msgid "Ac_tivate All"
-msgstr ""
+#: ../vinagre/vinagre-options.c:48
+msgid "Show help"
+msgstr "Tunjuk bantuan"
 
-#: ../vinagre/vinagre-plugin-manager.c:529
-msgid "_Deactivate All"
-msgstr ""
+#. Translators: this is a command line option (run vinagre --help)
+#: ../vinagre/vinagre-options.c:53
+msgid "[server:port]"
+msgstr "[server:port]"
 
-#: ../vinagre/vinagre-plugin-manager.c:825
-msgid "_About Plugin"
-msgstr ""
+#: ../vinagre/vinagre-options.c:127
+#, c-format
+msgid "Invalid argument %s for --geometry"
+msgstr "Argumen %s tidak sah bagi --geometry"
 
-#: ../vinagre/vinagre-plugin-manager.c:829
-msgid "C_onfigure Plugin"
-msgstr ""
+#: ../vinagre/vinagre-options.c:145
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Ralat berikut telah berlaku:"
 
-#: ../vinagre/vinagre-prefs.c:212
+#: ../vinagre/vinagre-prefs.c:83
 msgid "Cannot initialize preferences manager."
-msgstr ""
+msgstr "Tidak dapat mengawalkan pengurus keutamaan."
 
-#: ../vinagre/vinagre-ssh.c:106
+#: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:103
+msgid "IPv4:"
+msgstr "IPv4:"
+
+#: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:115
+msgid ""
+"\n"
+"\n"
+"IPv6:"
+msgstr ""
+"\n"
+"\n"
+"IPv6:"
+
+#: ../vinagre/vinagre-reverse-vnc-listener-dialog.c:175
+#, c-format
+msgid "On the port %d"
+msgstr "Pada port %d"
+
+#: ../vinagre/vinagre-reverse-vnc-listener.c:212
+msgid "Error activating reverse connections"
+msgstr "Ralat mengaktifkan sambungan songsang"
+
+#: ../vinagre/vinagre-reverse-vnc-listener.c:213
+msgid ""
+"The program could not find any available TCP ports starting at 5500. Is "
+"there any other running program consuming all your TCP ports?"
+msgstr ""
+"Program tidak dapat mencari mana-mana port TCP tersedia yang bermula pada "
+"5500. Adakah terdapat program lain yang berjalan menggunakan semua port TCP "
+"anda?"
+
+#: ../vinagre/vinagre-ssh.c:115
 msgid "Timed out when logging into SSH host"
-msgstr ""
+msgstr "Had masa tamat ketika mengelog masuk hos SSH"
 
-#: ../vinagre/vinagre-ssh.c:180
+#: ../vinagre/vinagre-ssh.c:191
 msgid "Unable to spawn ssh program"
-msgstr ""
+msgstr "Tidak boleh membiakkan program ssh"
 
-#: ../vinagre/vinagre-ssh.c:197
+#: ../vinagre/vinagre-ssh.c:208
 #, c-format
 msgid "Unable to spawn ssh program: %s"
-msgstr ""
+msgstr "Tidak boleh membiakkan program ssh: %s"
 
-#: ../vinagre/vinagre-ssh.c:352
+#: ../vinagre/vinagre-ssh.c:424
 msgid "Timed out when logging in"
-msgstr ""
+msgstr "Had masa tamat ketika mengelog masuk"
 
-#: ../vinagre/vinagre-ssh.c:382 ../vinagre/vinagre-ssh.c:537
-#: ../vinagre/vinagre-ssh.c:621
+#: ../vinagre/vinagre-ssh.c:454 ../vinagre/vinagre-ssh.c:596
+#: ../vinagre/vinagre-ssh.c:692
 msgid "Permission denied"
-msgstr ""
+msgstr "Keizinan dinafikan"
 
-#: ../vinagre/vinagre-ssh.c:448
+#: ../vinagre/vinagre-ssh.c:513
 msgid "Password dialog canceled"
-msgstr ""
+msgstr "Dialog kata laluan dibatalkan"
 
-#: ../vinagre/vinagre-ssh.c:471
+#: ../vinagre/vinagre-ssh.c:530
 msgid "Could not send password"
-msgstr ""
+msgstr "Tidak dapat menghantar kata laluan"
 
-#: ../vinagre/vinagre-ssh.c:479
+#: ../vinagre/vinagre-ssh.c:538
 msgid "Log In Anyway"
-msgstr ""
+msgstr "Daftar Masuk Jua"
 
-#: ../vinagre/vinagre-ssh.c:479
+#: ../vinagre/vinagre-ssh.c:538
 msgid "Cancel Login"
-msgstr ""
+msgstr "Batal Daftar Masuk"
 
-#: ../vinagre/vinagre-ssh.c:488
+#: ../vinagre/vinagre-ssh.c:547
 #, c-format
 msgid ""
-"The identity of the remote computer (%s) is unknown.\n"
-"This happens when you log in to a computer the first time.\n"
+"The identity of the remote host (%s) is unknown.\n"
+"This happens when you log in to a host the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
+"The identity sent by the remote host is %s. If you want to be absolutely "
 "sure it is safe to continue, contact the system administrator."
 msgstr ""
+"Identiti hos jauh (%s) tidak diketahui.\n"
+"Ia berlaku ketika anda mendaftar masuk ke dalam hos buat pertama kali.\n"
+"\n"
+"Identiti dihantar oleh hos jauh ialah %s. Jika anda mahu benar-benar pasti "
+"ia adalah selamat untuk diteruskan, sila hubungi pentadbir sistem anda."
 
-#: ../vinagre/vinagre-ssh.c:506
+#: ../vinagre/vinagre-ssh.c:565
 msgid "Login dialog canceled"
-msgstr ""
+msgstr "Dialog daftar masuk dibatalkan"
 
-#: ../vinagre/vinagre-ssh.c:527
-msgid "Can't send host identity confirmation"
-msgstr ""
+#: ../vinagre/vinagre-ssh.c:586
+msgid "Can’t send host identity confirmation"
+msgstr "Tidak dapat menghantar pengesahan identiti hos"
 
-#: ../vinagre/vinagre-ssh.c:562 ../vinagre/vinagre-tab.c:732
-msgid "Error saving the credentials on the keyring."
-msgstr ""
-
-#: ../vinagre/vinagre-ssh.c:628
-msgid "Hostname not known"
-msgstr ""
-
-#: ../vinagre/vinagre-ssh.c:635
-msgid "No route to host"
-msgstr ""
-
-#: ../vinagre/vinagre-ssh.c:642
-msgid "Connection refused by server"
-msgstr ""
-
-#: ../vinagre/vinagre-ssh.c:649
-msgid "Host key verification failed"
-msgstr ""
-
-#: ../vinagre/vinagre-ssh.c:686
-msgid "Unable to find a valid SSH program"
-msgstr ""
-
-#: ../vinagre/vinagre-tab.c:346
-msgid "Leave fullscreen"
-msgstr ""
-
-#: ../vinagre/vinagre-tab.c:497
-msgid "Error saving recent connection."
-msgstr ""
-
-#: ../vinagre/vinagre-tab.c:818
-msgid "Could not get a screenshot of the connection."
-msgstr ""
-
-#: ../vinagre/vinagre-tab.c:823
-msgid "Save Screenshot"
-msgstr ""
-
-#. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. %s will be replaced by the friendly name of the connection, for instance: Screenshot of wendell@wendell-laptop, or Screenshot of 200.100.100.123
-#: ../vinagre/vinagre-tab.c:835
+#. Login succeed, save password in keyring
+#: ../vinagre/vinagre-ssh.c:605
 #, c-format
-msgid "Screenshot of %s"
-msgstr ""
+msgid "Secure shell password: %s"
+msgstr "Kata laluan shell selamat: %s"
 
-#: ../vinagre/vinagre-tab.c:886
+#: ../vinagre/vinagre-ssh.c:618 ../vinagre/vinagre-tab.c:860
+msgid "Error saving the credentials on the keyring."
+msgstr "Ralat menyimpan kelayakan pada gelang kunci."
+
+#: ../vinagre/vinagre-ssh.c:700
+msgid "Hostname not known"
+msgstr "Nama hos tidak diketahui"
+
+#: ../vinagre/vinagre-ssh.c:708
+msgid "No route to host"
+msgstr "Tiada hala ke hos"
+
+#: ../vinagre/vinagre-ssh.c:716
+msgid "Connection refused by server"
+msgstr "Sambungan dinafikan oleh pelayan"
+
+#: ../vinagre/vinagre-ssh.c:724
+msgid "Host key verification failed"
+msgstr "Pengesahan kunci hos mengalami kegagalan"
+
+#: ../vinagre/vinagre-ssh.c:764
+msgid "Unable to find a valid SSH program"
+msgstr "Tidak dapat mencari program SSH yang sah"
+
+#: ../vinagre/vinagre-tab.c:361
+msgid "Disconnect"
+msgstr "Putuskan"
+
+#. Translators: Pressing this button will minimize Vinagre
+#: ../vinagre/vinagre-tab.c:370
+msgid "Minimize window"
+msgstr "Minimumkan tetingkap"
+
+#: ../vinagre/vinagre-tab.c:391
+msgid "Leave fullscreen"
+msgstr "Tinggalkan skrin penuh"
+
+#: ../vinagre/vinagre-tab.c:553
+msgid "Error saving recent connection."
+msgstr "Ralat menyimpan sambungan baru-baru ini."
+
+#: ../vinagre/vinagre-tab.c:844
+#, c-format
+msgid "Remote desktop password for %s"
+msgstr "Kata laluan atas meja jauh untuk %s"
+
+#: ../vinagre/vinagre-tab.c:961
+msgid "Could not get a screenshot of the connection."
+msgstr "Tidak memperoleh tangkap layar sambungan."
+
+#: ../vinagre/vinagre-tab.c:966
+msgid "Save Screenshot"
+msgstr "Simpan Tangkap Layar"
+
+#. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. First %s will be replaced by the friendly name of the connection and the second %s by the current date and time, for instance: Screenshot of wendell@wendell-laptop at 2011-10-29 12:34:11, or Screenshot of 200.100.100.123 at 2011-10-29 18:27:11
+#: ../vinagre/vinagre-tab.c:980
+#, c-format
+msgid "Screenshot of %s at %s"
+msgstr "Tangkap layar %s pada %s"
+
+#: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
-msgstr ""
+msgstr "Ralat menyimpan tangkap layar"
 
-#: ../vinagre/vinagre-tube-handler.c:229
+#: ../vinagre/vinagre-tube-handler.c:233
 #, c-format
 msgid "Impossible to get service property: %s"
-msgstr ""
+msgstr "Adalah mustahil memperoleh sifat perkhidmatan: %s"
 
-#: ../vinagre/vinagre-tube-handler.c:286
+#: ../vinagre/vinagre-tube-handler.c:300
 #, c-format
 msgid "Impossible to create the connection: %s"
-msgstr ""
+msgstr "Adalah mustahil dapat mencipta sambungan: %s"
 
-#: ../vinagre/vinagre-tube-handler.c:325
+#: ../vinagre/vinagre-tube-handler.c:339
 #, c-format
 msgid "Impossible to accept the stream tube: %s"
-msgstr ""
+msgstr "Adalah mustahil dapat menerima tiub strim: %s"
 
 #. Translators: this is an error message when we fail to get the name of an empathy/telepathy buddy. %s will be replaced by the actual error message.
-#: ../vinagre/vinagre-tube-handler.c:463
+#: ../vinagre/vinagre-tube-handler.c:477
 #, c-format
 msgid "Impossible to get the contact name: %s"
-msgstr ""
+msgstr "Adalah mustahil memperoleh nama hubungan: %s"
 
-#: ../vinagre/vinagre-tube-handler.c:500
+#: ../vinagre/vinagre-tube-handler.c:514
 #, c-format
 msgid "Impossible to get the avatar: %s"
-msgstr ""
+msgstr "Adalah mustahil memperoleh avatar: %s"
 
-#: ../vinagre/vinagre-tube-handler.c:521
+#: ../vinagre/vinagre-tube-handler.c:535
 #, c-format
 msgid "%s wants to share their desktop with you."
-msgstr ""
+msgstr "%s mahu berkongsi atas meja mereka dengan anda."
 
-#: ../vinagre/vinagre-tube-handler.c:526
+#: ../vinagre/vinagre-tube-handler.c:540
 msgid "Desktop sharing invitation"
-msgstr ""
+msgstr "Jemputan perkongsian atas meja"
 
 #. Toplevel
 #: ../vinagre/vinagre-ui.h:33
-msgid "_Machine"
-msgstr "_Mesin"
+msgid "_Remote"
+msgstr "_Jauh"
 
 #: ../vinagre/vinagre-ui.h:34
 msgid "_Edit"
@@ -1127,194 +1242,189 @@ msgstr "_Pandangan"
 
 #: ../vinagre/vinagre-ui.h:36
 msgid "_Bookmarks"
-msgstr ""
+msgstr "Ta_nda Buku"
+
+#: ../vinagre/vinagre-ui.h:37
+msgid "_Help"
+msgstr "_Bantuan"
 
 #: ../vinagre/vinagre-ui.h:41
-msgid "Connect to a remote machine"
-msgstr ""
+msgid "Connect to a remote desktop"
+msgstr "Sambung ke sebuah atas meja jauh"
 
 #: ../vinagre/vinagre-ui.h:43
 msgid "Open a .VNC file"
 msgstr "Buka fail .VNC"
 
+#. Translators: "Reverse" here is an adjective, not a verb.
 #: ../vinagre/vinagre-ui.h:45
+msgid "_Reverse Connections…"
+msgstr "Sambungan _Songsang..."
+
+#: ../vinagre/vinagre-ui.h:45
+msgid "Configure incoming VNC connections"
+msgstr "Konfigur sambungan VNC masuk"
+
+#: ../vinagre/vinagre-ui.h:48
 msgid "Quit the program"
-msgstr ""
-
-#: ../vinagre/vinagre-ui.h:49
-msgid "Edit the application preferences"
-msgstr ""
-
-#: ../vinagre/vinagre-ui.h:50
-msgid "_Plugins"
-msgstr ""
-
-#: ../vinagre/vinagre-ui.h:51
-msgid "Select plugins"
-msgstr ""
+msgstr "Keluar dari program"
 
 #. Help menu
-#: ../vinagre/vinagre-ui.h:54
+#: ../vinagre/vinagre-ui.h:51
 msgid "_Contents"
 msgstr "_Kandungan"
 
-#: ../vinagre/vinagre-ui.h:55
-msgid "Open the vinagre manual"
-msgstr ""
+#: ../vinagre/vinagre-ui.h:52
+msgid "Open the Vinagre manual"
+msgstr "Buka panduan Vinagre"
 
-#: ../vinagre/vinagre-ui.h:57
+#: ../vinagre/vinagre-ui.h:54
 msgid "About this application"
-msgstr "Mengenai aplikasi ini"
+msgstr "Perihal aplikasi ini"
+
+#: ../vinagre/vinagre-ui.h:59
+msgid "_Keyboard shortcuts"
+msgstr "Pintasan papan _kekunci"
+
+#: ../vinagre/vinagre-ui.h:60
+msgid "Enable keyboard shortcuts"
+msgstr "Benarkan pintasan papan kekunci"
 
 #: ../vinagre/vinagre-ui.h:62
 msgid "_Toolbar"
-msgstr ""
+msgstr "Palang Ala_t"
 
 #: ../vinagre/vinagre-ui.h:63
 msgid "Show or hide the toolbar"
-msgstr ""
+msgstr "Tunjuk atau sembunyi palang alat"
 
 #: ../vinagre/vinagre-ui.h:66
 msgid "_Statusbar"
-msgstr ""
+msgstr "Palang _Status"
 
 #: ../vinagre/vinagre-ui.h:67
 msgid "Show or hide the statusbar"
-msgstr ""
+msgstr "Tunjuk atau sembunyi palang status"
 
-#: ../vinagre/vinagre-ui.h:70
-msgid "Side _Panel"
-msgstr ""
+#: ../vinagre/vinagre-ui.h:75
+msgid "Disconnect the current connection"
+msgstr "Putuskan sambungan semasa"
 
-#: ../vinagre/vinagre-ui.h:71
-msgid "Show or hide the side panel"
-msgstr ""
+#: ../vinagre/vinagre-ui.h:76
+msgid "Disconnect All"
+msgstr "Putuskan Semua"
 
-#: ../vinagre/vinagre-ui.h:79
-msgid "Close the current connection"
-msgstr ""
-
-#: ../vinagre/vinagre-ui.h:80
-msgid "C_lose All"
-msgstr ""
-
-#: ../vinagre/vinagre-ui.h:81
-msgid "Close all active connections"
-msgstr ""
+#: ../vinagre/vinagre-ui.h:77
+msgid "Disconnect all connections"
+msgstr "Putuskan semua sambungan"
 
 #. Bookmarks menu
-#: ../vinagre/vinagre-ui.h:84
-msgid "_Add to bookmarks"
-msgstr ""
+#: ../vinagre/vinagre-ui.h:80
+msgid "_Add Bookmark"
+msgstr "T_ambah Tanda Buku"
 
-#: ../vinagre/vinagre-ui.h:85
-msgid "Add current connection to your bookmarks"
-msgstr ""
+#: ../vinagre/vinagre-ui.h:81
+msgid "Add the current connection to your bookmarks"
+msgstr "Tambah sambungan semasa dalam tanda buku anda"
 
-#. Machine menu
-#: ../vinagre/vinagre-ui.h:92
-msgid "_Take screenshot"
-msgstr ""
+#. Remote menu
+#: ../vinagre/vinagre-ui.h:88
+msgid "_Take Screenshot"
+msgstr "_Ambil Tangkap Layar"
+
+#: ../vinagre/vinagre-ui.h:89
+msgid "Take a screenshot of the current remote desktop"
+msgstr "Ambil satu tangkap layar bagi atas meja jauh semasa"
 
 #: ../vinagre/vinagre-ui.h:93
-msgid "Take a screenshot of active connection"
-msgstr ""
+msgid "View the current remote desktop in fullscreen mode"
+msgstr "Lihat atas meja jauh semasa dalam mod skrin penuh"
 
-#: ../vinagre/vinagre-ui.h:97
-msgid "View the current machine in full screen"
-msgstr ""
+#: ../vinagre/vinagre-utils.vala:40
+msgid "An error occurred"
+msgstr "Satu ralat telah berlaku"
 
-#: ../vinagre/vinagre-utils.c:75
-msgid "An error has occurred:"
-msgstr ""
+#: ../vinagre/vinagre-utils.vala:84
+msgid "Vinagre failed to open a UI file, with the error message:"
+msgstr "Vinagre gagal membuka satu fail UI, mesej ralat adalah:"
 
-#: ../vinagre/vinagre-utils.c:175
-msgid ""
-"A plugin tried to open an UI file but did not succeed, with the error "
-"message:"
-msgstr ""
-
-#: ../vinagre/vinagre-utils.c:177
-msgid ""
-"The program tried to open an UI file but did not succeed, with the error "
-"message:"
-msgstr ""
-
-#: ../vinagre/vinagre-utils.c:180
+#: ../vinagre/vinagre-utils.vala:85
 msgid "Please check your installation."
-msgstr ""
+msgstr "Sila periksa pemasangan anda."
 
-#: ../vinagre/vinagre-utils.c:181
+#: ../vinagre/vinagre-utils.vala:89
 msgid "Error loading UI file"
-msgstr ""
-
-#: ../vinagre/vinagre-utils.c:492
-msgid "Vinagre is a remote desktop viewer for the GNOME Desktop"
-msgstr ""
-
-#: ../vinagre/vinagre-utils.c:495
-msgid ""
-"Vinagre is free software; you can redistribute it and/or modify it under the "
-"terms of the GNU General Public License as published by the Free Software "
-"Foundation; either version 2 of the License, or (at your option) any later "
-"version."
-msgstr ""
-
-#: ../vinagre/vinagre-utils.c:499
-msgid ""
-"Vinagre is distributed in the hope that it will be useful, but WITHOUT ANY "
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-"details."
-msgstr ""
-
-#: ../vinagre/vinagre-utils.c:503
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program. If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-
-#: ../vinagre/vinagre-utils.c:525
-msgid "translator-credits"
-msgstr "kredit-penterjemah"
-
-#: ../vinagre/vinagre-utils.c:528
-msgid "Vinagre Website"
-msgstr ""
+msgstr "Ralat memuatkan fail UI"
 
 #. Translators: %s is a protocol, like VNC or SSH
-#: ../vinagre/vinagre-utils.c:654
+#: ../vinagre/vinagre-utils.vala:116
 #, c-format
 msgid "%s authentication is required"
-msgstr ""
+msgstr "Pengesahihan %s diperlukan"
 
-#: ../vinagre/vinagre-window.c:429
-msgid "_Recent connections"
-msgstr ""
+#: ../vinagre/vinagre-utils.vala:227
+msgid "Error showing help"
+msgstr "Ralat ketika menunjukkan bantuan"
+
+#: ../vinagre/vinagre-window.c:390
+#, c-format
+msgid "Could not merge UI XML file: %s"
+msgstr "Tidak dapat menggabungkan fail UI XML: %s"
+
+#: ../vinagre/vinagre-window.c:421
+msgid "_Recent Connections"
+msgstr "Sambungan _Baru-baru Ini"
 
 #. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
-#: ../vinagre/vinagre-window.c:544
+#: ../vinagre/vinagre-window.c:579
 #, c-format
 msgid "Open %s:%d"
 msgstr "Buka %s:%d"
 
-#: ../vinagre/vinagre-window.c:723
-msgid "About menu accelerators and keyboard shortcuts"
-msgstr ""
-
-#: ../vinagre/vinagre-window.c:725
+#: ../vinagre/vinagre-window.c:773
 msgid ""
-"Vinagre comes with menu accelerators and keyboard shortcuts disabled by "
-"default. The reason is to avoid the keys to be intercepted by the program, "
-"and allow them to be sent to the remote machine.\n"
-"\n"
-"You can change this behavior through the preferences dialog. For more "
-"information, check the documentation.\n"
+"Vinagre disables keyboard shortcuts by default, so that any keyboard "
+"shortcuts are sent to the remote desktop.\n"
 "\n"
 "This message will appear only once."
 msgstr ""
+"Vinagre melumpuhkan pintasan-pintasan papan kekunci secara lalai, supaya "
+"mana-mana pintasan papan kekunci dihantar masuk ke atas meja jauh.\n"
+"\n"
+"Mesej ini hanya muncul sekali sahaja."
 
-#: ../vinagre/vinagre-window.c:733 ../vinagre/vinagre-window.c:739
+#: ../vinagre/vinagre-window.c:779
+msgid "Enable shortcuts"
+msgstr "Benarkan pintasan"
+
+#: ../vinagre/vinagre-window.c:792 ../vinagre/vinagre-window.c:798
 #, c-format
 msgid "Error while creating the file %s: %s"
-msgstr ""
+msgstr "Ralat ketika mencipta fail %s: %s"
+
+#~ msgid "_About"
+#~ msgstr "_Mengenai"
+
+#~ msgid "Interface"
+#~ msgstr "Antaramuka"
+
+#~ msgid "Preferences"
+#~ msgstr "Pilihan"
+
+#~ msgid "Which machine do you want to connect to?"
+#~ msgstr "Mesin yang mana anda ingin menyambung ke?"
+
+#~ msgid "RDP support"
+#~ msgstr "Sokongan RDP"
+
+#~ msgid "SSH support"
+#~ msgstr "Sokongan SSH"
+
+#~ msgid "_Depth Color:"
+#~ msgstr "_Kedalaman Warna:"
+
+#~ msgid "VNC support"
+#~ msgstr "Sokongan VNC"
+
+#~ msgid "_Machine"
+#~ msgstr "_Mesin"
