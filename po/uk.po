@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
 "POT-Creation-Date: 2019-02-18 15:13+0000\n"
-"PO-Revision-Date: 2020-03-05 19:57+0200\n"
+"PO-Revision-Date: 2020-04-21 14:58+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n "
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 20.03.70\n"
+"X-Generator: Lokalize 20.07.70\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
@@ -655,7 +655,7 @@ msgstr "_Оновити екран"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:659
 msgid "Requests an update of the screen"
-msgstr "Запити на оновлення екрану"
+msgstr "Запити на оновлення екрана"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:681
 #: ../plugins/spice/vinagre-spice-tab.c:545
@@ -1214,21 +1214,21 @@ msgstr "Пароль віддаленої стільниці %s"
 
 #: ../vinagre/vinagre-tab.c:961
 msgid "Could not get a screenshot of the connection."
-msgstr "Не вдалось отримати  знімок екрану з'єднання."
+msgstr "Не вдалось отримати знімок екрана з'єднання."
 
 #: ../vinagre/vinagre-tab.c:966
 msgid "Save Screenshot"
-msgstr "Зберегти знімок екрану"
+msgstr "Зберегти знімок екрана"
 
 #. Translators: This is the suggested filename (in save dialog) when taking a screenshot of the connection. First %s will be replaced by the friendly name of the connection and the second %s by the current date and time, for instance: Screenshot of wendell@wendell-laptop at 2011-10-29 12:34:11, or Screenshot of 200.100.100.123 at 2011-10-29 18:27:11
 #: ../vinagre/vinagre-tab.c:980
 #, c-format
 msgid "Screenshot of %s at %s"
-msgstr "Знімок екрану %s у %s"
+msgstr "Знімок екрана %s у %s"
 
 #: ../vinagre/vinagre-tab.c:1034
 msgid "Error saving screenshot"
-msgstr "Помилка при збереженні знімку екрану."
+msgstr "Помилка при збереженні знімка екрана."
 
 #: ../vinagre/vinagre-tube-handler.c:233
 #, c-format
