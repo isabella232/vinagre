@@ -1,0 +1,665 @@
+# Ukrainian translation for vinagre.
+# Copyright (C) 2020 vinagre's COPYRIGHT HOLDER
+# This file is distributed under the same license as the vinagre package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: vinagre master\n"
+"POT-Creation-Date: 2020-04-18 08:45+0000\n"
+"PO-Revision-Date: 2020-04-21 15:01+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.07.70\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Юрій Чорноіван <yurchor@ukr.net>, 2020"
+
+#. (itstool) path: info/title
+#: C/connect.page:8
+msgctxt "sort"
+msgid "1"
+msgstr "1"
+
+#. (itstool) path: credit/name
+#: C/connect.page:14 C/connect-file.page:13 C/connect-reverse.page:15
+#: C/fullscreen.page:11 C/introduction.page:14 C/keyboard-shortcuts.page:13
+#: C/scaling.page:11 C/take-screenshot.page:13 C/view-only.page:11
+msgid "Ekaterina Gerasimova"
+msgstr "Єкатерина Герасимова (Ekaterina Gerasimova)"
+
+#. (itstool) path: info/desc
+#: C/connect.page:20
+msgid "Connect to another computer on your local network."
+msgstr "Встановлення з'єднання з іншим комп'ютером у вашій локальній мережі."
+
+#. (itstool) path: page/title
+#: C/connect.page:23
+msgid "Establish a connection"
+msgstr "Встановлення з'єднання"
+
+#. (itstool) path: page/p
+#: C/connect.page:25
+msgid ""
+"You can connect to other computers on your local network using <app>Remote "
+"Desktop Viewer</app>."
+msgstr ""
+"За допомогою <app>Перегляду віддалених стільниць</app> ви можете"
+" встановлювати з'єднання із іншими комп'ютерами у вашій локальній мережі."
+
+#. (itstool) path: item/p
+#: C/connect.page:30
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
+"\">Connect</gui></guiseq>."
+msgstr ""
+"Виберіть <guiseq><gui style=\"menu\">Віддалений</gui> <gui style=\"menuitem\""
+">З'єднатись</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/connect.page:34
+msgid ""
+"Choose the <gui>Protocol</gui> and the <gui>Host</gui> for the connection."
+msgstr "Виберіть <gui>Протокол</gui> і <gui>Вузол</gui> для з'єднання."
+
+#. (itstool) path: note/p
+#: C/connect.page:37
+msgid ""
+"Some protocols allow you to see all available computers on your local "
+"network by clicking the <gui style=\"button\">Find</gui> button. This "
+"buttons will not be displayed if you do not have <app>Avahi</app> support."
+msgstr ""
+"У деяких протоколах передбачена можливість перегляду усіх доступних"
+" комп'ютерів у вашій локальній мережі після натискання кнопки <gui"
+" style=\"button\">Знайти</gui>. Цю кнопку не буде показано, якщо у системі"
+" немає підтримки <app>Avahi</app>."
+
+#. (itstool) path: item/p
+#: C/connect.page:44
+msgid ""
+"Select the options which you want enabled when the connection is made. "
+"Options will vary depending on the protocol that you use."
+msgstr ""
+"Виберіть параметри, які має бути увімкнено при встановленні з'єднання. Список"
+" параметрів залежатиме від використаного протоколу."
+
+#. (itstool) path: item/p
+#: C/connect.page:48
+msgid "Click the <gui style=\"button\">Connect</gui> button."
+msgstr "Натисніть кнопку <gui style=\"button\">З'єднатись</gui>."
+
+#. (itstool) path: item/p
+#: C/connect.page:49
+msgid ""
+"At this point, the remote desktop may need to confirm the connection. If "
+"this is the case, the viewer may remain black until the connection is "
+"confirmed."
+msgstr ""
+"На цьому кроці хтось на віддаленому комп'ютері має підтвердити встановлення"
+" з'єднання. Доки надійде підтвердження, вікно переглядача лишатимуться чорним."
+
+#. (itstool) path: note/p
+#: C/connect.page:53
+msgid ""
+"Some computers may require a secure connection: an authentication dialog "
+"will be displayed, asking for the credentials. The type of credentials "
+"depend on the remote host; it may be a password and a username. If you "
+"select <gui>Remember this credential</gui>, <app>Remote Desktop Viewer</app> "
+"will store the information using <app>GNOME Keyring</app>."
+msgstr ""
+"Для з'єднання деяких комп'ютерів обов'язковим є захист з'єднання: буде"
+" показано діалогове вікно розпізнавання, у якому програма проситиме вас"
+" ввести реєстраційні дані. Тип реєстраційних даних залежить від віддаленого"
+" вузла. Ними можуть бути ім'я користувача і пароль. Якщо ви позначите пункт <"
+"gui>Запам'ятати цей пароль</gui>, <app>Переглядач віддалених стільниць</app>"
+" збереже дані за допомогою <app>Зв'язки ключів GNOME</app>."
+
+#. (itstool) path: page/p
+#: C/connect.page:63
+msgid ""
+"If the connection has been used previously, you can also access it through "
+"<guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Recent "
+"Connections</gui></guiseq>."
+msgstr ""
+"Якщо з'єднання було використано раніше, ви зможете отримати до нього доступу"
+" за допомогою пункту меню <guiseq><gui style=\"menu\">Віддалений</gui> <gui"
+" style=\"menuitem\">Недавні з'єднання</gui></guiseq>."
+
+#. (itstool) path: page/p
+#: C/connect.page:67
+msgid ""
+"To close a connection, choose <guiseq><gui style=\"menu\">Remote</gui> <gui "
+"style=\"menuitem\">Close</gui></guiseq> or click the <gui style=\"button"
+"\">Close</gui> button."
+msgstr ""
+"Щоб розірвати з'єднання, скористайтеся пунктом меню <guiseq><gui"
+" style=\"menu\">Віддалений</gui> <gui style=\"menuitem\">Закрити</gui><"
+"/guiseq> або натисніть кнопку <gui style=\"button"
+"\">Закрити</gui>."
+
+#. (itstool) path: info/title
+#: C/connect-file.page:8
+msgctxt "sort"
+msgid "2"
+msgstr "2"
+
+#. (itstool) path: license/p
+#: C/connect-file.page:18 C/fullscreen.page:16 C/scaling.page:16
+#: C/view-only.page:16
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#. (itstool) path: info/desc
+#: C/connect-file.page:21
+msgid "Use a remote connection file to connect to a remote machine."
+msgstr ""
+"Використання файла віддаленого з'єднання для з'єднання із віддаленим"
+" комп'ютером."
+
+#. (itstool) path: page/title
+#: C/connect-file.page:24
+msgid "Connect using a <file>.vnc</file> file"
+msgstr "З'єднання з використанням файла <file>.vnc</file>"
+
+#. (itstool) path: page/p
+#: C/connect-file.page:26
+msgid ""
+"Some hosts distribute <em>remote connection files</em>, that generally end "
+"with the suffix <file>.vnc</file>, instead of using a host address and port."
+msgstr ""
+"Для доступу до деяких вузлів можна скористатися <em>файлами віддалених"
+" з'єднань</em>, які зазвичай мають суфікс назви <file>.vnc</file>, замість"
+" зазначення адреси та порту з'єднання з вузлом."
+
+#. (itstool) path: item/p
+#: C/connect-file.page:32
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
+"\">Open</gui></guiseq>."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Віддалений</gui> <gui"
+" style=\"menuitem\">Відкрити</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/connect-file.page:36
+msgid "Select the file you want to open."
+msgstr "Виберіть файл, який ви хочете відкрити."
+
+#. (itstool) path: item/p
+#: C/connect-file.page:39
+msgid "Click the <gui style=\"button\">Open</gui> button."
+msgstr "Натисніть кнопку <gui style=\"button\">Відкрити</gui>."
+
+#. (itstool) path: note/p
+#: C/connect-file.page:44
+msgid "You can also open a remote connection file from <app>Files</app>."
+msgstr ""
+"Ви також можете відкрити файл віддаленого з'єднання з вікна програми <app"
+">Файли</app>."
+
+#. (itstool) path: info/title
+#: C/connect-reverse.page:9
+msgctxt "sort"
+msgid "3"
+msgstr "3"
+
+#. (itstool) path: info/desc
+#: C/connect-reverse.page:21
+msgid ""
+"Connect to computers not on your local network: bypassing firewall "
+"restrictions on remote host."
+msgstr ""
+"З'єднання із комп'ютерами поза вашою локальною мережею: обхід обмежень"
+" брандмауера на віддаленому вузлі."
+
+#. (itstool) path: page/title
+#: C/connect-reverse.page:25
+msgid "<gui>Reverse Connections…</gui>"
+msgstr "<gui>Зворотні з'єднання…</gui>"
+
+#. (itstool) path: page/p
+#: C/connect-reverse.page:27
+msgid ""
+"A reverse connection is usually used to bypass firewall restrictions on open "
+"ports. A firewall usually blocks open ports, but does not block outgoing "
+"traffic. In a normal forward connection, a client connects to an open port "
+"on the server. However, in the case of a reverse connection, the client "
+"opens a port for the server to connect to."
+msgstr ""
+"Для обходу обмежень брандмауерів на відкриття портів зазвичай використовують"
+" зворотні з'єднання. Типово, брандмауер блокує відкриття портів, але не"
+" блокує надсилання даних. У звичайному прямому з'єднанні клієнт з'єднується"
+" із відкритим портом на сервері. Втім, у випадку зворотного з'єднання клієнт"
+" відкриває порт для того, щоб з цим портом з'єднався сервер."
+
+#. (itstool) path: section/title
+#: C/connect-reverse.page:34
+msgid "Enabling reverse connections"
+msgstr "Вмикання зворотних з'єднань"
+
+#. (itstool) path: item/p
+#: C/connect-reverse.page:38
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem"
+"\">Reverse Connections…</gui></guiseq>."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Віддалений</gui> <gui"
+" style=\"menuitem\">Зворотні з'єднання…</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/connect-reverse.page:42
+msgid "Check <gui>Enable Reverse Connections</gui>."
+msgstr "Позначте пункт <gui>Увімкнути зворотні з'єднання</gui>."
+
+#. (itstool) path: section/title
+#: C/connect-reverse.page:49
+msgid "Access a computer behind a firewall"
+msgstr "Доступ до комп'ютера, який захищено брандмауером"
+
+#. (itstool) path: section/p
+#: C/connect-reverse.page:51
+msgid ""
+"The remote machine needs to connect to your machine using your <em>IP "
+"address</em> and port number, which can be found in the <gui>Reverse "
+"Connections…</gui> dialog, under <gui>Connectivity</gui>."
+msgstr ""
+"На віддаленому комп'ютері, який має бути з'єднано з вашим комп'ютером,"
+" знадобляться дані щодо вашої <em>IP-адреси</em> та номеру порту. Ці дані"
+" можна визначити з вікна <gui>Зворотні з'єднання…</gui>, вкладка <gui"
+">З'єднання</gui>."
+
+#. (itstool) path: note/p
+#: C/connect-reverse.page:56
+msgid ""
+"Currently, <app>Vino</app>, the GNOME VNC server, does not support reverse "
+"connections which are also known as \"listen mode\". Some other "
+"applications, such as <app>UltraVNC</app>, <app>RealVNC</app> and "
+"<app>TightVNC</app>, do have support for reverse connections."
+msgstr ""
+"У поточній версії <app>Vino</app>, сервера VNC GNOME, не передбачено"
+" підтримки зворотних з'єднань, які також називаються «режимом очікування»."
+" Таку підтримку реалізовано у декількох інших програма, зокрема <app"
+">UltraVNC</app>, <app>RealVNC</app> та <app>TightVNC</app>."
+
+#. (itstool) path: section/p
+#: C/connect-reverse.page:62
+msgid ""
+"Once the remote computer connects to your machine, <app>Remote Desktop "
+"Viewer</app> will establish the reverse connection."
+msgstr ""
+"Щойно віддалений комп'ютер встановить з'єднання із вашим комп'ютером, <app"
+">Переглядач віддалених стільниць</app> встановить зворотне з'єднання."
+
+#. (itstool) path: section/p
+#: C/connect-reverse.page:65
+msgid ""
+"When connecting to a machine which is not on your local network, you will "
+"need to provide your externally visible IP address and port number to the "
+"remote server."
+msgstr ""
+"При встановленні з'єднання із комп'ютером, який перебуває поза вашою"
+" локальною мережею на віддаленому комп'ютері слід буде вказати видиму ззовні"
+" IP-адресу вашого комп'ютера і номер порту."
+
+#. (itstool) path: info/desc
+#: C/fullscreen.page:19
+msgid "View the remote desktop in fullscreen mode."
+msgstr "Перегляд віддаленої стільниці у повноекранному режимі."
+
+#. (itstool) path: page/title
+#: C/fullscreen.page:22
+msgid "Fullscreen mode"
+msgstr "Повноекранний режимі"
+
+#. (itstool) path: page/p
+#: C/fullscreen.page:24
+msgid ""
+"Fullscreen mode can be useful if viewing a desktop which is the same size or "
+"larger than yours."
+msgstr ""
+"Повноекранний режим може бути корисним для перегляду стільниці, розмір екрана"
+" на якій дорівнює або є більшим за розмір екрана на вашій стільниці."
+
+#. (itstool) path: item/p
+#: C/fullscreen.page:29
+msgid ""
+"Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Fullscreen</gui></guiseq>, or press the corresponding toolbar button, to "
+"view the display area in fullscreen mode."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Перегляд</gui> <gui"
+" style=\"menuitem"
+"\">На весь екран</gui></guiseq> або натисніть відповідну кнопку на панелі"
+" інструментів, щоб розтягнути перегляд на увесь екран."
+
+#. (itstool) path: note/p
+#: C/fullscreen.page:37
+msgid ""
+"While in fullscreen mode, move the mouse to the top-center of the screen to "
+"display a hidden toolbar, which has <gui style=\"button\">Leave Fullscreen</"
+"gui>, <gui style=\"button\">Disconnect</gui> and other buttons."
+msgstr ""
+"У повноекранному режимі ви можете навести вказівник миші на верхню центральну"
+" частину екрана, щоб відкрити приховану панель інструментів, на якій"
+" розташовано кнопки <gui style=\"button\">Вийти з повноекранного режиму</gui"
+">, <gui style=\"button\">Від'єднатись</gui> та інші засоби керування"
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Remote Desktop Viewer help"
+msgstr "Довідка до програми «Перегляд віддалених стільниць»"
+
+#. (itstool) path: info/desc
+#: C/index.page:12
+msgid "Learn how to connect remotely to other desktops."
+msgstr ""
+"Дізнайтеся більше про те, як з'єднатися віддалено із іншими робочими"
+" станціями."
+
+#. (itstool) path: page/title
+#: C/index.page:15
+msgid "<_:media-1/> Remote Desktop Viewer"
+msgstr "<_:media-1/> Перегляд віддалених стільниць"
+
+#. (itstool) path: section/title
+#: C/index.page:21
+msgid "Connecting to other computers using VNC"
+msgstr "Встановлення з'єднання із іншими комп'ютерами за допомогою VNC"
+
+#. (itstool) path: section/title
+#: C/index.page:25
+msgid "Features and options"
+msgstr "Можливості та параметри"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:20
+msgid "Introduction to <app>Remote Desktop Viewer</app>."
+msgstr "Вступ до програми <app>Перегляд віддалених стільниць</app>."
+
+#. (itstool) path: page/title
+#: C/introduction.page:23
+msgid "Introduction"
+msgstr "Вступ"
+
+#. (itstool) path: page/p
+#: C/introduction.page:25
+msgid ""
+"<app>Remote Desktop Viewer</app> is a remote desktop viewer application for "
+"GNOME for accessing other machines using Virtual Network Computing (VNC) and "
+"other protocols. It can be used to control and interact with another "
+"computer or to just view the desktop."
+msgstr ""
+"<app>Перегляд віддалених стільниць</app> — програма для перегляду віддалених"
+" стільниць. Програму створено для GNOME і призначено для доступу до інших"
+" комп'ютерів за допомогою протоколу VNC та інших протоколів. Нею можна"
+" скористатися для керування іншим комп'ютером, взаємодії із іншими"
+" комп'ютером або просто для спостереження за діями на екрані віддаленого"
+" комп'ютера."
+
+#. (itstool) path: page/p
+#: C/introduction.page:30
+msgid "<app>Remote Desktop Viewer</app> provides the following features:"
+msgstr ""
+"У <app>Переглядачі віддалених стільниць</app> передбачено такі можливості:"
+
+#. (itstool) path: item/p
+#: C/introduction.page:32
+msgid "connect to several machines at the same time"
+msgstr "з'єднання із декількома комп'ютерами одночасно;"
+
+#. (itstool) path: item/p
+#: C/introduction.page:33
+msgid "store recent connections and bookmark them"
+msgstr "збереження списку нещодавніх з'єднань та створення закладок для них;"
+
+#. (itstool) path: item/p
+#: C/introduction.page:34
+msgid "browse the local network for other machines"
+msgstr "навігація локальною мережею з метою пошуку інших комп'ютерів;"
+
+#. (itstool) path: figure/title
+#: C/introduction.page:38
+msgid "Remote Desktop Viewer in action"
+msgstr "Робота із «Переглядачем віддалених стільниць»"
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:39
+msgctxt "_"
+msgid ""
+"external ref='figures/vinagre-connected-3-16.png' "
+"md5='7f513a6b8104a46acd4656ea0042a677'"
+msgstr ""
+"external ref='figures/vinagre-connected-3-16.png' "
+"md5='7f513a6b8104a46acd4656ea0042a677'"
+
+#. (itstool) path: media/p
+#: C/introduction.page:40
+msgid ""
+"Remote Desktop Viewer running in GNOME 3, connected to a machine running "
+"GNOME 2"
+msgstr ""
+"«Переглядач віддалених стільниць» запущено у GNOME 3 і з'єднано з"
+" комп'ютером, який працює під керуванням GNOME 2"
+
+#. (itstool) path: p/link
+#: C/legal.xml:5
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+
+#. (itstool) path: license/p
+#: C/legal.xml:4
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Ця робота розповсюджується за умов дотримання <_:link-1/>."
+
+#. (itstool) path: info/desc
+#: C/keyboard-shortcuts.page:19
+msgid "Disable the sending of keyboard shortcuts to the remote machine."
+msgstr ""
+"Вимикання надсилання натискань комбінацій клавіш на віддалений комп'ютер."
+
+#. (itstool) path: page/title
+#: C/keyboard-shortcuts.page:23
+msgid "Keyboard shortcuts"
+msgstr "Клавіатурні скорочення"
+
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:25
+msgid ""
+"You can enable or disable keyboard shortcuts by selecting <guiseq><gui style="
+"\"menu\">View</gui> <gui style=\"menuitem\">Keyboard shortcuts</gui></"
+"guiseq>."
+msgstr ""
+"Ви можете увімкнути або вимкнути надсилання комбінацій клавіш за допомогою"
+" пункту меню <guiseq><gui style=\"menu\">Перегляд</gui> <gui"
+" style=\"menuitem\">Клавіатурні скорочення</gui></"
+"guiseq>."
+
+#. (itstool) path: page/p
+#: C/keyboard-shortcuts.page:29
+msgid ""
+"Enabling this option allows the use of keyboard shortcuts (like "
+"<keyseq><key>Ctrl</key><key>N</key></keyseq>), menu accelerators (such as "
+"<keyseq><key>Alt</key><key>M</key></keyseq>) and mnemonics, with <app>Remote "
+"Desktop Viewer</app>. This means that <app>Remote Desktop Viewer</app> will "
+"catch those key combinations instead of sending them to the remote machine. "
+"This option is disabled by default because most of the time, you will be "
+"interacting with the computer to which you are connected."
+msgstr ""
+"Якщо цю можливість увімкнено, ви зможете скористатися клавіатурними"
+" скороченнями (наприклад <keyseq><key>Ctrl</key><key>N</key></keyseq>),"
+" комбінаціями для пришвидшеного доступу до пунктів меню (наприклад <keyseq><"
+"key>Alt</key><key>M</key></keyseq>) та мнемонічними комбінаціями у <app"
+">Переглядачі віддалених стільниць</app>. Це означає, що <app>Переглядач"
+" віддалених стільниць</app> перехоплюватиме ці комбінації клавіш, замість"
+" надсилання їх на віддалений комп'ютер. Типово, цю можливість вимкнено,"
+" оскільки, здебільшого, віддалений зв'язок потрібен для безпосереднього"
+" керування комп'ютером, з яким з'єднано ваш комп'ютер."
+
+#. (itstool) path: note/p
+#: C/keyboard-shortcuts.page:38
+msgid ""
+"When the <gui>Keyboard shortcuts</gui> option is disabled, "
+"<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq> is the only "
+"key combination which will not be sent to the remote desktop. Choose "
+"<guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Send Ctrl-"
+"Alt-Delete</gui></guiseq>, or use the corresponding toolbar button, to send "
+"this key combination."
+msgstr ""
+"Якщо можливість <gui>Клавіатурні скорочення</gui> вимкнено, єдиною"
+" комбінацією клавіш, яку не буде надіслано на віддалений комп'ютер, буде <"
+"keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq>. Виберіть"
+" пункт меню <guiseq><gui style=\"menu\">Віддалений</gui> <gui"
+" style=\"menuitem\">Надіслати Ctrl-"
+"Alt-Delete</gui></guiseq> або скористайтеся відповідною кнопкою на панелі"
+" інструментів, щоб надіслати цю комбінацію клавіш."
+
+#. (itstool) path: info/desc
+#: C/scaling.page:19
+msgid "Scale the remote desktop to fit the display area."
+msgstr "Масштабування віддаленої стільниці за областю показу."
+
+#. (itstool) path: page/title
+#: C/scaling.page:22
+msgid "Scale the remote desktop"
+msgstr "Масштабування віддаленої стільниці"
+
+#. (itstool) path: page/p
+#: C/scaling.page:24
+msgid ""
+"Some protocols have an option to scale the remote desktop to fit your "
+"display area."
+msgstr ""
+"У деяких протоколах передбачено можливість масштабування віддаленої стільниці"
+" за областю показу на вашому екрані."
+
+#. (itstool) path: item/p
+#: C/scaling.page:29
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
+"\">Scaling</gui></guiseq>, or click the <gui>Scaling</gui> toolbar button."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Перегляд</gui> <gui"
+" style=\"menuitem\">Масштаб</gui></guiseq> або натисніть кнопку <gui>Масштаб<"
+"/gui> на панелі інструментів."
+
+#. (itstool) path: item/p
+#: C/scaling.page:34
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Keep "
+"Aspect Ratio</gui></guiseq> if you want to constrain the aspect ratio of the "
+"remote desktop inside the display area, or deselect the option to stretch "
+"the remote desktop to fill the available space."
+msgstr ""
+"Виберіть пункт <guiseq><gui style=\"menu\">Перегляд</gui> <gui"
+" style=\"menuitem\">Зберігати пропорції</gui></guiseq>, якщо хочете зберегти"
+" пропорції зображення з віддаленої стільниці у вашій області перегляду, або"
+" зніміть позначення з цього пункту, щоб зображення було розтягнуто так, щоб"
+" заповнити усю доступну площу."
+
+#. (itstool) path: note/p
+#: C/scaling.page:40
+msgid ""
+"This option can be toggled only if <gui>Scaling</gui> has already been "
+"enabled."
+msgstr ""
+"Перемикати цей параметр можна, лише якщо вже було увімкнено <gui>Масштаб</gui"
+">."
+
+#. (itstool) path: info/desc
+#: C/take-screenshot.page:19
+msgid "Take a screenshot of a remote desktop."
+msgstr "Створення знімка екрана віддаленої стільниці."
+
+#. (itstool) path: page/title
+#: C/take-screenshot.page:22
+msgid "Take a screenshot"
+msgstr "Створення знімка екрана"
+
+#. (itstool) path: page/p
+#: C/take-screenshot.page:24
+msgid ""
+"You can take screenshots of only the desktop that you are connected to by "
+"using the tool provided by <app>Remote Desktop Viewer</app>."
+msgstr ""
+"Ви можете робити знімки зі стільниці, з якою встановлено з'єднання, за"
+" допомогою інструментів <app>Переглядача віддалених стільниць</app>."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:29
+msgid ""
+"Select <guiseq><gui style=\"menu\">Remote</gui> <gui style=\"menuitem\">Take "
+"screenshot</gui></guiseq>, or click the <gui>Take Screenshot</gui> button in "
+"the toolbar."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Віддалений</gui> <gui"
+" style=\"menuitem\">Зробити знімок</gui></guiseq> або натисніть кнопку <gui"
+">Зробити знімок</gui> на панелі інструментів."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:34
+msgid ""
+"In the <gui>Name</gui> field, enter the filename that you want the "
+"screenshot to be saved under."
+msgstr ""
+"У полі <gui>Назва</gui> введіть назву файла, до якого має бути збережено"
+" знімок."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:38
+msgid ""
+"From the <gui>Save in folder</gui> drop down list, select the folder that "
+"you want the screenshot to be saved in. You can also click <gui>Browse for "
+"other folder</gui> to select one which is not in the drop down list."
+msgstr ""
+"У спадному списку <gui>Тека збереження</gui> виберіть теку, до якої має бути"
+" збережено знімок. Ви також можете натиснути кнопку <gui>Вибрати іншу теку<"
+"/gui>, щоб вибрати одну з тек, яких немає у спадному списку."
+
+#. (itstool) path: item/p
+#: C/take-screenshot.page:44
+msgid "Click <gui style=\"button\">Save</gui> to save the screenshot."
+msgstr ""
+"Натисніть кнопку <gui style=\"button\">Зберегти</gui>, щоб зберегти знімок."
+
+#. (itstool) path: info/desc
+#: C/view-only.page:19
+msgid "Disable interaction with the remote desktop."
+msgstr "Вимикання взаємодії із віддаленою стільницею."
+
+#. (itstool) path: page/title
+#: C/view-only.page:22
+msgid "View-only mode"
+msgstr "Режим тільки перегляду"
+
+#. (itstool) path: page/p
+#: C/view-only.page:24
+msgid ""
+"Some protocols allow you to enable a <gui>View Only</gui> mode. This mode "
+"allows you to disable all interaction with the remote."
+msgstr ""
+"У деяких протоколах можливе з'єднання лише у режимі <gui>Лише перегляд</gui>."
+" Цей режим надає вам змогу вимкнути усю взаємодії зі віддаленим комп'ютером."
+
+#. (itstool) path: page/p
+#: C/view-only.page:26
+msgid ""
+"Choose <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">View "
+"Only</gui></guiseq> or click the corresponding toolbar button to enable this "
+"mode."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Перегляд</gui> <gui"
+" style=\"menuitem\">Лише перегляд</gui></guiseq> або натисніть відповідну"
+" кнопку на панелі інструментів, щоб увімкнути цей режим."
