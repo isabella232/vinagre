@@ -58,7 +58,7 @@ AS_IF([test "x$have_ssh" = "xyes"],
 AM_CONDITIONAL([VINAGRE_ENABLE_SSH], [test "x$have_ssh" = "xyes"])
 
 # Whether to enable support for RDP.
-RDP_DEPS="freerdp2 x11"
+RDP_DEPS="freerdp2 >= 2.0.0 x11"
 
 AC_ARG_ENABLE([rdp],
   [AS_HELP_STRING([--disable-rdp],
