@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2019-02-18 15:13+0000\n"
-"PO-Revision-Date: 2019-02-28 20:04+0100\n"
+"POT-Creation-Date: 2020-06-26 05:05+0000\n"
+"PO-Revision-Date: 2020-09-11 17:34+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -94,7 +94,7 @@ msgstr "Jentre tai scritoris rimots"
 
 #: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
-msgstr "Vinagre al mostre scritoris rimots di Windows, Mac OS X e Linux. "
+msgstr "Vinagre al mostre scritoris rimots di Windows, Mac OS X e Linux."
 
 #: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
@@ -662,7 +662,7 @@ msgid ""
 msgstr ""
 "In chest instalazion nol è supuartât il scjalâ.\n"
 "\n"
-"Lei il file README (distribuît cun Vinagre) par cognossi ce mût abilitâ "
+"Lei il file README (distribuît cun Vinagre) par cognossi cemût abilitâ "
 "cheste funzion."
 
 #: ../plugins/vnc/vinagre-vnc-tunnel.c:97
@@ -978,7 +978,7 @@ msgstr "Autenticazion falide"
 
 #: ../vinagre/vinagre-notebook.c:537
 msgid "Connecting…"
-msgstr "Daûr a coneti..."
+msgstr "Daûr a coneti…"
 
 #: ../vinagre/vinagre-notebook.c:559
 msgid "Close connection"
@@ -1262,7 +1262,7 @@ msgstr "Vierç un file .VNC"
 #. Translators: "Reverse" here is an adjective, not a verb.
 #: ../vinagre/vinagre-ui.h:45
 msgid "_Reverse Connections…"
-msgstr "Conessions cont_raris..."
+msgstr "Conessions cont_raris…"
 
 #: ../vinagre/vinagre-ui.h:45
 msgid "Configure incoming VNC connections"
