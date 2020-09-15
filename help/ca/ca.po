@@ -215,7 +215,7 @@ msgid ""
 "restrictions on remote host."
 msgstr ""
 "Connecteu-vos a ordinadors que no siguin a la xarxa local: eviteu les "
-"restriccions del tallafocs de l'amfitrió remot."
+"restriccions del tallafoc de l'amfitrió remot."
 
 #. (itstool) path: page/title
 #: C/connect-reverse.page:25
@@ -232,7 +232,7 @@ msgid ""
 "opens a port for the server to connect to."
 msgstr ""
 "Una connexió inversa sol utilitzar-se per a evitar les restriccions del "
-"tallafocs dels ports oberts. Els tallafocs solen bloquejar els ports oberts, "
+"tallafoc dels ports oberts. Els tallafocs solen bloquejar els ports oberts, "
 "però no bloquegen el trànsit sortint. En una connexió directa normal, el "
 "client es connecta a un port obert del servidor. Tanmateix, en el cas d'una "
 "connexió inversa, el client obre un port perquè el servidor s'hi connecti."
@@ -259,7 +259,7 @@ msgstr "Marqueu la casella <gui>Habilita les connexions inverses</gui>."
 #. (itstool) path: section/title
 #: C/connect-reverse.page:49
 msgid "Access a computer behind a firewall"
-msgstr "Accés a un ordinador rere un tallafocs"
+msgstr "Accés a un ordinador rere un tallafoc"
 
 #. (itstool) path: section/p
 #: C/connect-reverse.page:51
@@ -332,7 +332,7 @@ msgid ""
 "view the display area in fullscreen mode."
 msgstr ""
 "Escolliu <guiseq><gui style=\"menu\">Visualitza</gui> <gui style=\"menuitem"
-"\">Pantalla completa</gui></guiseq>o premeu el botó de la barra d'eines "
+"\">Pantalla completa</gui></guiseq> o premeu el botó de la barra d'eines "
 "corresponent per a veure l'àrea de visualització en mode de pantalla "
 "completa."
 
@@ -565,7 +565,7 @@ msgid ""
 "This option can be toggled only if <gui>Scaling</gui> has already been "
 "enabled."
 msgstr ""
-"Aquesta opció només es pot commutar si l'<gui>Escalat</gui> ha s'ha "
+"Aquesta opció només es pot commutar si l'<gui>Escalat</gui> ja s'ha "
 "habilitat."
 
 #. (itstool) path: info/desc
