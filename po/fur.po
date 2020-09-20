@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2020-06-26 05:05+0000\n"
-"PO-Revision-Date: 2020-09-11 17:34+0200\n"
+"POT-Creation-Date: 2020-09-11 15:35+0000\n"
+"PO-Revision-Date: 2020-09-20 07:19+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -512,19 +512,19 @@ msgstr "Dopre impostazions servidôr"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:326
 msgid "True Color (24 bits)"
-msgstr "Colôrs reâi (24 bit)"
+msgstr "Colôrs reâi (24 bits)"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:327
 msgid "High Color (16 bits)"
-msgstr "Une vore di colôs (16 bit)"
+msgstr "Une vore di colôs (16 bits)"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:328
 msgid "Low Color (8 bits)"
-msgstr "Pôcs colôrs (8 bit)"
+msgstr "Pôcs colôrs (8 bits)"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:329
 msgid "Ultra Low Color (3 bits)"
-msgstr "Une vore pôcs di colôrs (3 bit)"
+msgstr "Une vore pôcs di colôrs (3 bits)"
 
 #. Translators: the whole sentence will be: Use Host <hostname> as a SSH tunnel
 #. Translators: the whole sentence will be: Use host <hostname> as a SSH tunnel
@@ -558,7 +558,7 @@ msgstr "come un tunnel SSH"
 #. Translators: this is a pattern to open *.vnc files in a open dialog.
 #: ../plugins/vnc/vinagre-vnc-plugin.c:395
 msgid "VNC Files"
-msgstr "File VNC"
+msgstr "Files VNC"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:148
 msgid "Desktop Name:"
@@ -714,7 +714,7 @@ msgstr "Opzionâl"
 #. Translators: this is a pattern to open *.spice files in a open dialog.
 #: ../plugins/spice/vinagre-spice-plugin.c:336
 msgid "Spice Files"
-msgstr "File Spice"
+msgstr "Files Spice"
 
 #: ../plugins/spice/vinagre-spice-tab.c:495
 msgid "Resize the screen guest to best fit"
@@ -801,7 +801,7 @@ msgid ""
 "Migrating the bookmarks file to the new format. This operation is only "
 "supposed to run once."
 msgstr ""
-"Migrazion dai file dai segnelibris al gnûf formât. Cheste operazion e varès "
+"Migrazion dai files dai segnelibris al gnûf formât. Cheste operazion e varès "
 "di jessi eseguide une volte sole."
 
 #: ../vinagre/vinagre-bookmarks-migration.c:249
@@ -881,7 +881,7 @@ msgstr "Sielç il file"
 
 #: ../vinagre/vinagre-commands.c:139
 msgid "There are no supported files"
-msgstr "No 'ndi son file supuartâts"
+msgstr "No 'ndi son files supuartâts"
 
 #: ../vinagre/vinagre-commands.c:140
 msgid ""
