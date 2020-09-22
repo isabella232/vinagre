@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2020-09-11 15:35+0000\n"
-"PO-Revision-Date: 2020-09-20 07:19+0200\n"
+"POT-Creation-Date: 2020-09-20 05:20+0000\n"
+"PO-Revision-Date: 2020-09-22 08:25+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -740,7 +740,7 @@ msgstr "Erôr no cognossût"
 
 #: ../vinagre/vinagre-bookmarks.c:373
 msgid "Error while initializing bookmarks: The file seems to be empty"
-msgstr "Erôr tal inizializâ i segnelibris: Il file al semee jessi vueit"
+msgstr "Erôr tal inizializâ i segnelibris: Il file al somee jessi vueit"
 
 #: ../vinagre/vinagre-bookmarks.c:380
 msgid ""
