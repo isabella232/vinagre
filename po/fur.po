@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2020-09-20 05:20+0000\n"
-"PO-Revision-Date: 2020-09-22 08:25+0200\n"
+"POT-Creation-Date: 2020-09-22 06:27+0000\n"
+"PO-Revision-Date: 2020-10-18 17:23+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -58,8 +58,8 @@ msgid ""
 "will not be sent to the remote host."
 msgstr ""
 "Met a “false” par disabilitâ il menù des scurtis. Met a “true” par "
-"abilitâlis. Viôt che se a son abilitadis, chei tascj a vegnaran intercetâts "
-"dal menù e no vegnaran inviâts al host rimot."
+"abilitâlis. Viôt che se a son abilitadis, chei tascj a vignaran intercetâts "
+"dal menù e no vignaran inviâts al host rimot."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:7
 msgid "Maximum number of history items in connect dialog"
@@ -355,7 +355,7 @@ msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
 "the Host field above, in the form username@hostname."
 msgstr ""
-"Opzionâl. Se vueit, al vegnarà doprâ il to non utent. Al pues ancje jessi "
+"Opzionâl. Se vueit, al vignarà doprâ il to non utent. Al pues ancje jessi "
 "furnît tal cjamp Host parsore, inte forme <non utent>@<non host>."
 
 #. Translators: This is the tooltip for the domain field in a RDP connection
@@ -856,7 +856,7 @@ msgstr "Gjavâ cartele?"
 #: ../vinagre/vinagre-bookmarks-ui.c:313
 msgid "Note that all its subfolders and bookmarks will be removed as well."
 msgstr ""
-"Viôt che ancje dutis lis sot-cartelis e i segnelibris a vegnaran gjavâts."
+"Viôt che ancje dutis lis sot-cartelis e i segnelibris a vignaran gjavâts."
 
 #: ../vinagre/vinagre-bookmarks-ui.c:318
 msgid "Remove Item?"
@@ -1395,7 +1395,7 @@ msgstr ""
 "Vinagre in maniere predefinide al disabilite lis scurtis di tastiere, cussì "
 "che dutis lis scurtis a vegnin inviadis al scritori rimot.\n"
 "\n"
-"Chest messaç al vegnarà mostrât nome une volte."
+"Chest messaç al vignarà mostrât nome une volte."
 
 #: ../vinagre/vinagre-window.c:779
 msgid "Enable shortcuts"
