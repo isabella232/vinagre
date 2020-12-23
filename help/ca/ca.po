@@ -418,7 +418,7 @@ msgstr "emmagatzematge i marcatge de connexions recents, i"
 #. (itstool) path: item/p
 #: C/introduction.page:34
 msgid "browse the local network for other machines"
-msgstr "cerca d'altres màquines a la xarxa local."
+msgstr "cerca d'altres màquines a la xarxa local"
 
 #. (itstool) path: figure/title
 #: C/introduction.page:38
@@ -510,7 +510,7 @@ msgid ""
 "this key combination."
 msgstr ""
 "Quan l'opció <gui>Dreceres de teclat</gui> està inhabilitada, "
-"<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq> és l'única "
+"<keyseq><key>Ctrl</key><key>Alt</key><key>Supr</key></keyseq> és l'única "
 "combinació de tecles que no s'enviarà a l'escriptori remot. Trieu "
 "<guiseq><gui style=\"menu\">Remota</gui> <gui style=\"menuitem\">Envia Ctrl-"
 "Alt-Supr</gui></guiseq> o utilitzeu el botó corresponent de la barra d'eines "
