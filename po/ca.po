@@ -365,7 +365,7 @@ msgid ""
 "Optional. If blank, your username will be used. Also, it can be supplied in "
 "the Host field above, in the form username@hostname."
 msgstr ""
-"Opcional. Si es deixa en blanc s'utilitzarà el vostre nom d'usuari. També es "
+"Opcional. Si es deixa en blanc, s'utilitzarà el vostre nom d'usuari. També es "
 "pot proporcionar en el camp superior Ordinador, de la forma "
 "usuari@nomordinador."
 
@@ -1156,7 +1156,7 @@ msgstr ""
 "Això passa quan entreu per primer cop a un ordinador.\n"
 "\n"
 "La identitat enviada per l'ordinador remot és %s. Contacteu amb "
-"l'administrador del sistema per estar absolutament segur que es pot "
+"l'administrador del sistema per a estar absolutament segur que es pot "
 "continuar."
 
 #: ../vinagre/vinagre-ssh.c:565
