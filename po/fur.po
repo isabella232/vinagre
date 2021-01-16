@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vinagre master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2020-09-22 06:27+0000\n"
-"PO-Revision-Date: 2020-10-18 17:23+0200\n"
+"POT-Creation-Date: 2020-10-18 15:24+0000\n"
+"PO-Revision-Date: 2021-01-16 19:33+0100\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -59,7 +59,7 @@ msgid ""
 msgstr ""
 "Met a “false” par disabilitâ il menù des scurtis. Met a “true” par "
 "abilitâlis. Viôt che se a son abilitadis, chei tascj a vignaran intercetâts "
-"dal menù e no vignaran inviâts al host rimot."
+"dal menù e no vignaran inviâts al host lontan."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:7
 msgid "Maximum number of history items in connect dialog"
@@ -85,16 +85,16 @@ msgstr ""
 #: ../data/vinagre.appdata.xml.in.h:2 ../data/vinagre.desktop.in.in.h:1
 #: ../data/vinagre-file.desktop.in.in.h:1 ../vinagre/vinagre-main.c:182
 msgid "Remote Desktop Viewer"
-msgstr "Visualizadôr di Scritoris Rimots"
+msgstr "Visualizadôr di Scritoris Lontans"
 
 #: ../data/vinagre.appdata.xml.in.h:3 ../data/vinagre.desktop.in.in.h:2
 #: ../data/vinagre-file.desktop.in.in.h:2
 msgid "Access remote desktops"
-msgstr "Jentre tai scritoris rimots"
+msgstr "Jentre tai scritoris lontans"
 
 #: ../data/vinagre.appdata.xml.in.h:4
 msgid "Vinagre shows remote Windows, Mac OS X and Linux desktops."
-msgstr "Vinagre al mostre scritoris rimots di Windows, Mac OS X e Linux."
+msgstr "Vinagre al mostre i scritoris lontans di Windows, Mac OS X e Linux."
 
 #: ../data/vinagre.appdata.xml.in.h:5
 msgid ""
@@ -110,7 +110,7 @@ msgstr "VNC;RDP;SSH;"
 
 #: ../data/vinagre.ui.h:1
 msgid "Vinagre is a remote desktop viewer for the GNOME desktop"
-msgstr "Vinagre al è un visualizadôr di scritoris rimots pal scritori GNOME"
+msgstr "Vinagre al è un visualizadôr di scritoris lontans pal scritori GNOME"
 
 #. Add your name here to appear as a translator in the about dialog
 #: ../data/vinagre.ui.h:3
@@ -199,7 +199,7 @@ msgid ""
 "The remote host has changed its certificate.\n"
 "Do you trust the new certificate?"
 msgstr ""
-"Il host rimot al à cambiât il so certificât.\n"
+"Il host lontan al à cambiât il so certificât.\n"
 "Ti fidistu di chest gnûf certificât?"
 
 #. Subject of the certificate.
@@ -262,7 +262,7 @@ msgstr "Conet"
 
 #: ../data/vinagre.ui.h:47
 msgid "Choose a remote desktop to connect to"
-msgstr "Sielç un scritori rimot dulà tacâsi"
+msgstr "Sielç un scritori esterni dulà tacâsi"
 
 #: ../data/vinagre.ui.h:48
 msgid "_Protocol:"
@@ -270,11 +270,11 @@ msgstr "_Protocol:"
 
 #: ../data/vinagre.ui.h:49
 msgid "Select a remote desktop protocol for this connection"
-msgstr "Selezione un protocol di scritori rimot par cheste conession"
+msgstr "Selezione un protocol di scritori esterni par cheste conession"
 
 #: ../data/vinagre.ui.h:50
 msgid "Search for remote hosts on the network"
-msgstr "Cîr il host rimot te rêt"
+msgstr "Cîr il host lontan te rêt"
 
 #: ../data/vinagre.ui.h:51
 msgid "Connection options"
@@ -298,9 +298,9 @@ msgid ""
 "behind a firewall. The remote side is supposed to initiate the connection "
 "with you. For further information, read the help."
 msgstr ""
-"Ativant lis conessions contraris tu puedis jentrâ tai scritoris rimots che a "
-"son daûr a un firewall. Si supon che e sedi la bande rimote a tacâ la "
-"conession cun te. Par vê plui informazions, lei il jutori."
+"Ativant lis conessions contraris tu puedis jentrâ tai scritoris lontans che "
+"a son daûr di un firewall. Si supon che e sedi la bande lontane a scomençâ "
+"la conession cun te. Par vê plui informazions, lei il jutori."
 
 #: ../data/vinagre.ui.h:56
 msgid "_Enable Reverse Connections"
@@ -321,11 +321,11 @@ msgstr "Conetivitât"
 
 #: ../data/vinagre-mime.xml.in.h:1
 msgid "Remote Desktop (VNC) file"
-msgstr "File di scritori rimot (VNC)"
+msgstr "File di scritori lontan (VNC)"
 
 #: ../data/vinagre-mime.xml.in.h:2
 msgid "Remote Desktop Connection"
-msgstr "Conession cuntun scritori rimot"
+msgstr "Conession cuntun scritori lontan"
 
 #: ../plugins/rdp/vinagre-rdp-plugin.c:61
 msgid "RDP"
@@ -334,7 +334,7 @@ msgstr "RDP"
 #. Translators: This is a description of the RDP protocol. It appears in the Connect dialog.
 #: ../plugins/rdp/vinagre-rdp-plugin.c:63
 msgid "Access MS Windows remote desktops"
-msgstr "Jentre tai scritoris rimots di MS Windows"
+msgstr "Jentre tai scritoris lontans di MS Windows"
 
 #: ../plugins/rdp/vinagre-rdp-plugin.c:111
 msgid "RDP Options"
@@ -371,7 +371,7 @@ msgstr "_Largjece:"
 #. Translators: This is the tooltip for the width field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:176
 msgid "Set width of the remote desktop"
-msgstr "Impueste la largjece dal scritori rimot"
+msgstr "Stabilìs la largjece dal scritori lontan"
 
 #. Host height
 #: ../plugins/rdp/vinagre-rdp-plugin.c:189
@@ -381,7 +381,7 @@ msgstr "_Altece:"
 #. Translators: This is the tooltip for the height field in a RDP connection
 #: ../plugins/rdp/vinagre-rdp-plugin.c:196
 msgid "Set height of the remote desktop"
-msgstr "Impueste la altece dal scritori rimot"
+msgstr "Stabilìs la altece dal scritori lontan"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:125 ../plugins/ssh/vinagre-ssh-tab.c:50
 #: ../plugins/vnc/vinagre-vnc-tab.c:150
@@ -397,7 +397,7 @@ msgstr "S_cjale"
 #: ../plugins/rdp/vinagre-rdp-tab.c:289 ../plugins/vnc/vinagre-vnc-tab.c:602
 #: ../plugins/spice/vinagre-spice-tab.c:481
 msgid "Fit the remote screen into the current window size"
-msgstr "Adate il schermi rimot ae dimension dal barcon curint"
+msgstr "Adate il schermi lontan ae dimension dal barcon curint"
 
 #: ../plugins/rdp/vinagre-rdp-tab.c:362 ../plugins/rdp/vinagre-rdp-tab.c:363
 #: ../plugins/vnc/vinagre-vnc-tab.c:735 ../plugins/vnc/vinagre-vnc-tab.c:736
@@ -459,7 +459,7 @@ msgstr "VNC"
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:90
 msgid "Access Unix/Linux, Windows and other remote desktops."
-msgstr "Jentre in Unix/Linux, Windows e altris scritoris rimots."
+msgstr "Jentre in Unix/Linux, Windows e altris scritoris lontans."
 
 #: ../plugins/vnc/vinagre-vnc-plugin.c:147
 #: ../plugins/spice/vinagre-spice-plugin.c:101
@@ -595,11 +595,11 @@ msgstr "Erôr di autenticazion"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:530
 msgid "A username is required in order to access this remote desktop."
-msgstr "Un non utent al è necessari par jentrâ in chest scritori rimot."
+msgstr "Al covente un non utent par jentrâ in chest scritori lontan."
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:547
 msgid "A password is required in order to access this remote desktop."
-msgstr "Une password e je necessarie par jentrâ in chest scritori rimot."
+msgstr "E covente une password par jentrâ in chest scritori lontan."
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:615
 msgid "_Keep Aspect Ratio"
@@ -620,7 +620,7 @@ msgstr "Dimension _origjinâl"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:645
 msgid "Adjust the window to the size of the remote desktop"
-msgstr "Adate il barcon ae dimension dal scritori rimot"
+msgstr "Adate il barcon ae dimension dal scritori lontan"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:658
 msgid "_Refresh Screen"
@@ -639,7 +639,7 @@ msgstr "_Invie Ctrl-Alt-Canc"
 #: ../plugins/spice/vinagre-spice-tab.c:546
 #: ../plugins/spice/vinagre-spice-tab.c:619
 msgid "Send Ctrl+Alt+Del to the remote desktop"
-msgstr "Invie Ctrl-Alt-Canc al scritori rimot"
+msgstr "Invie Ctrl-Alt-Canc al scritori lontan"
 
 #: ../plugins/vnc/vinagre-vnc-tab.c:745 ../plugins/vnc/vinagre-vnc-tab.c:746
 #: ../plugins/spice/vinagre-spice-tab.c:608
@@ -909,7 +909,7 @@ msgstr "Erôr tal salvâ il file de cronologjie: %s"
 
 #: ../vinagre/vinagre-connect.c:360
 msgid "Choose a Remote Desktop"
-msgstr "Sielç un scritori rimot"
+msgstr "Sielç un scritori lontan"
 
 #: ../vinagre/vinagre-connection.c:658 ../vinagre/vinagre-tab.c:590
 #: ../vinagre/vinagre-tube-handler.c:257
@@ -928,7 +928,7 @@ msgstr "Il file nol è stât ricognossût di nissun dai plugin."
 #. Setup command line options
 #: ../vinagre/vinagre-main.c:91
 msgid "— Remote Desktop Viewer"
-msgstr "— Visualizadôr Scritoris Rimots"
+msgstr "— Visualizadôr Scritoris Lontans"
 
 #: ../vinagre/vinagre-mdns.c:172
 #, c-format
@@ -1111,10 +1111,10 @@ msgid ""
 "The identity sent by the remote host is %s. If you want to be absolutely "
 "sure it is safe to continue, contact the system administrator."
 msgstr ""
-"La identitât dal host rimot (%s) no je cognossude.\n"
+"La identitât dal host lontan (%s) no je cognossude.\n"
 "Chest al sucêt cuant che tu jentris intun host pe prime volte.\n"
 "\n"
-"La identitât inviade dal host rimot e je %s. Par jessi sigûrs dal dut di "
+"La identitât inviade dal host lontan e je %s. Par jessi dal dut sigûrs di "
 "continuâ, contatâ l'aministradôr di sisteme."
 
 #: ../vinagre/vinagre-ssh.c:565
@@ -1175,7 +1175,7 @@ msgstr "Erôr tal salvâ la conession resinte."
 #: ../vinagre/vinagre-tab.c:844
 #, c-format
 msgid "Remote desktop password for %s"
-msgstr "Password di scritori rimot par %s"
+msgstr "Password di scritori lontan par %s"
 
 #: ../vinagre/vinagre-tab.c:961
 msgid "Could not get a screenshot of the connection."
@@ -1233,7 +1233,7 @@ msgstr "Invît condivision scritori"
 #. Toplevel
 #: ../vinagre/vinagre-ui.h:33
 msgid "_Remote"
-msgstr "_Rimot"
+msgstr "_Lontan"
 
 #: ../vinagre/vinagre-ui.h:34
 msgid "_Edit"
@@ -1253,7 +1253,7 @@ msgstr "_Jutori"
 
 #: ../vinagre/vinagre-ui.h:41
 msgid "Connect to a remote desktop"
-msgstr "Conet a un scritori rimot"
+msgstr "Conet a un scritori lontan"
 
 #: ../vinagre/vinagre-ui.h:43
 msgid "Open a .VNC file"
@@ -1337,11 +1337,11 @@ msgstr "Fâs une ca_ture"
 
 #: ../vinagre/vinagre-ui.h:89
 msgid "Take a screenshot of the current remote desktop"
-msgstr "Fâs une cature dal scritori rimot atuâl"
+msgstr "Fâs une cature dal scritori lontan atuâl"
 
 #: ../vinagre/vinagre-ui.h:93
 msgid "View the current remote desktop in fullscreen mode"
-msgstr "Viôt il scritori rimot atuâl in modalitât plen visôr"
+msgstr "Viôt il scritori esterni atuâl in modalitât plen visôr"
 
 #: ../vinagre/vinagre-utils.vala:40
 msgid "An error occurred"
@@ -1393,7 +1393,7 @@ msgid ""
 "This message will appear only once."
 msgstr ""
 "Vinagre in maniere predefinide al disabilite lis scurtis di tastiere, cussì "
-"che dutis lis scurtis a vegnin inviadis al scritori rimot.\n"
+"che dutis lis scurtis a vegnin inviadis al scritori lontan.\n"
 "\n"
 "Chest messaç al vignarà mostrât nome une volte."
 
