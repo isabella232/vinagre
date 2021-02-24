@@ -11,21 +11,21 @@
 # Antón Méixome <meixome@certima.net>, 2010.
 # Fran Diéguez <frandieguez@gnome.org>, 2009, 2010, 2011, 2012.
 # Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.
-# Fran Dieguez <frandieguez@gnome.org>, 2012, 2013, 2014, 2015, 2016, 2018, 2019.
+# Fran Dieguez <frandieguez@gnome.org>, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: vinagre-master-po-gl-26618\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2019-10-13 18:22+0000\n"
-"PO-Revision-Date: 2019-12-27 12:26+0100\n"
+"POT-Creation-Date: 2020-06-26 05:05+0000\n"
+"PO-Revision-Date: 2021-02-23 15:09+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
-"Language-Team: Galician\n"
+"Language-Team: Proxecto Trasno <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Gtranslator 3.38.0\n"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:1
 msgid "Whether we should leave other clients connected"
@@ -1267,7 +1267,7 @@ msgstr "%s quere compartir o seu escritorio con vostede."
 
 #: ../vinagre/vinagre-tube-handler.c:540
 msgid "Desktop sharing invitation"
-msgstr "Invitación para compatir o escritorio"
+msgstr "Invitación para compartir o escritorio"
 
 #. Toplevel
 #: ../vinagre/vinagre-ui.h:33
@@ -1433,7 +1433,7 @@ msgstr ""
 "Vinagre desactiva os atallos de teclado de forma predeterminada, para que "
 "non se envíe ningún atallo ao escritorio remoto.\n"
 "\n"
-"Esta mensaxe só aparecerá unja vez."
+"Esta mensaxe só aparecerá unha vez."
 
 #: ../vinagre/vinagre-window.c:779
 msgid "Enable shortcuts"
