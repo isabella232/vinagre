@@ -542,7 +542,7 @@ msgid ""
 "\">Scaling</gui></guiseq>, or click the <gui>Scaling</gui> toolbar button."
 msgstr ""
 "Seleccioneu <guiseq><gui style=\"menu\">Visualitza</gui> <gui style="
-"\"menuitem\">Escalat</gui></guiseq> or feu clic al botó <gui>Escalat</gui> "
+"\"menuitem\">Escalat</gui></guiseq> o feu clic al botó <gui>Escalat</gui> "
 "de la barra d'eines."
 
 #. (itstool) path: item/p
