@@ -1,14 +1,14 @@
 # Norwegian bokmål translation of vinagre.
 # Copyright (C) 2004, Red Hat, Inc.
 # This file is distributed under the same license as the vino package.
-# Kjartan Maraas <kmaraas@gnome.org>, 2004-2020.
+# Kjartan Maraas <kmaraas@gnome.org>, 2004-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: vinagre 3.38.x\n"
+"Project-Id-Version: vinagre 3.40.x\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vinagre/issues\n"
-"POT-Creation-Date: 2020-06-26 05:05+0000\n"
-"PO-Revision-Date: 2020-12-03 19:39+0100\n"
+"POT-Creation-Date: 2020-12-03 18:40+0000\n"
+"PO-Revision-Date: 2021-03-13 10:59+0100\n"
 "Last-Translator: Åka Sikrom <a4NOSPAMPLEASETHANKYOU@hush.com>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
@@ -37,27 +37,16 @@ msgid ""
 msgstr "Om faner skal vises selv når det bare finnes én tilkobling"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:4
-#, fuzzy
-#| msgid ""
-#| "Set to \"true\" to always show the tabs. Set to \"false\" to only show "
-#| "the tabs when there is more than one active connection."
 msgid ""
 "Set to “true” to always show the tabs. Set to “false” to only show the tabs "
 "when there is more than one active connection."
-msgstr ""
-"Bruk positiv verdi («true») for å alltid vise faner. Bruk negativ verdi "
-"(«false») for å bare vise fanene når det finnes flere enn én tilkobling."
+msgstr "Bruk positiv verdi («true») for å alltid vise faner. Bruk negativ verdi («false») for å bare vise fanene når det finnes flere enn én aktiv tilkobling."
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:5
 msgid "Whether we should show the menu accelerators (shortcut keys)"
 msgstr "Om menysnarveier skal vises"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:6
-#, fuzzy
-#| msgid ""
-#| "Set to \"false\" to disable menu shortcuts. Set to \"true\" to enable "
-#| "them. Note that if they are enabled, those keys will be intercepted by "
-#| "the menu and will not be sent to the remote host."
 msgid ""
 "Set to “false” to disable menu shortcuts. Set to “true” to enable them. Note "
 "that if they are enabled, those keys will be intercepted by the menu and "
@@ -80,10 +69,6 @@ msgid "Whether we should start the program listening for reverse connections"
 msgstr "Om programmet skal lytte etter omvendte tilkoblinger ved oppstart"
 
 #: ../data/org.gnome.Vinagre.gschema.xml.h:10
-#, fuzzy
-#| msgid ""
-#| "Set to \"true\" to always start the program listening for reverse "
-#| "connections."
 msgid ""
 "Set to “true” to always start the program listening for reverse connections."
 msgstr ""
@@ -449,7 +434,9 @@ msgstr "Alternativer for SSH"
 #, c-format
 msgid ""
 "Bad value for “shared” flag: %d. It is supposed to be 0 or 1. Ignoring it."
-msgstr "Ugyldig verdi for flagget \"shared\": %d. Verdien skal være 0 eller 1. Overser den."
+msgstr ""
+"Ugyldig verdi for flagget \"shared\": %d. Verdien skal være 0 eller 1. "
+"Overser den."
 
 #. Translators: this is a command line option (run vinagre --help)
 #: ../plugins/vnc/vinagre-vnc-plugin.c:52
